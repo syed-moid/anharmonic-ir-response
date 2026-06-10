@@ -1,0 +1,9 @@
+# Table 5a. Independently computed phonon linewidths Gamma^pert(T) for BaTiO3
+
+All values in THz (HWHM). Generated from `data/raw/BTO/phonon_modes_*K.csv`.
+
+| Mode | 100 K | 200 K | 300 K | 400 K | 500 K | 600 K |
+|---|---|---|---|---|---|---|
+| TO1 (soft) | 0.145 | 0.181 | 0.254 | 0.435 | 0.604 | 0.725 |
+| TO2 | 0.121 | 0.157 | 0.218 | 0.266 | 0.314 | 0.363 |
+| TO3 | 0.145 | 0.169 | 0.230 | 0.290 | 0.339 | 0.387 |

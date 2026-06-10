@@ -1,0 +1,4805 @@
+
+     Program PHONON v.7.4 starts on  7Feb2025 at 18:11: 4 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Serial multi-threaded version, running on    1 processor cores
+     39695 MiB available memory on the printing compute node when the environment starts
+ 
+     Waiting for input...
+     Reading input from standard input
+      Title line not specified: using 'default'.
+
+     Reading xml data from directory:
+
+     ./tmp/SrTiO3_defect.save/
+
+     Program PHONON v.7.4 starts on  7Feb2025 at 18:11: 4 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Serial multi-threaded version, running on    1 processor cores
+     39693 MiB available memory on the printing compute node when the environment starts
+ 
+     Waiting for input...
+     Reading input from standard input
+      Title line not specified: using 'default'.
+
+     Reading xml data from directory:
+
+     ./tmp/SrTiO3_defect.save/
+
+     Program PHONON v.7.4 starts on  7Feb2025 at 18:11: 4 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Serial multi-threaded version, running on    1 processor cores
+     39689 MiB available memory on the printing compute node when the environment starts
+ 
+     Waiting for input...
+     Reading input from standard input
+      Title line not specified: using 'default'.
+
+     Program PHONON v.7.4 starts on  7Feb2025 at 18:11: 4 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Serial multi-threaded version, running on    1 processor cores
+     39689 MiB available memory on the printing compute node when the environment starts
+ 
+     Waiting for input...
+     Reading input from standard input
+      Title line not specified: using 'default'.
+
+     Reading xml data from directory:
+
+     ./tmp/SrTiO3_defect.save/
+
+     Reading xml data from directory:
+
+     ./tmp/SrTiO3_defect.save/
+ 
+ 
+ 
+ 
+     file Sr.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4P renormalized
+     file Ti.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  3S 3P 3D renormalized
+     file O.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2S 2P renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+ 
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum        5541    5541   1449               310417   310417   41347
+ 
+     Using Slab Decomposition
+ 
+     file Sr.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4P renormalized
+     file Ti.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  3S 3P 3D renormalized
+     file O.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2S 2P renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+ 
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum        5541    5541   1449               310417   310417   41347
+ 
+     Using Slab Decomposition
+ 
+     file Sr.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4P renormalized
+     file Ti.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  3S 3P 3D renormalized
+     file O.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2S 2P renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+ 
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum        5541    5541   1449               310417   310417   41347
+ 
+     Using Slab Decomposition
+ 
+     file Sr.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4P renormalized
+     file Ti.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  3S 3P 3D renormalized
+     file O.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2S 2P renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+ 
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum        5541    5541   1449               310417   310417   41347
+ 
+     Using Slab Decomposition
+ 
+
+     Check: negative core charge=   -0.000008
+
+     Check: negative core charge=   -0.000008
+
+     Check: negative core charge=   -0.000008
+
+     Check: negative core charge=   -0.000008
+     Reading collected, re-writing distributed wavefunctions in ./tmp/
+        8 /   8 q-points for this run, from  1 to  8:
+       N       xq(1)         xq(2)         xq(3) 
+       1   0.000000000   0.000000000   0.000000000
+       2   0.000000000   0.000000000  -0.500000000
+       3   0.000000000  -0.500000000   0.000000000
+       4   0.000000000  -0.500000000  -0.500000000
+       5  -0.500000000   0.000000000   0.000000000
+       6  -0.500000000   0.000000000  -0.500000000
+       7  -0.500000000  -0.500000000   0.000000000
+       8  -0.500000000  -0.500000000  -0.500000000
+ 
+
+     Calculation of q =    0.0000000   0.0000000   0.0000000
+
+     GPU acceleration is ACTIVE.  1 visible GPUs per MPI rank
+     GPU-aware MPI enabled
+
+
+     Restart in Phonon calculation
+
+     default                                                                    
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      14.7588  a.u.
+     unit-cell volume          =    3214.7685 (a.u.)^3
+     number of atoms/cell      =           39
+     number of atomic types    =            3
+     kinetic-energy cut-off    =      80.0000  Ry
+     charge density cut-off    =     320.0000  Ry
+     convergence threshold     =      1.0E-15
+     beta                      =       0.0500
+     number of iterations used =            4
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+
+
+     celldm(1)=   14.75876  celldm(2)=    0.00000  celldm(3)=    0.00000
+     celldm(4)=    0.00000  celldm(5)=    0.00000  celldm(6)=    0.00000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (  1.0000  0.0000  0.0000 )  
+               a(2) = (  0.0000  1.0000  0.0000 )  
+               a(3) = (  0.0000  0.0000  1.0000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.0000  0.0000  0.0000 )  
+               b(2) = (  0.0000  1.0000  0.0000 )  
+               b(3) = (  0.0000  0.0000  1.0000 )  
+
+
+     Atoms inside the unit cell: 
+
+     Cartesian axes
+
+     site n.  atom      mass           positions (alat units)
+        1  Sr     87.6200   tau(    1) = (    0.00000    0.00000    0.00000  )
+        2  Sr     87.6200   tau(    2) = (    0.00000    0.50000    0.50000  )
+        3  Sr     87.6200   tau(    3) = (    0.50000    0.00000    0.50000  )
+        4  Sr     87.6200   tau(    4) = (    0.50000    0.50000    0.00000  )
+        5  Sr     87.6200   tau(    5) = (    0.50000    0.50000    0.50000  )
+        6  Sr     87.6200   tau(    6) = (    0.00000    0.50000    0.00000  )
+        7  Sr     87.6200   tau(    7) = (    0.00000    0.00000    0.50000  )
+        8  Sr     87.6200   tau(    8) = (    0.50000    0.00000    0.00000  )
+        9  Ti     47.8670   tau(    9) = (    0.25000    0.25000    0.25000  )
+       10  Ti     47.8670   tau(   10) = (    0.75000    0.25000    0.25000  )
+       11  Ti     47.8670   tau(   11) = (    0.25000    0.75000    0.25000  )
+       12  Ti     47.8670   tau(   12) = (    0.25000    0.25000    0.75000  )
+       13  Ti     47.8670   tau(   13) = (    0.75000    0.75000    0.25000  )
+       14  Ti     47.8670   tau(   14) = (    0.75000    0.25000    0.75000  )
+       15  Ti     47.8670   tau(   15) = (    0.25000    0.75000    0.75000  )
+       16  Ti     47.8670   tau(   16) = (    0.75000    0.75000    0.75000  )
+       17  O      15.9990   tau(   17) = (    0.00000    0.00000    0.25000  )
+       18  O      15.9990   tau(   18) = (    0.00000    0.25000    0.00000  )
+       19  O      15.9990   tau(   19) = (    0.25000    0.00000    0.00000  )
+       20  O      15.9990   tau(   20) = (    0.00000    0.50000    0.25000  )
+       21  O      15.9990   tau(   21) = (    0.00000    0.75000    0.00000  )
+       22  O      15.9990   tau(   22) = (    0.25000    0.50000    0.00000  )
+       23  O      15.9990   tau(   23) = (    0.50000    0.00000    0.25000  )
+       24  O      15.9990   tau(   24) = (    0.50000    0.25000    0.00000  )
+       25  O      15.9990   tau(   25) = (    0.75000    0.00000    0.00000  )
+       26  O      15.9990   tau(   26) = (    0.50000    0.50000    0.25000  )
+       27  O      15.9990   tau(   27) = (    0.50000    0.75000    0.00000  )
+       28  O      15.9990   tau(   28) = (    0.75000    0.50000    0.00000  )
+       29  O      15.9990   tau(   29) = (    0.00000    0.25000    0.50000  )
+       30  O      15.9990   tau(   30) = (    0.00000    0.50000    0.75000  )
+       31  O      15.9990   tau(   31) = (    0.25000    0.00000    0.50000  )
+       32  O      15.9990   tau(   32) = (    0.00000    0.75000    0.50000  )
+       33  O      15.9990   tau(   33) = (    0.25000    0.50000    0.50000  )
+       34  O      15.9990   tau(   34) = (    0.50000    0.25000    0.50000  )
+       35  O      15.9990   tau(   35) = (    0.50000    0.50000    0.75000  )
+       36  O      15.9990   tau(   36) = (    0.75000    0.00000    0.50000  )
+       37  O      15.9990   tau(   37) = (    0.50000    0.75000    0.50000  )
+       38  O      15.9990   tau(   38) = (    0.75000    0.50000    0.50000  )
+       39  O      15.9990   tau(   39) = (    0.25000    0.25000    0.00000  )
+
+     Computing dynamical matrix for 
+                    q = (   0.0000000   0.0000000   0.0000000 )
+ 
+      3 Sym.Ops. (with q -> -q+G )
+
+
+     G cutoff = 1765.5907  ( 310417 G-vectors)     FFT grid: ( 90, 90, 90)
+
+     number of k points=     2  Gaussian smearing, width (Ry)=  0.0050
+
+     PseudoPot. # 1 for Sr read from file:
+     ./pseudo/Sr.pbe-spn-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 304ac60131d69ebf2380f6d2a1d0bd9f
+     Pseudo is Projector augmented-wave + core cor, Zval = 10.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.2.2
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1221 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 2 for Ti read from file:
+     ./pseudo/Ti.pbe-spn-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 7ea84e4330344cbc938d542ff58a5c10
+     Pseudo is Projector augmented-wave + core cor, Zval = 12.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.2.2
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1177 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 3 for O  read from file:
+     ./pseudo/O.pbe-n-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 62c11a45e085f03adfe5482d7843b034
+     Pseudo is Projector augmented-wave + core cor, Zval =  6.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1095 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with 0 coefficients 
+
+
+     Mode symmetry, C_s (m)     point group:
+
+
+     Atomic displacements:
+     There are  117 irreducible representations
+
+     Representation     1      1 modes -  To be done
+
+     Representation     2      1 modes -  To be done
+
+     Representation     3      1 modes -  To be done
+
+     Representation     4      1 modes -  To be done
+
+     Representation     5      1 modes -  To be done
+
+     Representation     6      1 modes -  To be done
+
+     Representation     7      1 modes -  To be done
+
+     Representation     8      1 modes -  To be done
+
+     Representation     9      1 modes -  To be done
+
+     Representation    10      1 modes -  To be done
+
+     Representation    11      1 modes -  To be done
+
+     Representation    12      1 modes -  To be done
+
+     Representation    13      1 modes -  To be done
+
+     Representation    14      1 modes -  To be done
+
+     Representation    15      1 modes -  To be done
+
+     Representation    16      1 modes -  To be done
+
+     Representation    17      1 modes -  To be done
+
+     Representation    18      1 modes -  To be done
+
+     Representation    19      1 modes -  To be done
+
+     Representation    20      1 modes -  To be done
+
+     Representation    21      1 modes -  To be done
+
+     Representation    22      1 modes -  To be done
+
+     Representation    23      1 modes -  To be done
+
+     Representation    24      1 modes -  To be done
+
+     Representation    25      1 modes -  To be done
+
+     Representation    26      1 modes -  To be done
+
+     Representation    27      1 modes -  To be done
+
+     Representation    28      1 modes -  To be done
+
+     Representation    29      1 modes -  To be done
+
+     Representation    30      1 modes -  To be done
+
+     Representation    31      1 modes -  To be done
+
+     Representation    32      1 modes -  To be done
+
+     Representation    33      1 modes -  To be done
+
+     Representation    34      1 modes -  To be done
+
+     Representation    35      1 modes -  To be done
+
+     Representation    36      1 modes -  To be done
+
+     Representation    37      1 modes -  To be done
+
+     Representation    38      1 modes -  To be done
+
+     Representation    39      1 modes -  To be done
+
+     Representation    40      1 modes -  To be done
+
+     Representation    41      1 modes -  To be done
+
+     Representation    42      1 modes -  To be done
+
+     Representation    43      1 modes -  To be done
+
+     Representation    44      1 modes -  To be done
+
+     Representation    45      1 modes -  To be done
+
+     Representation    46      1 modes -  To be done
+
+     Representation    47      1 modes -  To be done
+
+     Representation    48      1 modes -  To be done
+
+     Representation    49      1 modes -  To be done
+
+     Representation    50      1 modes -  To be done
+
+     Representation    51      1 modes -  To be done
+
+     Representation    52      1 modes -  To be done
+
+     Representation    53      1 modes -  To be done
+
+     Representation    54      1 modes -  To be done
+
+     Representation    55      1 modes -  To be done
+
+     Representation    56      1 modes -  To be done
+
+     Representation    57      1 modes -  To be done
+
+     Representation    58      1 modes -  To be done
+
+     Representation    59      1 modes -  To be done
+
+     Representation    60      1 modes -  To be done
+
+     Representation    61      1 modes -  To be done
+
+     Representation    62      1 modes -  To be done
+
+     Representation    63      1 modes -  To be done
+
+     Representation    64      1 modes -  To be done
+
+     Representation    65      1 modes -  To be done
+
+     Representation    66      1 modes -  To be done
+
+     Representation    67      1 modes -  To be done
+
+     Representation    68      1 modes -  To be done
+
+     Representation    69      1 modes -  To be done
+
+     Representation    70      1 modes -  To be done
+
+     Representation    71      1 modes -  To be done
+
+     Representation    72      1 modes -  To be done
+
+     Representation    73      1 modes -  To be done
+
+     Representation    74      1 modes -  To be done
+
+     Representation    75      1 modes -  To be done
+
+     Representation    76      1 modes -  To be done
+
+     Representation    77      1 modes -  To be done
+
+     Representation    78      1 modes -  To be done
+
+     Representation    79      1 modes -  To be done
+
+     Representation    80      1 modes -  To be done
+
+     Representation    81      1 modes -  To be done
+
+     Representation    82      1 modes -  To be done
+
+     Representation    83      1 modes -  To be done
+
+     Representation    84      1 modes -  To be done
+
+     Representation    85      1 modes -  To be done
+
+     Representation    86      1 modes -  To be done
+
+     Representation    87      1 modes -  To be done
+
+     Representation    88      1 modes -  To be done
+
+     Representation    89      1 modes -  To be done
+
+     Representation    90      1 modes -  To be done
+
+     Representation    91      1 modes -  To be done
+
+     Representation    92      1 modes -  To be done
+
+     Representation    93      1 modes -  To be done
+
+     Representation    94      1 modes -  To be done
+
+     Representation    95      1 modes -  To be done
+
+     Representation    96      1 modes -  To be done
+
+     Representation    97      1 modes -  To be done
+
+     Representation    98      1 modes -  To be done
+
+     Representation    99      1 modes -  To be done
+
+     Representation   100      1 modes -  To be done
+
+     Representation   101      1 modes -  To be done
+
+     Representation   102      1 modes -  To be done
+
+     Representation   103      1 modes -  To be done
+
+     Representation   104      1 modes -  To be done
+
+     Representation   105      1 modes -  To be done
+
+     Representation   106      1 modes -  To be done
+
+     Representation   107      1 modes -  To be done
+
+     Representation   108      1 modes -  To be done
+
+     Representation   109      1 modes -  To be done
+
+     Representation   110      1 modes -  To be done
+
+     Representation   111      1 modes -  To be done
+
+     Representation   112      1 modes -  To be done
+
+     Representation   113      1 modes -  To be done
+
+     Representation   114      1 modes -  To be done
+
+     Representation   115      1 modes -  To be done
+
+     Representation   116      1 modes -  To be done
+
+     Representation   117      1 modes -  To be done
+
+
+     Reading collected, re-writing distributed wavefunctions in ./tmp/
+     Reading collected, re-writing distributed wavefunctions in ./tmp/
+        8 /   8 q-points for this run, from  1 to  8:
+       N       xq(1)         xq(2)         xq(3) 
+       1   0.000000000   0.000000000   0.000000000
+       2   0.000000000   0.000000000  -0.500000000
+       3   0.000000000  -0.500000000   0.000000000
+       4   0.000000000  -0.500000000  -0.500000000
+       5  -0.500000000   0.000000000   0.000000000
+       6  -0.500000000   0.000000000  -0.500000000
+       7  -0.500000000  -0.500000000   0.000000000
+       8  -0.500000000  -0.500000000  -0.500000000
+ 
+
+     Calculation of q =    0.0000000   0.0000000   0.0000000
+
+     GPU acceleration is ACTIVE.  1 visible GPUs per MPI rank
+     GPU-aware MPI enabled
+
+        8 /   8 q-points for this run, from  1 to  8:
+       N       xq(1)         xq(2)         xq(3) 
+       1   0.000000000   0.000000000   0.000000000
+       2   0.000000000   0.000000000  -0.500000000
+       3   0.000000000  -0.500000000   0.000000000
+       4   0.000000000  -0.500000000  -0.500000000
+       5  -0.500000000   0.000000000   0.000000000
+       6  -0.500000000   0.000000000  -0.500000000
+       7  -0.500000000  -0.500000000   0.000000000
+       8  -0.500000000  -0.500000000  -0.500000000
+ 
+
+     Calculation of q =    0.0000000   0.0000000   0.0000000
+
+     GPU acceleration is ACTIVE.  1 visible GPUs per MPI rank
+     GPU-aware MPI enabled
+
+
+     Restart in Phonon calculation
+
+     default                                                                    
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      14.7588  a.u.
+     unit-cell volume          =    3214.7685 (a.u.)^3
+     number of atoms/cell      =           39
+     number of atomic types    =            3
+     kinetic-energy cut-off    =      80.0000  Ry
+     charge density cut-off    =     320.0000  Ry
+     convergence threshold     =      1.0E-15
+     beta                      =       0.0500
+     number of iterations used =            4
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+
+
+     celldm(1)=   14.75876  celldm(2)=    0.00000  celldm(3)=    0.00000
+     celldm(4)=    0.00000  celldm(5)=    0.00000  celldm(6)=    0.00000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (  1.0000  0.0000  0.0000 )  
+               a(2) = (  0.0000  1.0000  0.0000 )  
+               a(3) = (  0.0000  0.0000  1.0000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.0000  0.0000  0.0000 )  
+               b(2) = (  0.0000  1.0000  0.0000 )  
+               b(3) = (  0.0000  0.0000  1.0000 )  
+
+
+     Atoms inside the unit cell: 
+
+     Cartesian axes
+
+     site n.  atom      mass           positions (alat units)
+        1  Sr     87.6200   tau(    1) = (    0.00000    0.00000    0.00000  )
+        2  Sr     87.6200   tau(    2) = (    0.00000    0.50000    0.50000  )
+        3  Sr     87.6200   tau(    3) = (    0.50000    0.00000    0.50000  )
+        4  Sr     87.6200   tau(    4) = (    0.50000    0.50000    0.00000  )
+        5  Sr     87.6200   tau(    5) = (    0.50000    0.50000    0.50000  )
+        6  Sr     87.6200   tau(    6) = (    0.00000    0.50000    0.00000  )
+        7  Sr     87.6200   tau(    7) = (    0.00000    0.00000    0.50000  )
+        8  Sr     87.6200   tau(    8) = (    0.50000    0.00000    0.00000  )
+        9  Ti     47.8670   tau(    9) = (    0.25000    0.25000    0.25000  )
+       10  Ti     47.8670   tau(   10) = (    0.75000    0.25000    0.25000  )
+       11  Ti     47.8670   tau(   11) = (    0.25000    0.75000    0.25000  )
+       12  Ti     47.8670   tau(   12) = (    0.25000    0.25000    0.75000  )
+       13  Ti     47.8670   tau(   13) = (    0.75000    0.75000    0.25000  )
+       14  Ti     47.8670   tau(   14) = (    0.75000    0.25000    0.75000  )
+       15  Ti     47.8670   tau(   15) = (    0.25000    0.75000    0.75000  )
+       16  Ti     47.8670   tau(   16) = (    0.75000    0.75000    0.75000  )
+       17  O      15.9990   tau(   17) = (    0.00000    0.00000    0.25000  )
+       18  O      15.9990   tau(   18) = (    0.00000    0.25000    0.00000  )
+       19  O      15.9990   tau(   19) = (    0.25000    0.00000    0.00000  )
+       20  O      15.9990   tau(   20) = (    0.00000    0.50000    0.25000  )
+       21  O      15.9990   tau(   21) = (    0.00000    0.75000    0.00000  )
+       22  O      15.9990   tau(   22) = (    0.25000    0.50000    0.00000  )
+       23  O      15.9990   tau(   23) = (    0.50000    0.00000    0.25000  )
+       24  O      15.9990   tau(   24) = (    0.50000    0.25000    0.00000  )
+       25  O      15.9990   tau(   25) = (    0.75000    0.00000    0.00000  )
+       26  O      15.9990   tau(   26) = (    0.50000    0.50000    0.25000  )
+       27  O      15.9990   tau(   27) = (    0.50000    0.75000    0.00000  )
+       28  O      15.9990   tau(   28) = (    0.75000    0.50000    0.00000  )
+       29  O      15.9990   tau(   29) = (    0.00000    0.25000    0.50000  )
+       30  O      15.9990   tau(   30) = (    0.00000    0.50000    0.75000  )
+       31  O      15.9990   tau(   31) = (    0.25000    0.00000    0.50000  )
+       32  O      15.9990   tau(   32) = (    0.00000    0.75000    0.50000  )
+       33  O      15.9990   tau(   33) = (    0.25000    0.50000    0.50000  )
+       34  O      15.9990   tau(   34) = (    0.50000    0.25000    0.50000  )
+       35  O      15.9990   tau(   35) = (    0.50000    0.50000    0.75000  )
+       36  O      15.9990   tau(   36) = (    0.75000    0.00000    0.50000  )
+       37  O      15.9990   tau(   37) = (    0.50000    0.75000    0.50000  )
+       38  O      15.9990   tau(   38) = (    0.75000    0.50000    0.50000  )
+       39  O      15.9990   tau(   39) = (    0.25000    0.25000    0.00000  )
+
+     Computing dynamical matrix for 
+                    q = (   0.0000000   0.0000000   0.0000000 )
+ 
+      3 Sym.Ops. (with q -> -q+G )
+
+
+     G cutoff = 1765.5907  ( 310417 G-vectors)     FFT grid: ( 90, 90, 90)
+
+     number of k points=     2  Gaussian smearing, width (Ry)=  0.0050
+
+     PseudoPot. # 1 for Sr read from file:
+     ./pseudo/Sr.pbe-spn-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 304ac60131d69ebf2380f6d2a1d0bd9f
+     Pseudo is Projector augmented-wave + core cor, Zval = 10.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.2.2
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1221 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 2 for Ti read from file:
+     ./pseudo/Ti.pbe-spn-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 7ea84e4330344cbc938d542ff58a5c10
+     Pseudo is Projector augmented-wave + core cor, Zval = 12.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.2.2
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1177 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 3 for O  read from file:
+     ./pseudo/O.pbe-n-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 62c11a45e085f03adfe5482d7843b034
+     Pseudo is Projector augmented-wave + core cor, Zval =  6.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1095 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with 0 coefficients 
+
+
+     Mode symmetry, C_s (m)     point group:
+
+
+     Atomic displacements:
+     There are  117 irreducible representations
+
+     Representation     1      1 modes -  To be done
+
+     Representation     2      1 modes -  To be done
+
+     Representation     3      1 modes -  To be done
+
+     Representation     4      1 modes -  To be done
+
+     Representation     5      1 modes -  To be done
+
+     Representation     6      1 modes -  To be done
+
+     Representation     7      1 modes -  To be done
+
+     Representation     8      1 modes -  To be done
+
+     Representation     9      1 modes -  To be done
+
+     Representation    10      1 modes -  To be done
+
+     Representation    11      1 modes -  To be done
+
+     Representation    12      1 modes -  To be done
+
+     Representation    13      1 modes -  To be done
+
+     Representation    14      1 modes -  To be done
+
+     Representation    15      1 modes -  To be done
+
+     Representation    16      1 modes -  To be done
+
+     Representation    17      1 modes -  To be done
+
+     Representation    18      1 modes -  To be done
+
+     Representation    19      1 modes -  To be done
+
+     Representation    20      1 modes -  To be done
+
+     Representation    21      1 modes -  To be done
+
+     Representation    22      1 modes -  To be done
+
+     Representation    23      1 modes -  To be done
+
+     Representation    24      1 modes -  To be done
+
+     Representation    25      1 modes -  To be done
+
+     Representation    26      1 modes -  To be done
+
+     Representation    27      1 modes -  To be done
+
+     Representation    28      1 modes -  To be done
+
+     Representation    29      1 modes -  To be done
+
+     Representation    30      1 modes -  To be done
+
+     Representation    31      1 modes -  To be done
+
+     Representation    32      1 modes -  To be done
+
+     Representation    33      1 modes -  To be done
+
+     Representation    34      1 modes -  To be done
+
+     Representation    35      1 modes -  To be done
+
+     Representation    36      1 modes -  To be done
+
+     Representation    37      1 modes -  To be done
+
+     Representation    38      1 modes -  To be done
+
+     Representation    39      1 modes -  To be done
+
+     Representation    40      1 modes -  To be done
+
+     Representation    41      1 modes -  To be done
+
+     Representation    42      1 modes -  To be done
+
+     Representation    43      1 modes -  To be done
+
+     Representation    44      1 modes -  To be done
+
+     Representation    45      1 modes -  To be done
+
+     Representation    46      1 modes -  To be done
+
+     Representation    47      1 modes -  To be done
+
+     Representation    48      1 modes -  To be done
+
+     Representation    49      1 modes -  To be done
+
+     Representation    50      1 modes -  To be done
+
+     Representation    51      1 modes -  To be done
+
+     Representation    52      1 modes -  To be done
+
+     Representation    53      1 modes -  To be done
+
+     Representation    54      1 modes -  To be done
+
+     Representation    55      1 modes -  To be done
+
+     Representation    56      1 modes -  To be done
+
+     Representation    57      1 modes -  To be done
+
+     Representation    58      1 modes -  To be done
+
+     Representation    59      1 modes -  To be done
+
+     Representation    60      1 modes -  To be done
+
+     Representation    61      1 modes -  To be done
+
+     Representation    62      1 modes -  To be done
+
+     Representation    63      1 modes -  To be done
+
+     Representation    64      1 modes -  To be done
+
+     Representation    65      1 modes -  To be done
+
+     Representation    66      1 modes -  To be done
+
+     Representation    67      1 modes -  To be done
+
+     Representation    68      1 modes -  To be done
+
+     Representation    69      1 modes -  To be done
+
+     Representation    70      1 modes -  To be done
+
+     Representation    71      1 modes -  To be done
+
+     Representation    72      1 modes -  To be done
+
+     Representation    73      1 modes -  To be done
+
+     Representation    74      1 modes -  To be done
+
+     Representation    75      1 modes -  To be done
+
+     Representation    76      1 modes -  To be done
+
+     Representation    77      1 modes -  To be done
+
+     Representation    78      1 modes -  To be done
+
+     Representation    79      1 modes -  To be done
+
+     Representation    80      1 modes -  To be done
+
+     Representation    81      1 modes -  To be done
+
+     Representation    82      1 modes -  To be done
+
+     Representation    83      1 modes -  To be done
+
+     Representation    84      1 modes -  To be done
+
+     Representation    85      1 modes -  To be done
+
+     Representation    86      1 modes -  To be done
+
+     Representation    87      1 modes -  To be done
+
+     Representation    88      1 modes -  To be done
+
+     Representation    89      1 modes -  To be done
+
+     Representation    90      1 modes -  To be done
+
+     Representation    91      1 modes -  To be done
+
+     Representation    92      1 modes -  To be done
+
+     Representation    93      1 modes -  To be done
+
+     Representation    94      1 modes -  To be done
+
+     Representation    95      1 modes -  To be done
+
+     Representation    96      1 modes -  To be done
+
+     Representation    97      1 modes -  To be done
+
+     Representation    98      1 modes -  To be done
+
+     Representation    99      1 modes -  To be done
+
+     Representation   100      1 modes -  To be done
+
+     Representation   101      1 modes -  To be done
+
+     Representation   102      1 modes -  To be done
+
+     Representation   103      1 modes -  To be done
+
+     Representation   104      1 modes -  To be done
+
+     Representation   105      1 modes -  To be done
+
+     Representation   106      1 modes -  To be done
+
+     Representation   107      1 modes -  To be done
+
+     Representation   108      1 modes -  To be done
+
+     Representation   109      1 modes -  To be done
+
+     Representation   110      1 modes -  To be done
+
+     Representation   111      1 modes -  To be done
+
+     Representation   112      1 modes -  To be done
+
+     Representation   113      1 modes -  To be done
+
+     Representation   114      1 modes -  To be done
+
+     Representation   115      1 modes -  To be done
+
+     Representation   116      1 modes -  To be done
+
+     Representation   117      1 modes -  To be done
+
+
+
+     Restart in Phonon calculation
+
+     default                                                                    
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      14.7588  a.u.
+     unit-cell volume          =    3214.7685 (a.u.)^3
+     number of atoms/cell      =           39
+     number of atomic types    =            3
+     kinetic-energy cut-off    =      80.0000  Ry
+     charge density cut-off    =     320.0000  Ry
+     convergence threshold     =      1.0E-15
+     beta                      =       0.0500
+     number of iterations used =            4
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+
+
+     celldm(1)=   14.75876  celldm(2)=    0.00000  celldm(3)=    0.00000
+     celldm(4)=    0.00000  celldm(5)=    0.00000  celldm(6)=    0.00000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (  1.0000  0.0000  0.0000 )  
+               a(2) = (  0.0000  1.0000  0.0000 )  
+               a(3) = (  0.0000  0.0000  1.0000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.0000  0.0000  0.0000 )  
+               b(2) = (  0.0000  1.0000  0.0000 )  
+               b(3) = (  0.0000  0.0000  1.0000 )  
+
+
+     Atoms inside the unit cell: 
+
+     Cartesian axes
+
+     site n.  atom      mass           positions (alat units)
+        1  Sr     87.6200   tau(    1) = (    0.00000    0.00000    0.00000  )
+        2  Sr     87.6200   tau(    2) = (    0.00000    0.50000    0.50000  )
+        3  Sr     87.6200   tau(    3) = (    0.50000    0.00000    0.50000  )
+        4  Sr     87.6200   tau(    4) = (    0.50000    0.50000    0.00000  )
+        5  Sr     87.6200   tau(    5) = (    0.50000    0.50000    0.50000  )
+        6  Sr     87.6200   tau(    6) = (    0.00000    0.50000    0.00000  )
+        7  Sr     87.6200   tau(    7) = (    0.00000    0.00000    0.50000  )
+        8  Sr     87.6200   tau(    8) = (    0.50000    0.00000    0.00000  )
+        9  Ti     47.8670   tau(    9) = (    0.25000    0.25000    0.25000  )
+       10  Ti     47.8670   tau(   10) = (    0.75000    0.25000    0.25000  )
+       11  Ti     47.8670   tau(   11) = (    0.25000    0.75000    0.25000  )
+       12  Ti     47.8670   tau(   12) = (    0.25000    0.25000    0.75000  )
+       13  Ti     47.8670   tau(   13) = (    0.75000    0.75000    0.25000  )
+       14  Ti     47.8670   tau(   14) = (    0.75000    0.25000    0.75000  )
+       15  Ti     47.8670   tau(   15) = (    0.25000    0.75000    0.75000  )
+       16  Ti     47.8670   tau(   16) = (    0.75000    0.75000    0.75000  )
+       17  O      15.9990   tau(   17) = (    0.00000    0.00000    0.25000  )
+       18  O      15.9990   tau(   18) = (    0.00000    0.25000    0.00000  )
+       19  O      15.9990   tau(   19) = (    0.25000    0.00000    0.00000  )
+       20  O      15.9990   tau(   20) = (    0.00000    0.50000    0.25000  )
+       21  O      15.9990   tau(   21) = (    0.00000    0.75000    0.00000  )
+       22  O      15.9990   tau(   22) = (    0.25000    0.50000    0.00000  )
+       23  O      15.9990   tau(   23) = (    0.50000    0.00000    0.25000  )
+       24  O      15.9990   tau(   24) = (    0.50000    0.25000    0.00000  )
+       25  O      15.9990   tau(   25) = (    0.75000    0.00000    0.00000  )
+       26  O      15.9990   tau(   26) = (    0.50000    0.50000    0.25000  )
+       27  O      15.9990   tau(   27) = (    0.50000    0.75000    0.00000  )
+       28  O      15.9990   tau(   28) = (    0.75000    0.50000    0.00000  )
+       29  O      15.9990   tau(   29) = (    0.00000    0.25000    0.50000  )
+       30  O      15.9990   tau(   30) = (    0.00000    0.50000    0.75000  )
+       31  O      15.9990   tau(   31) = (    0.25000    0.00000    0.50000  )
+       32  O      15.9990   tau(   32) = (    0.00000    0.75000    0.50000  )
+       33  O      15.9990   tau(   33) = (    0.25000    0.50000    0.50000  )
+       34  O      15.9990   tau(   34) = (    0.50000    0.25000    0.50000  )
+       35  O      15.9990   tau(   35) = (    0.50000    0.50000    0.75000  )
+       36  O      15.9990   tau(   36) = (    0.75000    0.00000    0.50000  )
+       37  O      15.9990   tau(   37) = (    0.50000    0.75000    0.50000  )
+       38  O      15.9990   tau(   38) = (    0.75000    0.50000    0.50000  )
+       39  O      15.9990   tau(   39) = (    0.25000    0.25000    0.00000  )
+
+     Computing dynamical matrix for 
+                    q = (   0.0000000   0.0000000   0.0000000 )
+ 
+      3 Sym.Ops. (with q -> -q+G )
+
+
+     G cutoff = 1765.5907  ( 310417 G-vectors)     FFT grid: ( 90, 90, 90)
+
+     number of k points=     2  Gaussian smearing, width (Ry)=  0.0050
+
+     PseudoPot. # 1 for Sr read from file:
+     ./pseudo/Sr.pbe-spn-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 304ac60131d69ebf2380f6d2a1d0bd9f
+     Pseudo is Projector augmented-wave + core cor, Zval = 10.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.2.2
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1221 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 2 for Ti read from file:
+     ./pseudo/Ti.pbe-spn-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 7ea84e4330344cbc938d542ff58a5c10
+     Pseudo is Projector augmented-wave + core cor, Zval = 12.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.2.2
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1177 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 3 for O  read from file:
+     ./pseudo/O.pbe-n-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 62c11a45e085f03adfe5482d7843b034
+     Pseudo is Projector augmented-wave + core cor, Zval =  6.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1095 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with 0 coefficients 
+
+
+     Mode symmetry, C_s (m)     point group:
+
+
+     Atomic displacements:
+     There are  117 irreducible representations
+
+     Representation     1      1 modes -  To be done
+
+     Representation     2      1 modes -  To be done
+
+     Representation     3      1 modes -  To be done
+
+     Representation     4      1 modes -  To be done
+
+     Representation     5      1 modes -  To be done
+
+     Representation     6      1 modes -  To be done
+
+     Representation     7      1 modes -  To be done
+
+     Representation     8      1 modes -  To be done
+
+     Representation     9      1 modes -  To be done
+
+     Representation    10      1 modes -  To be done
+
+     Representation    11      1 modes -  To be done
+
+     Representation    12      1 modes -  To be done
+
+     Representation    13      1 modes -  To be done
+
+     Representation    14      1 modes -  To be done
+
+     Representation    15      1 modes -  To be done
+
+     Representation    16      1 modes -  To be done
+
+     Representation    17      1 modes -  To be done
+
+     Representation    18      1 modes -  To be done
+
+     Representation    19      1 modes -  To be done
+
+     Representation    20      1 modes -  To be done
+
+     Representation    21      1 modes -  To be done
+
+     Representation    22      1 modes -  To be done
+
+     Representation    23      1 modes -  To be done
+
+     Representation    24      1 modes -  To be done
+
+     Representation    25      1 modes -  To be done
+
+     Representation    26      1 modes -  To be done
+
+     Representation    27      1 modes -  To be done
+
+     Representation    28      1 modes -  To be done
+
+     Representation    29      1 modes -  To be done
+
+     Representation    30      1 modes -  To be done
+
+     Representation    31      1 modes -  To be done
+
+     Representation    32      1 modes -  To be done
+
+     Representation    33      1 modes -  To be done
+
+     Representation    34      1 modes -  To be done
+
+     Representation    35      1 modes -  To be done
+
+     Representation    36      1 modes -  To be done
+
+     Representation    37      1 modes -  To be done
+
+     Representation    38      1 modes -  To be done
+
+     Representation    39      1 modes -  To be done
+
+     Representation    40      1 modes -  To be done
+
+     Representation    41      1 modes -  To be done
+
+     Representation    42      1 modes -  To be done
+
+     Representation    43      1 modes -  To be done
+
+     Representation    44      1 modes -  To be done
+
+     Representation    45      1 modes -  To be done
+
+     Representation    46      1 modes -  To be done
+
+     Representation    47      1 modes -  To be done
+
+     Representation    48      1 modes -  To be done
+
+     Representation    49      1 modes -  To be done
+
+     Representation    50      1 modes -  To be done
+
+     Representation    51      1 modes -  To be done
+
+     Representation    52      1 modes -  To be done
+
+     Representation    53      1 modes -  To be done
+
+     Representation    54      1 modes -  To be done
+
+     Representation    55      1 modes -  To be done
+
+     Representation    56      1 modes -  To be done
+
+     Representation    57      1 modes -  To be done
+
+     Representation    58      1 modes -  To be done
+
+     Representation    59      1 modes -  To be done
+
+     Representation    60      1 modes -  To be done
+
+     Representation    61      1 modes -  To be done
+
+     Representation    62      1 modes -  To be done
+
+     Representation    63      1 modes -  To be done
+
+     Representation    64      1 modes -  To be done
+
+     Representation    65      1 modes -  To be done
+
+     Representation    66      1 modes -  To be done
+
+     Representation    67      1 modes -  To be done
+
+     Representation    68      1 modes -  To be done
+
+     Representation    69      1 modes -  To be done
+
+     Representation    70      1 modes -  To be done
+
+     Representation    71      1 modes -  To be done
+
+     Representation    72      1 modes -  To be done
+
+     Representation    73      1 modes -  To be done
+
+     Representation    74      1 modes -  To be done
+
+     Representation    75      1 modes -  To be done
+
+     Representation    76      1 modes -  To be done
+
+     Representation    77      1 modes -  To be done
+
+     Representation    78      1 modes -  To be done
+
+     Representation    79      1 modes -  To be done
+
+     Representation    80      1 modes -  To be done
+
+     Representation    81      1 modes -  To be done
+
+     Representation    82      1 modes -  To be done
+
+     Representation    83      1 modes -  To be done
+
+     Representation    84      1 modes -  To be done
+
+     Representation    85      1 modes -  To be done
+
+     Representation    86      1 modes -  To be done
+
+     Representation    87      1 modes -  To be done
+
+     Representation    88      1 modes -  To be done
+
+     Representation    89      1 modes -  To be done
+
+     Representation    90      1 modes -  To be done
+
+     Representation    91      1 modes -  To be done
+
+     Representation    92      1 modes -  To be done
+
+     Representation    93      1 modes -  To be done
+
+     Representation    94      1 modes -  To be done
+
+     Representation    95      1 modes -  To be done
+
+     Representation    96      1 modes -  To be done
+
+     Representation    97      1 modes -  To be done
+
+     Representation    98      1 modes -  To be done
+
+     Representation    99      1 modes -  To be done
+
+     Representation   100      1 modes -  To be done
+
+     Representation   101      1 modes -  To be done
+
+     Representation   102      1 modes -  To be done
+
+     Representation   103      1 modes -  To be done
+
+     Representation   104      1 modes -  To be done
+
+     Representation   105      1 modes -  To be done
+
+     Representation   106      1 modes -  To be done
+
+     Representation   107      1 modes -  To be done
+
+     Representation   108      1 modes -  To be done
+
+     Representation   109      1 modes -  To be done
+
+     Representation   110      1 modes -  To be done
+
+     Representation   111      1 modes -  To be done
+
+     Representation   112      1 modes -  To be done
+
+     Representation   113      1 modes -  To be done
+
+     Representation   114      1 modes -  To be done
+
+     Representation   115      1 modes -  To be done
+
+     Representation   116      1 modes -  To be done
+
+     Representation   117      1 modes -  To be done
+
+
+     Reading collected, re-writing distributed wavefunctions in ./tmp/
+        8 /   8 q-points for this run, from  1 to  8:
+       N       xq(1)         xq(2)         xq(3) 
+       1   0.000000000   0.000000000   0.000000000
+       2   0.000000000   0.000000000  -0.500000000
+       3   0.000000000  -0.500000000   0.000000000
+       4   0.000000000  -0.500000000  -0.500000000
+       5  -0.500000000   0.000000000   0.000000000
+       6  -0.500000000   0.000000000  -0.500000000
+       7  -0.500000000  -0.500000000   0.000000000
+       8  -0.500000000  -0.500000000  -0.500000000
+ 
+
+     Calculation of q =    0.0000000   0.0000000   0.0000000
+
+     GPU acceleration is ACTIVE.  1 visible GPUs per MPI rank
+     GPU-aware MPI enabled
+
+
+     Restart in Phonon calculation
+
+     default                                                                    
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      14.7588  a.u.
+     unit-cell volume          =    3214.7685 (a.u.)^3
+     number of atoms/cell      =           39
+     number of atomic types    =            3
+     kinetic-energy cut-off    =      80.0000  Ry
+     charge density cut-off    =     320.0000  Ry
+     convergence threshold     =      1.0E-15
+     beta                      =       0.0500
+     number of iterations used =            4
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+
+
+     celldm(1)=   14.75876  celldm(2)=    0.00000  celldm(3)=    0.00000
+     celldm(4)=    0.00000  celldm(5)=    0.00000  celldm(6)=    0.00000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (  1.0000  0.0000  0.0000 )  
+               a(2) = (  0.0000  1.0000  0.0000 )  
+               a(3) = (  0.0000  0.0000  1.0000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.0000  0.0000  0.0000 )  
+               b(2) = (  0.0000  1.0000  0.0000 )  
+               b(3) = (  0.0000  0.0000  1.0000 )  
+
+
+     Atoms inside the unit cell: 
+
+     Cartesian axes
+
+     site n.  atom      mass           positions (alat units)
+        1  Sr     87.6200   tau(    1) = (    0.00000    0.00000    0.00000  )
+        2  Sr     87.6200   tau(    2) = (    0.00000    0.50000    0.50000  )
+        3  Sr     87.6200   tau(    3) = (    0.50000    0.00000    0.50000  )
+        4  Sr     87.6200   tau(    4) = (    0.50000    0.50000    0.00000  )
+        5  Sr     87.6200   tau(    5) = (    0.50000    0.50000    0.50000  )
+        6  Sr     87.6200   tau(    6) = (    0.00000    0.50000    0.00000  )
+        7  Sr     87.6200   tau(    7) = (    0.00000    0.00000    0.50000  )
+        8  Sr     87.6200   tau(    8) = (    0.50000    0.00000    0.00000  )
+        9  Ti     47.8670   tau(    9) = (    0.25000    0.25000    0.25000  )
+       10  Ti     47.8670   tau(   10) = (    0.75000    0.25000    0.25000  )
+       11  Ti     47.8670   tau(   11) = (    0.25000    0.75000    0.25000  )
+       12  Ti     47.8670   tau(   12) = (    0.25000    0.25000    0.75000  )
+       13  Ti     47.8670   tau(   13) = (    0.75000    0.75000    0.25000  )
+       14  Ti     47.8670   tau(   14) = (    0.75000    0.25000    0.75000  )
+       15  Ti     47.8670   tau(   15) = (    0.25000    0.75000    0.75000  )
+       16  Ti     47.8670   tau(   16) = (    0.75000    0.75000    0.75000  )
+       17  O      15.9990   tau(   17) = (    0.00000    0.00000    0.25000  )
+       18  O      15.9990   tau(   18) = (    0.00000    0.25000    0.00000  )
+       19  O      15.9990   tau(   19) = (    0.25000    0.00000    0.00000  )
+       20  O      15.9990   tau(   20) = (    0.00000    0.50000    0.25000  )
+       21  O      15.9990   tau(   21) = (    0.00000    0.75000    0.00000  )
+       22  O      15.9990   tau(   22) = (    0.25000    0.50000    0.00000  )
+       23  O      15.9990   tau(   23) = (    0.50000    0.00000    0.25000  )
+       24  O      15.9990   tau(   24) = (    0.50000    0.25000    0.00000  )
+       25  O      15.9990   tau(   25) = (    0.75000    0.00000    0.00000  )
+       26  O      15.9990   tau(   26) = (    0.50000    0.50000    0.25000  )
+       27  O      15.9990   tau(   27) = (    0.50000    0.75000    0.00000  )
+       28  O      15.9990   tau(   28) = (    0.75000    0.50000    0.00000  )
+       29  O      15.9990   tau(   29) = (    0.00000    0.25000    0.50000  )
+       30  O      15.9990   tau(   30) = (    0.00000    0.50000    0.75000  )
+       31  O      15.9990   tau(   31) = (    0.25000    0.00000    0.50000  )
+       32  O      15.9990   tau(   32) = (    0.00000    0.75000    0.50000  )
+       33  O      15.9990   tau(   33) = (    0.25000    0.50000    0.50000  )
+       34  O      15.9990   tau(   34) = (    0.50000    0.25000    0.50000  )
+       35  O      15.9990   tau(   35) = (    0.50000    0.50000    0.75000  )
+       36  O      15.9990   tau(   36) = (    0.75000    0.00000    0.50000  )
+       37  O      15.9990   tau(   37) = (    0.50000    0.75000    0.50000  )
+       38  O      15.9990   tau(   38) = (    0.75000    0.50000    0.50000  )
+       39  O      15.9990   tau(   39) = (    0.25000    0.25000    0.00000  )
+
+     Computing dynamical matrix for 
+                    q = (   0.0000000   0.0000000   0.0000000 )
+ 
+      3 Sym.Ops. (with q -> -q+G )
+
+
+     G cutoff = 1765.5907  ( 310417 G-vectors)     FFT grid: ( 90, 90, 90)
+
+     number of k points=     2  Gaussian smearing, width (Ry)=  0.0050
+
+     PseudoPot. # 1 for Sr read from file:
+     ./pseudo/Sr.pbe-spn-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 304ac60131d69ebf2380f6d2a1d0bd9f
+     Pseudo is Projector augmented-wave + core cor, Zval = 10.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.2.2
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1221 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 2 for Ti read from file:
+     ./pseudo/Ti.pbe-spn-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 7ea84e4330344cbc938d542ff58a5c10
+     Pseudo is Projector augmented-wave + core cor, Zval = 12.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.2.2
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1177 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 3 for O  read from file:
+     ./pseudo/O.pbe-n-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 62c11a45e085f03adfe5482d7843b034
+     Pseudo is Projector augmented-wave + core cor, Zval =  6.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1095 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with 0 coefficients 
+
+
+     Mode symmetry, C_s (m)     point group:
+
+
+     Atomic displacements:
+     There are  117 irreducible representations
+
+     Representation     1      1 modes -  To be done
+
+     Representation     2      1 modes -  To be done
+
+     Representation     3      1 modes -  To be done
+
+     Representation     4      1 modes -  To be done
+
+     Representation     5      1 modes -  To be done
+
+     Representation     6      1 modes -  To be done
+
+     Representation     7      1 modes -  To be done
+
+     Representation     8      1 modes -  To be done
+
+     Representation     9      1 modes -  To be done
+
+     Representation    10      1 modes -  To be done
+
+     Representation    11      1 modes -  To be done
+
+     Representation    12      1 modes -  To be done
+
+     Representation    13      1 modes -  To be done
+
+     Representation    14      1 modes -  To be done
+
+     Representation    15      1 modes -  To be done
+
+     Representation    16      1 modes -  To be done
+
+     Representation    17      1 modes -  To be done
+
+     Representation    18      1 modes -  To be done
+
+     Representation    19      1 modes -  To be done
+
+     Representation    20      1 modes -  To be done
+
+     Representation    21      1 modes -  To be done
+
+     Representation    22      1 modes -  To be done
+
+     Representation    23      1 modes -  To be done
+
+     Representation    24      1 modes -  To be done
+
+     Representation    25      1 modes -  To be done
+
+     Representation    26      1 modes -  To be done
+
+     Representation    27      1 modes -  To be done
+
+     Representation    28      1 modes -  To be done
+
+     Representation    29      1 modes -  To be done
+
+     Representation    30      1 modes -  To be done
+
+     Representation    31      1 modes -  To be done
+
+     Representation    32      1 modes -  To be done
+
+     Representation    33      1 modes -  To be done
+
+     Representation    34      1 modes -  To be done
+
+     Representation    35      1 modes -  To be done
+
+     Representation    36      1 modes -  To be done
+
+     Representation    37      1 modes -  To be done
+
+     Representation    38      1 modes -  To be done
+
+     Representation    39      1 modes -  To be done
+
+     Representation    40      1 modes -  To be done
+
+     Representation    41      1 modes -  To be done
+
+     Representation    42      1 modes -  To be done
+
+     Representation    43      1 modes -  To be done
+
+     Representation    44      1 modes -  To be done
+
+     Representation    45      1 modes -  To be done
+
+     Representation    46      1 modes -  To be done
+
+     Representation    47      1 modes -  To be done
+
+     Representation    48      1 modes -  To be done
+
+     Representation    49      1 modes -  To be done
+
+     Representation    50      1 modes -  To be done
+
+     Representation    51      1 modes -  To be done
+
+     Representation    52      1 modes -  To be done
+
+     Representation    53      1 modes -  To be done
+
+     Representation    54      1 modes -  To be done
+
+     Representation    55      1 modes -  To be done
+
+     Representation    56      1 modes -  To be done
+
+     Representation    57      1 modes -  To be done
+
+     Representation    58      1 modes -  To be done
+
+     Representation    59      1 modes -  To be done
+
+     Representation    60      1 modes -  To be done
+
+     Representation    61      1 modes -  To be done
+
+     Representation    62      1 modes -  To be done
+
+     Representation    63      1 modes -  To be done
+
+     Representation    64      1 modes -  To be done
+
+     Representation    65      1 modes -  To be done
+
+     Representation    66      1 modes -  To be done
+
+     Representation    67      1 modes -  To be done
+
+     Representation    68      1 modes -  To be done
+
+     Representation    69      1 modes -  To be done
+
+     Representation    70      1 modes -  To be done
+
+     Representation    71      1 modes -  To be done
+
+     Representation    72      1 modes -  To be done
+
+     Representation    73      1 modes -  To be done
+
+     Representation    74      1 modes -  To be done
+
+     Representation    75      1 modes -  To be done
+
+     Representation    76      1 modes -  To be done
+
+     Representation    77      1 modes -  To be done
+
+     Representation    78      1 modes -  To be done
+
+     Representation    79      1 modes -  To be done
+
+     Representation    80      1 modes -  To be done
+
+     Representation    81      1 modes -  To be done
+
+     Representation    82      1 modes -  To be done
+
+     Representation    83      1 modes -  To be done
+
+     Representation    84      1 modes -  To be done
+
+     Representation    85      1 modes -  To be done
+
+     Representation    86      1 modes -  To be done
+
+     Representation    87      1 modes -  To be done
+
+     Representation    88      1 modes -  To be done
+
+     Representation    89      1 modes -  To be done
+
+     Representation    90      1 modes -  To be done
+
+     Representation    91      1 modes -  To be done
+
+     Representation    92      1 modes -  To be done
+
+     Representation    93      1 modes -  To be done
+
+     Representation    94      1 modes -  To be done
+
+     Representation    95      1 modes -  To be done
+
+     Representation    96      1 modes -  To be done
+
+     Representation    97      1 modes -  To be done
+
+     Representation    98      1 modes -  To be done
+
+     Representation    99      1 modes -  To be done
+
+     Representation   100      1 modes -  To be done
+
+     Representation   101      1 modes -  To be done
+
+     Representation   102      1 modes -  To be done
+
+     Representation   103      1 modes -  To be done
+
+     Representation   104      1 modes -  To be done
+
+     Representation   105      1 modes -  To be done
+
+     Representation   106      1 modes -  To be done
+
+     Representation   107      1 modes -  To be done
+
+     Representation   108      1 modes -  To be done
+
+     Representation   109      1 modes -  To be done
+
+     Representation   110      1 modes -  To be done
+
+     Representation   111      1 modes -  To be done
+
+     Representation   112      1 modes -  To be done
+
+     Representation   113      1 modes -  To be done
+
+     Representation   114      1 modes -  To be done
+
+     Representation   115      1 modes -  To be done
+
+     Representation   116      1 modes -  To be done
+
+     Representation   117      1 modes -  To be done
+
+
+     PHONON       :  45m39.27s CPU  45m56.27s WALL
+
+
+
+     Representation #   1 mode #   1
+
+     Self-consistent Calculation
+     PHONON       :  46m 1.62s CPU  46m21.71s WALL
+
+
+
+     Representation #   1 mode #   1
+
+     Self-consistent Calculation
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -2.6087E-03    -3.1764E-22
+
+      iter #   1 total cpu time :  2842.9 secs   av.it.:  15.0
+      thresh= 1.000E-02 alpha_mix =  0.050 |ddv_scf|^2 =  3.245E-05
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -2.6087E-03    -3.1764E-22
+
+      iter #   1 total cpu time :  2869.3 secs   av.it.:  15.0
+      thresh= 1.000E-02 alpha_mix =  0.050 |ddv_scf|^2 =  3.245E-05
+     PHONON       :  47m33.19s CPU  48m 0.47s WALL
+
+
+
+     Representation #   1 mode #   1
+
+     Self-consistent Calculation
+     PHONON       :  48m 8.28s CPU  48m42.52s WALL
+
+
+
+     Representation #   1 mode #   1
+
+     Self-consistent Calculation
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -9.0495E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -2.6087E-03    -3.1764E-22
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -2.6087E-03    -3.1764E-22
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -9.0495E-03    -7.9409E-23
+
+      iter #   2 total cpu time :  3071.1 secs   av.it.:  29.0
+      thresh= 5.696E-04 alpha_mix =  0.050 |ddv_scf|^2 =  2.076E-04
+
+      iter #   1 total cpu time :  3072.6 secs   av.it.:  15.0
+      thresh= 1.000E-02 alpha_mix =  0.050 |ddv_scf|^2 =  3.245E-05
+
+      iter #   1 total cpu time :  3078.1 secs   av.it.:  15.0
+      thresh= 1.000E-02 alpha_mix =  0.050 |ddv_scf|^2 =  3.245E-05
+
+      iter #   2 total cpu time :  3085.3 secs   av.it.:  29.0
+      thresh= 5.696E-04 alpha_mix =  0.050 |ddv_scf|^2 =  2.076E-04
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -4.1983E-04    -5.2940E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -4.1983E-04    -5.2940E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -9.0495E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -9.0495E-03    -7.9409E-23
+
+      iter #   3 total cpu time :  3336.9 secs   av.it.:  24.0
+      thresh= 1.441E-03 alpha_mix =  0.050 |ddv_scf|^2 =  2.953E-06
+
+      iter #   3 total cpu time :  3338.9 secs   av.it.:  24.0
+      thresh= 1.441E-03 alpha_mix =  0.050 |ddv_scf|^2 =  2.953E-06
+
+      iter #   2 total cpu time :  3344.3 secs   av.it.:  29.0
+      thresh= 5.696E-04 alpha_mix =  0.050 |ddv_scf|^2 =  2.076E-04
+
+      iter #   2 total cpu time :  3352.2 secs   av.it.:  29.0
+      thresh= 5.696E-04 alpha_mix =  0.050 |ddv_scf|^2 =  2.076E-04
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -3.1196E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -3.1196E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -4.1983E-04    -5.2940E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -4.1983E-04    -5.2940E-23
+
+      iter #   4 total cpu time :  3592.4 secs   av.it.:  24.5
+      thresh= 1.718E-04 alpha_mix =  0.050 |ddv_scf|^2 =  1.392E-06
+
+      iter #   4 total cpu time :  3595.4 secs   av.it.:  24.5
+      thresh= 1.718E-04 alpha_mix =  0.050 |ddv_scf|^2 =  1.392E-06
+
+      iter #   3 total cpu time :  3604.1 secs   av.it.:  24.0
+      thresh= 1.441E-03 alpha_mix =  0.050 |ddv_scf|^2 =  2.953E-06
+
+      iter #   3 total cpu time :  3604.6 secs   av.it.:  24.0
+      thresh= 1.441E-03 alpha_mix =  0.050 |ddv_scf|^2 =  2.953E-06
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -2.8132E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -2.8132E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -3.1196E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -3.1196E-03    -7.9409E-23
+
+      iter #   5 total cpu time :  3854.9 secs   av.it.:  26.0
+      thresh= 1.180E-04 alpha_mix =  0.050 |ddv_scf|^2 =  4.696E-07
+
+      iter #   4 total cpu time :  3862.8 secs   av.it.:  24.5
+      thresh= 1.718E-04 alpha_mix =  0.050 |ddv_scf|^2 =  1.392E-06
+
+      iter #   5 total cpu time :  3864.7 secs   av.it.:  26.0
+      thresh= 1.180E-04 alpha_mix =  0.050 |ddv_scf|^2 =  4.696E-07
+
+      iter #   4 total cpu time :  3864.7 secs   av.it.:  24.5
+      thresh= 1.718E-04 alpha_mix =  0.050 |ddv_scf|^2 =  1.392E-06
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.2807E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -2.8132E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -2.8132E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.2807E-03    -7.9409E-23
+
+      iter #   5 total cpu time :  4133.8 secs   av.it.:  26.0
+      thresh= 1.180E-04 alpha_mix =  0.050 |ddv_scf|^2 =  4.696E-07
+
+      iter #   6 total cpu time :  4136.2 secs   av.it.:  28.0
+      thresh= 6.853E-05 alpha_mix =  0.050 |ddv_scf|^2 =  8.653E-08
+
+      iter #   5 total cpu time :  4137.9 secs   av.it.:  26.0
+      thresh= 1.180E-04 alpha_mix =  0.050 |ddv_scf|^2 =  4.696E-07
+
+      iter #   6 total cpu time :  4140.3 secs   av.it.:  28.0
+      thresh= 6.853E-05 alpha_mix =  0.050 |ddv_scf|^2 =  8.653E-08
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.2807E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.2807E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -2.5200E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -2.5200E-03    -7.9409E-23
+
+      iter #   6 total cpu time :  4416.7 secs   av.it.:  28.0
+      thresh= 6.853E-05 alpha_mix =  0.050 |ddv_scf|^2 =  8.653E-08
+
+      iter #   6 total cpu time :  4417.1 secs   av.it.:  28.0
+      thresh= 6.853E-05 alpha_mix =  0.050 |ddv_scf|^2 =  8.653E-08
+
+      iter #   7 total cpu time :  4421.8 secs   av.it.:  28.0
+      thresh= 2.942E-05 alpha_mix =  0.050 |ddv_scf|^2 =  1.562E-07
+
+      iter #   7 total cpu time :  4427.0 secs   av.it.:  28.0
+      thresh= 2.942E-05 alpha_mix =  0.050 |ddv_scf|^2 =  1.562E-07
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.7510E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.7510E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -2.5200E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -2.5200E-03    -7.9409E-23
+
+      iter #   8 total cpu time :  4695.1 secs   av.it.:  26.0
+      thresh= 3.952E-05 alpha_mix =  0.050 |ddv_scf|^2 =  2.085E-08
+
+      iter #   8 total cpu time :  4697.1 secs   av.it.:  26.0
+      thresh= 3.952E-05 alpha_mix =  0.050 |ddv_scf|^2 =  2.085E-08
+
+      iter #   7 total cpu time :  4706.4 secs   av.it.:  28.0
+      thresh= 2.942E-05 alpha_mix =  0.050 |ddv_scf|^2 =  1.562E-07
+
+      iter #   7 total cpu time :  4706.5 secs   av.it.:  28.0
+      thresh= 2.942E-05 alpha_mix =  0.050 |ddv_scf|^2 =  1.562E-07
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.6574E-03    -7.9409E-23
+ 
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.7510E-03    -7.9409E-23
+     Pert. #  1: Fermi energy shift (Ry) =    -1.7510E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.6574E-03    -7.9409E-23
+
+      iter #   9 total cpu time :  4970.9 secs   av.it.:  28.5
+      thresh= 1.444E-05 alpha_mix =  0.050 |ddv_scf|^2 =  2.382E-08
+
+      iter #   8 total cpu time :  4983.5 secs   av.it.:  26.0
+      thresh= 3.952E-05 alpha_mix =  0.050 |ddv_scf|^2 =  2.085E-08
+
+      iter #   8 total cpu time :  4983.7 secs   av.it.:  26.0
+      thresh= 3.952E-05 alpha_mix =  0.050 |ddv_scf|^2 =  2.085E-08
+
+      iter #   9 total cpu time :  4985.2 secs   av.it.:  28.5
+      thresh= 1.444E-05 alpha_mix =  0.050 |ddv_scf|^2 =  2.382E-08
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3786E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3786E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.6574E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.6574E-03    -7.9409E-23
+
+      iter #  10 total cpu time :  5247.8 secs   av.it.:  27.0
+      thresh= 1.543E-05 alpha_mix =  0.050 |ddv_scf|^2 =  1.682E-08
+
+      iter #  10 total cpu time :  5267.6 secs   av.it.:  27.0
+      thresh= 1.543E-05 alpha_mix =  0.050 |ddv_scf|^2 =  1.682E-08
+
+      iter #   9 total cpu time :  5271.0 secs   av.it.:  28.5
+      thresh= 1.444E-05 alpha_mix =  0.050 |ddv_scf|^2 =  2.382E-08
+
+      iter #   9 total cpu time :  5271.6 secs   av.it.:  28.5
+      thresh= 1.444E-05 alpha_mix =  0.050 |ddv_scf|^2 =  2.382E-08
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.6076E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3786E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.6076E-03    -7.9409E-23
+
+      iter #  11 total cpu time :  5522.7 secs   av.it.:  28.0
+      thresh= 1.297E-05 alpha_mix =  0.050 |ddv_scf|^2 =  1.272E-08
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3786E-03    -7.9409E-23
+
+      iter #  10 total cpu time :  5531.7 secs   av.it.:  27.0
+      thresh= 1.543E-05 alpha_mix =  0.050 |ddv_scf|^2 =  1.682E-08
+
+      iter #  11 total cpu time :  5537.2 secs   av.it.:  28.0
+      thresh= 1.297E-05 alpha_mix =  0.050 |ddv_scf|^2 =  1.272E-08
+
+      iter #  10 total cpu time :  5539.7 secs   av.it.:  27.0
+      thresh= 1.543E-05 alpha_mix =  0.050 |ddv_scf|^2 =  1.682E-08
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.6076E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.9912E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.6076E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.9912E-03    -7.9409E-23
+
+      iter #  11 total cpu time :  5817.3 secs   av.it.:  28.0
+      thresh= 1.297E-05 alpha_mix =  0.050 |ddv_scf|^2 =  1.272E-08
+
+      iter #  12 total cpu time :  5817.5 secs   av.it.:  30.5
+      thresh= 1.128E-05 alpha_mix =  0.050 |ddv_scf|^2 =  2.019E-08
+
+      iter #  11 total cpu time :  5819.5 secs   av.it.:  28.0
+      thresh= 1.297E-05 alpha_mix =  0.050 |ddv_scf|^2 =  1.272E-08
+
+      iter #  12 total cpu time :  5823.4 secs   av.it.:  30.5
+      thresh= 1.128E-05 alpha_mix =  0.050 |ddv_scf|^2 =  2.019E-08
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4511E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4511E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.9912E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.9912E-03    -7.9409E-23
+
+      iter #  13 total cpu time :  6113.0 secs   av.it.:  28.0
+      thresh= 1.421E-05 alpha_mix =  0.050 |ddv_scf|^2 =  5.999E-09
+
+      iter #  13 total cpu time :  6114.1 secs   av.it.:  28.0
+      thresh= 1.421E-05 alpha_mix =  0.050 |ddv_scf|^2 =  5.999E-09
+
+      iter #  12 total cpu time :  6119.7 secs   av.it.:  30.5
+      thresh= 1.128E-05 alpha_mix =  0.050 |ddv_scf|^2 =  2.019E-08
+
+      iter #  12 total cpu time :  6122.3 secs   av.it.:  30.5
+      thresh= 1.128E-05 alpha_mix =  0.050 |ddv_scf|^2 =  2.019E-08
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4511E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4511E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4327E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4327E-03    -7.9409E-23
+
+      iter #  13 total cpu time :  6411.3 secs   av.it.:  28.0
+      thresh= 1.421E-05 alpha_mix =  0.050 |ddv_scf|^2 =  5.999E-09
+
+      iter #  13 total cpu time :  6412.4 secs   av.it.:  28.0
+      thresh= 1.421E-05 alpha_mix =  0.050 |ddv_scf|^2 =  5.999E-09
+
+      iter #  14 total cpu time :  6418.5 secs   av.it.:  30.0
+      thresh= 7.745E-06 alpha_mix =  0.050 |ddv_scf|^2 =  8.435E-09
+
+      iter #  14 total cpu time :  6418.6 secs   av.it.:  30.0
+      thresh= 7.745E-06 alpha_mix =  0.050 |ddv_scf|^2 =  8.435E-09
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4327E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3370E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3370E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4327E-03    -7.9409E-23
+
+      iter #  14 total cpu time :  6710.3 secs   av.it.:  30.0
+      thresh= 7.745E-06 alpha_mix =  0.050 |ddv_scf|^2 =  8.435E-09
+
+      iter #  15 total cpu time :  6714.6 secs   av.it.:  30.0
+      thresh= 9.184E-06 alpha_mix =  0.050 |ddv_scf|^2 =  3.756E-09
+
+      iter #  15 total cpu time :  6725.3 secs   av.it.:  30.0
+      thresh= 9.184E-06 alpha_mix =  0.050 |ddv_scf|^2 =  3.756E-09
+
+      iter #  14 total cpu time :  6727.2 secs   av.it.:  30.0
+      thresh= 7.745E-06 alpha_mix =  0.050 |ddv_scf|^2 =  8.435E-09
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3370E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.5311E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.5311E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3370E-03    -7.9409E-23
+
+      iter #  16 total cpu time :  7000.3 secs   av.it.:  29.0
+      thresh= 6.128E-06 alpha_mix =  0.050 |ddv_scf|^2 =  3.578E-09
+
+      iter #  15 total cpu time :  7000.4 secs   av.it.:  30.0
+      thresh= 9.184E-06 alpha_mix =  0.050 |ddv_scf|^2 =  3.756E-09
+
+      iter #  16 total cpu time :  7007.3 secs   av.it.:  29.0
+      thresh= 6.128E-06 alpha_mix =  0.050 |ddv_scf|^2 =  3.578E-09
+
+      iter #  15 total cpu time :  7010.9 secs   av.it.:  30.0
+      thresh= 9.184E-06 alpha_mix =  0.050 |ddv_scf|^2 =  3.756E-09
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4632E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4632E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.5311E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.5311E-03    -7.9409E-23
+
+      iter #  17 total cpu time :  7273.9 secs   av.it.:  26.0
+      thresh= 5.982E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.587E-09
+
+      iter #  17 total cpu time :  7278.0 secs   av.it.:  26.0
+      thresh= 5.982E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.587E-09
+
+      iter #  16 total cpu time :  7285.0 secs   av.it.:  29.0
+      thresh= 6.128E-06 alpha_mix =  0.050 |ddv_scf|^2 =  3.578E-09
+
+      iter #  16 total cpu time :  7285.7 secs   av.it.:  29.0
+      thresh= 6.128E-06 alpha_mix =  0.050 |ddv_scf|^2 =  3.578E-09
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3235E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4632E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3235E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4632E-03    -7.9409E-23
+
+      iter #  18 total cpu time :  7545.3 secs   av.it.:  29.0
+      thresh= 3.984E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.277E-09
+
+      iter #  17 total cpu time :  7557.7 secs   av.it.:  26.0
+      thresh= 5.982E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.587E-09
+
+      iter #  18 total cpu time :  7558.6 secs   av.it.:  29.0
+      thresh= 3.984E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.277E-09
+
+      iter #  17 total cpu time :  7560.4 secs   av.it.:  26.0
+      thresh= 5.982E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.587E-09
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4281E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4281E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3235E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3235E-03    -7.9409E-23
+
+      iter #  19 total cpu time :  7818.7 secs   av.it.:  26.0
+      thresh= 3.573E-06 alpha_mix =  0.050 |ddv_scf|^2 =  8.856E-10
+
+      iter #  18 total cpu time :  7824.8 secs   av.it.:  29.0
+      thresh= 3.984E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.277E-09
+
+      iter #  19 total cpu time :  7826.8 secs   av.it.:  26.0
+      thresh= 3.573E-06 alpha_mix =  0.050 |ddv_scf|^2 =  8.856E-10
+
+      iter #  18 total cpu time :  7833.7 secs   av.it.:  29.0
+      thresh= 3.984E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.277E-09
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4281E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4281E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4050E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4050E-03    -7.9409E-23
+
+      iter #  19 total cpu time :  8095.4 secs   av.it.:  26.0
+      thresh= 3.573E-06 alpha_mix =  0.050 |ddv_scf|^2 =  8.856E-10
+
+      iter #  19 total cpu time :  8101.0 secs   av.it.:  26.0
+      thresh= 3.573E-06 alpha_mix =  0.050 |ddv_scf|^2 =  8.856E-10
+
+      iter #  20 total cpu time :  8107.4 secs   av.it.:  29.0
+      thresh= 2.976E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.227E-09
+
+      iter #  20 total cpu time :  8108.7 secs   av.it.:  29.0
+      thresh= 2.976E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.227E-09
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4050E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3975E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3975E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4050E-03    -7.9409E-23
+
+      iter #  20 total cpu time :  8372.9 secs   av.it.:  29.0
+      thresh= 2.976E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.227E-09
+
+      iter #  21 total cpu time :  8385.2 secs   av.it.:  27.0
+      thresh= 3.503E-06 alpha_mix =  0.050 |ddv_scf|^2 =  6.275E-10
+
+      iter #  20 total cpu time :  8389.1 secs   av.it.:  29.0
+      thresh= 2.976E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.227E-09
+
+      iter #  21 total cpu time :  8390.1 secs   av.it.:  27.0
+      thresh= 3.503E-06 alpha_mix =  0.050 |ddv_scf|^2 =  6.275E-10
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3975E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3001E-03    -7.9409E-23
+
+      iter #  21 total cpu time :  8640.6 secs   av.it.:  27.0
+      thresh= 3.503E-06 alpha_mix =  0.050 |ddv_scf|^2 =  6.275E-10
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3975E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3001E-03    -7.9409E-23
+
+      iter #  22 total cpu time :  8654.2 secs   av.it.:  27.5
+      thresh= 2.505E-06 alpha_mix =  0.050 |ddv_scf|^2 =  9.207E-10
+
+      iter #  21 total cpu time :  8659.5 secs   av.it.:  27.0
+      thresh= 3.503E-06 alpha_mix =  0.050 |ddv_scf|^2 =  6.275E-10
+
+      iter #  22 total cpu time :  8662.3 secs   av.it.:  27.5
+      thresh= 2.505E-06 alpha_mix =  0.050 |ddv_scf|^2 =  9.207E-10
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3001E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3001E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.2941E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.2941E-03    -7.9409E-23
+
+      iter #  22 total cpu time :  8913.3 secs   av.it.:  27.5
+      thresh= 2.505E-06 alpha_mix =  0.050 |ddv_scf|^2 =  9.207E-10
+
+      iter #  22 total cpu time :  8928.6 secs   av.it.:  27.5
+      thresh= 2.505E-06 alpha_mix =  0.050 |ddv_scf|^2 =  9.207E-10
+
+      iter #  23 total cpu time :  8935.7 secs   av.it.:  27.0
+      thresh= 3.034E-06 alpha_mix =  0.050 |ddv_scf|^2 =  7.704E-10
+
+      iter #  23 total cpu time :  8938.2 secs   av.it.:  27.0
+      thresh= 3.034E-06 alpha_mix =  0.050 |ddv_scf|^2 =  7.704E-10
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.2941E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.2941E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3754E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3754E-03    -7.9409E-23
+
+      iter #  23 total cpu time :  9186.7 secs   av.it.:  27.0
+      thresh= 3.034E-06 alpha_mix =  0.050 |ddv_scf|^2 =  7.704E-10
+
+      iter #  23 total cpu time :  9194.5 secs   av.it.:  27.0
+      thresh= 3.034E-06 alpha_mix =  0.050 |ddv_scf|^2 =  7.704E-10
+
+      iter #  24 total cpu time :  9196.1 secs   av.it.:  27.0
+      thresh= 2.776E-06 alpha_mix =  0.050 |ddv_scf|^2 =  4.118E-10
+
+      iter #  24 total cpu time :  9201.0 secs   av.it.:  27.0
+      thresh= 2.776E-06 alpha_mix =  0.050 |ddv_scf|^2 =  4.118E-10
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3754E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3754E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3333E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3333E-03    -7.9409E-23
+
+      iter #  24 total cpu time :  9458.0 secs   av.it.:  27.0
+      thresh= 2.776E-06 alpha_mix =  0.050 |ddv_scf|^2 =  4.118E-10
+
+      iter #  24 total cpu time :  9466.8 secs   av.it.:  27.0
+      thresh= 2.776E-06 alpha_mix =  0.050 |ddv_scf|^2 =  4.118E-10
+
+      iter #  25 total cpu time :  9469.6 secs   av.it.:  27.5
+      thresh= 2.029E-06 alpha_mix =  0.050 |ddv_scf|^2 =  2.772E-10
+
+      iter #  25 total cpu time :  9472.5 secs   av.it.:  27.5
+      thresh= 2.029E-06 alpha_mix =  0.050 |ddv_scf|^2 =  2.772E-10
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3333E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3247E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3333E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3247E-03    -7.9409E-23
+
+      iter #  25 total cpu time :  9731.8 secs   av.it.:  27.5
+      thresh= 2.029E-06 alpha_mix =  0.050 |ddv_scf|^2 =  2.772E-10
+
+      iter #  26 total cpu time :  9755.9 secs   av.it.:  27.0
+      thresh= 1.665E-06 alpha_mix =  0.050 |ddv_scf|^2 =  2.300E-10
+
+      iter #  25 total cpu time :  9759.7 secs   av.it.:  27.5
+      thresh= 2.029E-06 alpha_mix =  0.050 |ddv_scf|^2 =  2.772E-10
+
+      iter #  26 total cpu time :  9763.2 secs   av.it.:  27.0
+      thresh= 1.665E-06 alpha_mix =  0.050 |ddv_scf|^2 =  2.300E-10
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3247E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3218E-03    -7.9409E-23
+
+      iter #  26 total cpu time :  9987.9 secs   av.it.:  27.0
+      thresh= 1.665E-06 alpha_mix =  0.050 |ddv_scf|^2 =  2.300E-10
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3218E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3247E-03    -7.9409E-23
+
+      iter #  27 total cpu time : 10002.6 secs   av.it.:  24.0
+      thresh= 1.517E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.637E-10
+
+      iter #  27 total cpu time : 10011.2 secs   av.it.:  24.0
+      thresh= 1.517E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.637E-10
+
+      iter #  26 total cpu time : 10034.1 secs   av.it.:  27.0
+      thresh= 1.665E-06 alpha_mix =  0.050 |ddv_scf|^2 =  2.300E-10
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3218E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3510E-03    -7.9409E-23
+
+      iter #  27 total cpu time : 10244.2 secs   av.it.:  24.0
+      thresh= 1.517E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.637E-10
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3510E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3218E-03    -7.9409E-23
+
+      iter #  28 total cpu time : 10252.6 secs   av.it.:  26.0
+      thresh= 1.280E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.642E-10
+
+      iter #  28 total cpu time : 10258.9 secs   av.it.:  26.0
+      thresh= 1.280E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.642E-10
+
+      iter #  27 total cpu time : 10260.2 secs   av.it.:  24.0
+      thresh= 1.517E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.637E-10
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3510E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3510E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3516E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3516E-03    -7.9409E-23
+
+      iter #  28 total cpu time : 10508.8 secs   av.it.:  26.0
+      thresh= 1.280E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.642E-10
+
+      iter #  28 total cpu time : 10524.5 secs   av.it.:  26.0
+      thresh= 1.280E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.642E-10
+
+      iter #  29 total cpu time : 10528.1 secs   av.it.:  27.0
+      thresh= 1.281E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.560E-10
+
+      iter #  29 total cpu time : 10528.9 secs   av.it.:  27.0
+      thresh= 1.281E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.560E-10
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3516E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3516E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3146E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3146E-03    -7.9409E-23
+
+      iter #  29 total cpu time : 10775.0 secs   av.it.:  27.0
+      thresh= 1.281E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.560E-10
+
+      iter #  29 total cpu time : 10783.9 secs   av.it.:  27.0
+      thresh= 1.281E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.560E-10
+
+      iter #  30 total cpu time : 10794.1 secs   av.it.:  27.0
+      thresh= 1.249E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.504E-10
+
+      iter #  30 total cpu time : 10796.2 secs   av.it.:  27.0
+      thresh= 1.249E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.504E-10
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3146E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3146E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3485E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3485E-03    -7.9409E-23
+
+      iter #  30 total cpu time : 11050.5 secs   av.it.:  27.0
+      thresh= 1.249E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.504E-10
+
+      iter #  30 total cpu time : 11051.4 secs   av.it.:  27.0
+      thresh= 1.249E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.504E-10
+
+      iter #  31 total cpu time : 11065.6 secs   av.it.:  29.0
+      thresh= 1.226E-06 alpha_mix =  0.050 |ddv_scf|^2 =  2.544E-10
+
+      iter #  31 total cpu time : 11066.3 secs   av.it.:  29.0
+      thresh= 1.226E-06 alpha_mix =  0.050 |ddv_scf|^2 =  2.544E-10
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3491E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3485E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3485E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3491E-03    -7.9409E-23
+
+      iter #  32 total cpu time : 11335.4 secs   av.it.:  27.0
+      thresh= 1.595E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.388E-10
+
+      iter #  31 total cpu time : 11340.3 secs   av.it.:  29.0
+      thresh= 1.226E-06 alpha_mix =  0.050 |ddv_scf|^2 =  2.544E-10
+
+      iter #  32 total cpu time : 11346.8 secs   av.it.:  27.0
+      thresh= 1.595E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.388E-10
+
+      iter #  31 total cpu time : 11346.8 secs   av.it.:  29.0
+      thresh= 1.226E-06 alpha_mix =  0.050 |ddv_scf|^2 =  2.544E-10
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3641E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3491E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3491E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3641E-03    -7.9409E-23
+
+      iter #  33 total cpu time : 11603.5 secs   av.it.:  27.5
+      thresh= 1.178E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.320E-10
+
+      iter #  32 total cpu time : 11613.4 secs   av.it.:  27.0
+      thresh= 1.595E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.388E-10
+
+      iter #  32 total cpu time : 11615.8 secs   av.it.:  27.0
+      thresh= 1.595E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.388E-10
+
+      iter #  33 total cpu time : 11620.1 secs   av.it.:  27.5
+      thresh= 1.178E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.320E-10
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3370E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3641E-03    -7.9409E-23
+ 
+
+      iter #  34 total cpu time : 11867.6 secs   av.it.:  26.0
+      thresh= 1.149E-06 alpha_mix =  0.050 |ddv_scf|^2 =  8.653E-11
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3370E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3641E-03    -7.9409E-23
+
+      iter #  34 total cpu time : 11895.2 secs   av.it.:  26.0
+      thresh= 1.149E-06 alpha_mix =  0.050 |ddv_scf|^2 =  8.653E-11
+
+      iter #  33 total cpu time : 11895.5 secs   av.it.:  27.5
+      thresh= 1.178E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.320E-10
+
+      iter #  33 total cpu time : 11905.5 secs   av.it.:  27.5
+      thresh= 1.178E-06 alpha_mix =  0.050 |ddv_scf|^2 =  1.320E-10
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3454E-03    -7.9409E-23
+
+      iter #  35 total cpu time : 12119.9 secs   av.it.:  27.0
+      thresh= 9.302E-07 alpha_mix =  0.050 |ddv_scf|^2 =  7.102E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3370E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3454E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3370E-03    -7.9409E-23
+
+      iter #  34 total cpu time : 12169.6 secs   av.it.:  26.0
+      thresh= 1.149E-06 alpha_mix =  0.050 |ddv_scf|^2 =  8.653E-11
+
+      iter #  34 total cpu time : 12171.4 secs   av.it.:  26.0
+      thresh= 1.149E-06 alpha_mix =  0.050 |ddv_scf|^2 =  8.653E-11
+
+      iter #  35 total cpu time : 12171.7 secs   av.it.:  27.0
+      thresh= 9.302E-07 alpha_mix =  0.050 |ddv_scf|^2 =  7.102E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3636E-03    -7.9409E-23
+
+      iter #  36 total cpu time : 12308.7 secs   av.it.:  26.0
+      thresh= 8.427E-07 alpha_mix =  0.050 |ddv_scf|^2 =  5.435E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3636E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3454E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3454E-03    -7.9409E-23
+
+      iter #  36 total cpu time : 12465.5 secs   av.it.:  26.0
+      thresh= 8.427E-07 alpha_mix =  0.050 |ddv_scf|^2 =  5.435E-11
+
+      iter #  35 total cpu time : 12466.9 secs   av.it.:  27.0
+      thresh= 9.302E-07 alpha_mix =  0.050 |ddv_scf|^2 =  7.102E-11
+
+      iter #  35 total cpu time : 12467.0 secs   av.it.:  27.0
+      thresh= 9.302E-07 alpha_mix =  0.050 |ddv_scf|^2 =  7.102E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3610E-03    -7.9409E-23
+
+      iter #  37 total cpu time : 12542.3 secs   av.it.:  27.0
+      thresh= 7.372E-07 alpha_mix =  0.050 |ddv_scf|^2 =  5.136E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3636E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3610E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3636E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3662E-03    -7.9409E-23
+
+      iter #  36 total cpu time : 12732.6 secs   av.it.:  26.0
+      thresh= 8.427E-07 alpha_mix =  0.050 |ddv_scf|^2 =  5.435E-11
+
+      iter #  37 total cpu time : 12736.8 secs   av.it.:  27.0
+      thresh= 7.372E-07 alpha_mix =  0.050 |ddv_scf|^2 =  5.136E-11
+
+      iter #  36 total cpu time : 12736.9 secs   av.it.:  26.0
+      thresh= 8.427E-07 alpha_mix =  0.050 |ddv_scf|^2 =  5.435E-11
+
+      iter #  38 total cpu time : 12746.9 secs   av.it.:  27.0
+      thresh= 7.167E-07 alpha_mix =  0.050 |ddv_scf|^2 =  4.655E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3610E-03    -7.9409E-23
+
+      iter #  37 total cpu time : 12995.7 secs   av.it.:  27.0
+      thresh= 7.372E-07 alpha_mix =  0.050 |ddv_scf|^2 =  5.136E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3535E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3662E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3610E-03    -7.9409E-23
+
+      iter #  39 total cpu time : 13021.6 secs   av.it.:  26.0
+      thresh= 6.823E-07 alpha_mix =  0.050 |ddv_scf|^2 =  7.866E-11
+
+      iter #  38 total cpu time : 13029.4 secs   av.it.:  27.0
+      thresh= 7.167E-07 alpha_mix =  0.050 |ddv_scf|^2 =  4.655E-11
+
+      iter #  37 total cpu time : 13032.9 secs   av.it.:  27.0
+      thresh= 7.372E-07 alpha_mix =  0.050 |ddv_scf|^2 =  5.136E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3662E-03    -7.9409E-23
+
+      iter #  38 total cpu time : 13249.1 secs   av.it.:  27.0
+      thresh= 7.167E-07 alpha_mix =  0.050 |ddv_scf|^2 =  4.655E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3868E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3535E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3662E-03    -7.9409E-23
+
+      iter #  39 total cpu time : 13299.2 secs   av.it.:  26.0
+      thresh= 6.823E-07 alpha_mix =  0.050 |ddv_scf|^2 =  7.866E-11
+
+      iter #  40 total cpu time : 13299.7 secs   av.it.:  27.0
+      thresh= 8.869E-07 alpha_mix =  0.050 |ddv_scf|^2 =  6.267E-11
+
+      iter #  38 total cpu time : 13302.7 secs   av.it.:  27.0
+      thresh= 7.167E-07 alpha_mix =  0.050 |ddv_scf|^2 =  4.655E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3535E-03    -7.9409E-23
+
+      iter #  39 total cpu time : 13434.3 secs   av.it.:  26.0
+      thresh= 6.823E-07 alpha_mix =  0.050 |ddv_scf|^2 =  7.866E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3868E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3861E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3535E-03    -7.9409E-23
+
+      iter #  40 total cpu time : 13589.2 secs   av.it.:  27.0
+      thresh= 8.869E-07 alpha_mix =  0.050 |ddv_scf|^2 =  6.267E-11
+
+      iter #  41 total cpu time : 13596.8 secs   av.it.:  27.0
+      thresh= 7.917E-07 alpha_mix =  0.050 |ddv_scf|^2 =  4.544E-11
+
+      iter #  39 total cpu time : 13597.2 secs   av.it.:  26.0
+      thresh= 6.823E-07 alpha_mix =  0.050 |ddv_scf|^2 =  7.866E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3868E-03    -7.9409E-23
+
+      iter #  40 total cpu time : 13669.3 secs   av.it.:  27.0
+      thresh= 8.869E-07 alpha_mix =  0.050 |ddv_scf|^2 =  6.267E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3861E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3868E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3637E-03    -7.9409E-23
+
+      iter #  41 total cpu time : 13854.9 secs   av.it.:  27.0
+      thresh= 7.917E-07 alpha_mix =  0.050 |ddv_scf|^2 =  4.544E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3861E-03    -7.9409E-23
+
+      iter #  40 total cpu time : 13865.8 secs   av.it.:  27.0
+      thresh= 8.869E-07 alpha_mix =  0.050 |ddv_scf|^2 =  6.267E-11
+
+      iter #  42 total cpu time : 13866.4 secs   av.it.:  27.0
+      thresh= 6.741E-07 alpha_mix =  0.050 |ddv_scf|^2 =  4.201E-11
+
+      iter #  41 total cpu time : 13928.7 secs   av.it.:  27.0
+      thresh= 7.917E-07 alpha_mix =  0.050 |ddv_scf|^2 =  4.544E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3637E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3861E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3746E-03    -7.9409E-23
+
+      iter #  42 total cpu time : 14126.3 secs   av.it.:  27.0
+      thresh= 6.741E-07 alpha_mix =  0.050 |ddv_scf|^2 =  4.201E-11
+
+      iter #  41 total cpu time : 14129.9 secs   av.it.:  27.0
+      thresh= 7.917E-07 alpha_mix =  0.050 |ddv_scf|^2 =  4.544E-11
+
+      iter #  43 total cpu time : 14130.0 secs   av.it.:  27.0
+      thresh= 6.481E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.884E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3637E-03    -7.9409E-23
+
+      iter #  42 total cpu time : 14145.4 secs   av.it.:  27.0
+      thresh= 6.741E-07 alpha_mix =  0.050 |ddv_scf|^2 =  4.201E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3755E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3746E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3637E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3746E-03    -7.9409E-23
+
+      iter #  44 total cpu time : 14388.9 secs   av.it.:  24.0
+      thresh= 5.370E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.069E-11
+
+      iter #  42 total cpu time : 14396.6 secs   av.it.:  27.0
+      thresh= 6.741E-07 alpha_mix =  0.050 |ddv_scf|^2 =  4.201E-11
+
+      iter #  43 total cpu time : 14397.5 secs   av.it.:  27.0
+      thresh= 6.481E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.884E-11
+
+      iter #  43 total cpu time : 14401.6 secs   av.it.:  27.0
+      thresh= 6.481E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.884E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3854E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3755E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3755E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3746E-03    -7.9409E-23
+
+      iter #  45 total cpu time : 14643.9 secs   av.it.:  25.0
+      thresh= 4.548E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.198E-11
+
+      iter #  44 total cpu time : 14654.9 secs   av.it.:  24.0
+      thresh= 5.370E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.069E-11
+
+      iter #  43 total cpu time : 14655.8 secs   av.it.:  27.0
+      thresh= 6.481E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.884E-11
+
+      iter #  44 total cpu time : 14657.1 secs   av.it.:  24.0
+      thresh= 5.370E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.069E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3778E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3755E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3854E-03    -7.9409E-23
+
+      iter #  46 total cpu time : 14898.3 secs   av.it.:  26.0
+      thresh= 4.688E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.835E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3854E-03    -7.9409E-23
+
+      iter #  44 total cpu time : 14903.7 secs   av.it.:  24.0
+      thresh= 5.370E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.069E-11
+
+      iter #  45 total cpu time : 14917.4 secs   av.it.:  25.0
+      thresh= 4.548E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.198E-11
+
+      iter #  45 total cpu time : 14919.2 secs   av.it.:  25.0
+      thresh= 4.548E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.198E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3830E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3854E-03    -7.9409E-23
+
+      iter #  47 total cpu time : 15157.0 secs   av.it.:  27.0
+      thresh= 4.283E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.928E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3778E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3778E-03    -7.9409E-23
+
+      iter #  45 total cpu time : 15158.6 secs   av.it.:  25.0
+      thresh= 4.548E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.198E-11
+
+      iter #  46 total cpu time : 15179.4 secs   av.it.:  26.0
+      thresh= 4.688E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.835E-11
+
+      iter #  46 total cpu time : 15191.8 secs   av.it.:  26.0
+      thresh= 4.688E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.835E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3778E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3962E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3830E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3830E-03    -7.9409E-23
+
+      iter #  46 total cpu time : 15423.0 secs   av.it.:  26.0
+      thresh= 4.688E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.835E-11
+
+      iter #  48 total cpu time : 15423.9 secs   av.it.:  26.5
+      thresh= 4.390E-07 alpha_mix =  0.050 |ddv_scf|^2 =  3.122E-11
+
+      iter #  47 total cpu time : 15430.7 secs   av.it.:  27.0
+      thresh= 4.283E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.928E-11
+
+      iter #  47 total cpu time : 15434.5 secs   av.it.:  27.0
+      thresh= 4.283E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.928E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3830E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3954E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3962E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3962E-03    -7.9409E-23
+
+      iter #  47 total cpu time : 15696.3 secs   av.it.:  27.0
+      thresh= 4.283E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.928E-11
+
+      iter #  49 total cpu time : 15703.5 secs   av.it.:  28.0
+      thresh= 5.587E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.059E-11
+
+      iter #  48 total cpu time : 15708.2 secs   av.it.:  26.5
+      thresh= 4.390E-07 alpha_mix =  0.050 |ddv_scf|^2 =  3.122E-11
+
+      iter #  48 total cpu time : 15708.8 secs   av.it.:  26.5
+      thresh= 4.390E-07 alpha_mix =  0.050 |ddv_scf|^2 =  3.122E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3962E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3954E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3931E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3954E-03    -7.9409E-23
+
+      iter #  48 total cpu time : 15968.4 secs   av.it.:  26.5
+      thresh= 4.390E-07 alpha_mix =  0.050 |ddv_scf|^2 =  3.122E-11
+
+      iter #  49 total cpu time : 15984.9 secs   av.it.:  28.0
+      thresh= 5.587E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.059E-11
+
+      iter #  49 total cpu time : 15988.4 secs   av.it.:  28.0
+      thresh= 5.587E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.059E-11
+
+      iter #  50 total cpu time : 15989.0 secs   av.it.:  27.0
+      thresh= 4.538E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.649E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3954E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3846E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3931E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3931E-03    -7.9409E-23
+
+      iter #  49 total cpu time : 16234.6 secs   av.it.:  28.0
+      thresh= 5.587E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.059E-11
+
+      iter #  51 total cpu time : 16246.9 secs   av.it.:  26.0
+      thresh= 4.061E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.416E-11
+
+      iter #  50 total cpu time : 16251.9 secs   av.it.:  27.0
+      thresh= 4.538E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.649E-11
+
+      iter #  50 total cpu time : 16252.2 secs   av.it.:  27.0
+      thresh= 4.538E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.649E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3931E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3952E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3846E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3846E-03    -7.9409E-23
+
+      iter #  50 total cpu time : 16495.4 secs   av.it.:  27.0
+      thresh= 4.538E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.649E-11
+
+      iter #  52 total cpu time : 16499.2 secs   av.it.:  25.0
+      thresh= 3.763E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.058E-11
+
+      iter #  51 total cpu time : 16504.2 secs   av.it.:  26.0
+      thresh= 4.061E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.416E-11
+
+      iter #  51 total cpu time : 16509.3 secs   av.it.:  26.0
+      thresh= 4.061E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.416E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3949E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3846E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3952E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3952E-03    -7.9409E-23
+
+      iter #  53 total cpu time : 16759.8 secs   av.it.:  24.0
+      thresh= 3.252E-07 alpha_mix =  0.050 |ddv_scf|^2 =  7.301E-12
+
+      iter #  52 total cpu time : 16767.2 secs   av.it.:  25.0
+      thresh= 3.763E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.058E-11
+
+      iter #  52 total cpu time : 16767.3 secs   av.it.:  25.0
+      thresh= 3.763E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.058E-11
+
+      iter #  51 total cpu time : 16769.0 secs   av.it.:  26.0
+      thresh= 4.061E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.416E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3925E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3949E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3949E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3952E-03    -7.9409E-23
+
+      iter #  54 total cpu time : 17012.8 secs   av.it.:  26.0
+      thresh= 2.702E-07 alpha_mix =  0.050 |ddv_scf|^2 =  8.123E-12
+
+      iter #  53 total cpu time : 17019.4 secs   av.it.:  24.0
+      thresh= 3.252E-07 alpha_mix =  0.050 |ddv_scf|^2 =  7.301E-12
+
+      iter #  52 total cpu time : 17028.3 secs   av.it.:  25.0
+      thresh= 3.763E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.058E-11
+
+      iter #  53 total cpu time : 17028.9 secs   av.it.:  24.0
+      thresh= 3.252E-07 alpha_mix =  0.050 |ddv_scf|^2 =  7.301E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3959E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3925E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3949E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3925E-03    -7.9409E-23
+
+      iter #  55 total cpu time : 17270.6 secs   av.it.:  26.0
+      thresh= 2.850E-07 alpha_mix =  0.050 |ddv_scf|^2 =  7.205E-12
+
+      iter #  54 total cpu time : 17275.6 secs   av.it.:  26.0
+      thresh= 2.702E-07 alpha_mix =  0.050 |ddv_scf|^2 =  8.123E-12
+
+      iter #  53 total cpu time : 17277.0 secs   av.it.:  24.0
+      thresh= 3.252E-07 alpha_mix =  0.050 |ddv_scf|^2 =  7.301E-12
+
+      iter #  54 total cpu time : 17281.2 secs   av.it.:  26.0
+      thresh= 2.702E-07 alpha_mix =  0.050 |ddv_scf|^2 =  8.123E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3945E-03    -7.9409E-23
+ 
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3925E-03    -7.9409E-23
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3959E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3959E-03    -7.9409E-23
+
+      iter #  56 total cpu time : 17536.4 secs   av.it.:  26.0
+      thresh= 2.684E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.058E-11
+
+      iter #  54 total cpu time : 17551.2 secs   av.it.:  26.0
+      thresh= 2.702E-07 alpha_mix =  0.050 |ddv_scf|^2 =  8.123E-12
+
+      iter #  55 total cpu time : 17551.4 secs   av.it.:  26.0
+      thresh= 2.850E-07 alpha_mix =  0.050 |ddv_scf|^2 =  7.205E-12
+
+      iter #  55 total cpu time : 17551.5 secs   av.it.:  26.0
+      thresh= 2.850E-07 alpha_mix =  0.050 |ddv_scf|^2 =  7.205E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4072E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3959E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3945E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3945E-03    -7.9409E-23
+
+      iter #  57 total cpu time : 17800.4 secs   av.it.:  28.0
+      thresh= 3.252E-07 alpha_mix =  0.050 |ddv_scf|^2 =  9.990E-12
+
+      iter #  55 total cpu time : 17809.9 secs   av.it.:  26.0
+      thresh= 2.850E-07 alpha_mix =  0.050 |ddv_scf|^2 =  7.205E-12
+
+      iter #  56 total cpu time : 17819.0 secs   av.it.:  26.0
+      thresh= 2.684E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.058E-11
+
+      iter #  56 total cpu time : 17820.2 secs   av.it.:  26.0
+      thresh= 2.684E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.058E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3962E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3945E-03    -7.9409E-23
+ 
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4072E-03    -7.9409E-23
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4072E-03    -7.9409E-23
+
+      iter #  58 total cpu time : 18068.3 secs   av.it.:  26.5
+      thresh= 3.161E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.002E-11
+
+      iter #  56 total cpu time : 18076.1 secs   av.it.:  26.0
+      thresh= 2.684E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.058E-11
+
+      iter #  57 total cpu time : 18083.5 secs   av.it.:  28.0
+      thresh= 3.252E-07 alpha_mix =  0.050 |ddv_scf|^2 =  9.990E-12
+
+      iter #  57 total cpu time : 18083.6 secs   av.it.:  28.0
+      thresh= 3.252E-07 alpha_mix =  0.050 |ddv_scf|^2 =  9.990E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3955E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4072E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3962E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3962E-03    -7.9409E-23
+
+      iter #  59 total cpu time : 18334.5 secs   av.it.:  27.0
+      thresh= 3.165E-07 alpha_mix =  0.050 |ddv_scf|^2 =  6.770E-12
+
+      iter #  57 total cpu time : 18348.2 secs   av.it.:  28.0
+      thresh= 3.252E-07 alpha_mix =  0.050 |ddv_scf|^2 =  9.990E-12
+
+      iter #  58 total cpu time : 18361.5 secs   av.it.:  26.5
+      thresh= 3.161E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.002E-11
+
+      iter #  58 total cpu time : 18363.5 secs   av.it.:  26.5
+      thresh= 3.161E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.002E-11
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4001E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3962E-03    -7.9409E-23
+
+      iter #  60 total cpu time : 18599.4 secs   av.it.:  26.5
+      thresh= 2.602E-07 alpha_mix =  0.050 |ddv_scf|^2 =  5.647E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3955E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3955E-03    -7.9409E-23
+
+      iter #  58 total cpu time : 18602.3 secs   av.it.:  26.5
+      thresh= 3.161E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.002E-11
+
+      iter #  59 total cpu time : 18625.5 secs   av.it.:  27.0
+      thresh= 3.165E-07 alpha_mix =  0.050 |ddv_scf|^2 =  6.770E-12
+
+      iter #  59 total cpu time : 18628.1 secs   av.it.:  27.0
+      thresh= 3.165E-07 alpha_mix =  0.050 |ddv_scf|^2 =  6.770E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3991E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3955E-03    -7.9409E-23
+
+      iter #  61 total cpu time : 18858.9 secs   av.it.:  25.0
+      thresh= 2.376E-07 alpha_mix =  0.050 |ddv_scf|^2 =  3.472E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4001E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4001E-03    -7.9409E-23
+
+      iter #  59 total cpu time : 18863.5 secs   av.it.:  27.0
+      thresh= 3.165E-07 alpha_mix =  0.050 |ddv_scf|^2 =  6.770E-12
+
+      iter #  60 total cpu time : 18894.5 secs   av.it.:  26.5
+      thresh= 2.602E-07 alpha_mix =  0.050 |ddv_scf|^2 =  5.647E-12
+
+      iter #  60 total cpu time : 18903.4 secs   av.it.:  26.5
+      thresh= 2.602E-07 alpha_mix =  0.050 |ddv_scf|^2 =  5.647E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4004E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4001E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3991E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3991E-03    -7.9409E-23
+
+      iter #  62 total cpu time : 19121.1 secs   av.it.:  24.0
+      thresh= 1.863E-07 alpha_mix =  0.050 |ddv_scf|^2 =  3.406E-12
+
+      iter #  60 total cpu time : 19121.6 secs   av.it.:  26.5
+      thresh= 2.602E-07 alpha_mix =  0.050 |ddv_scf|^2 =  5.647E-12
+
+      iter #  61 total cpu time : 19129.8 secs   av.it.:  25.0
+      thresh= 2.376E-07 alpha_mix =  0.050 |ddv_scf|^2 =  3.472E-12
+
+      iter #  61 total cpu time : 19135.6 secs   av.it.:  25.0
+      thresh= 2.376E-07 alpha_mix =  0.050 |ddv_scf|^2 =  3.472E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3978E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3991E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4004E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4004E-03    -7.9409E-23
+
+      iter #  63 total cpu time : 19379.4 secs   av.it.:  25.5
+      thresh= 1.846E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.850E-12
+
+      iter #  61 total cpu time : 19389.8 secs   av.it.:  25.0
+      thresh= 2.376E-07 alpha_mix =  0.050 |ddv_scf|^2 =  3.472E-12
+
+      iter #  62 total cpu time : 19392.9 secs   av.it.:  24.0
+      thresh= 1.863E-07 alpha_mix =  0.050 |ddv_scf|^2 =  3.406E-12
+
+      iter #  62 total cpu time : 19392.9 secs   av.it.:  24.0
+      thresh= 1.863E-07 alpha_mix =  0.050 |ddv_scf|^2 =  3.406E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4031E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4004E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3978E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3978E-03    -7.9409E-23
+
+      iter #  64 total cpu time : 19634.1 secs   av.it.:  27.0
+      thresh= 1.688E-07 alpha_mix =  0.050 |ddv_scf|^2 =  3.639E-12
+
+      iter #  62 total cpu time : 19645.8 secs   av.it.:  24.0
+      thresh= 1.863E-07 alpha_mix =  0.050 |ddv_scf|^2 =  3.406E-12
+
+      iter #  63 total cpu time : 19648.9 secs   av.it.:  25.5
+      thresh= 1.846E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.850E-12
+
+      iter #  63 total cpu time : 19652.0 secs   av.it.:  25.5
+      thresh= 1.846E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.850E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4033E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3978E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4031E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4031E-03    -7.9409E-23
+
+      iter #  65 total cpu time : 19892.6 secs   av.it.:  26.5
+      thresh= 1.908E-07 alpha_mix =  0.050 |ddv_scf|^2 =  5.375E-12
+
+      iter #  63 total cpu time : 19903.2 secs   av.it.:  25.5
+      thresh= 1.846E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.850E-12
+
+      iter #  64 total cpu time : 19907.8 secs   av.it.:  27.0
+      thresh= 1.688E-07 alpha_mix =  0.050 |ddv_scf|^2 =  3.639E-12
+
+      iter #  64 total cpu time : 19908.3 secs   av.it.:  27.0
+      thresh= 1.688E-07 alpha_mix =  0.050 |ddv_scf|^2 =  3.639E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4017E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4031E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4033E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4033E-03    -7.9409E-23
+
+      iter #  66 total cpu time : 20155.8 secs   av.it.:  28.0
+      thresh= 2.318E-07 alpha_mix =  0.050 |ddv_scf|^2 =  3.849E-12
+
+      iter #  64 total cpu time : 20164.5 secs   av.it.:  27.0
+      thresh= 1.688E-07 alpha_mix =  0.050 |ddv_scf|^2 =  3.639E-12
+
+      iter #  65 total cpu time : 20178.9 secs   av.it.:  26.5
+      thresh= 1.908E-07 alpha_mix =  0.050 |ddv_scf|^2 =  5.375E-12
+
+      iter #  65 total cpu time : 20180.6 secs   av.it.:  26.5
+      thresh= 1.908E-07 alpha_mix =  0.050 |ddv_scf|^2 =  5.375E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4023E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4033E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4017E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4017E-03    -7.9409E-23
+
+      iter #  67 total cpu time : 20424.2 secs   av.it.:  26.5
+      thresh= 1.962E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.996E-12
+
+      iter #  65 total cpu time : 20430.7 secs   av.it.:  26.5
+      thresh= 1.908E-07 alpha_mix =  0.050 |ddv_scf|^2 =  5.375E-12
+
+      iter #  66 total cpu time : 20431.9 secs   av.it.:  28.0
+      thresh= 2.318E-07 alpha_mix =  0.050 |ddv_scf|^2 =  3.849E-12
+
+      iter #  66 total cpu time : 20440.5 secs   av.it.:  28.0
+      thresh= 2.318E-07 alpha_mix =  0.050 |ddv_scf|^2 =  3.849E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3997E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4023E-03    -7.9409E-23
+
+      iter #  68 total cpu time : 20685.4 secs   av.it.:  25.5
+      thresh= 1.731E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.913E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4017E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4023E-03    -7.9409E-23
+
+      iter #  67 total cpu time : 20695.9 secs   av.it.:  26.5
+      thresh= 1.962E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.996E-12
+
+      iter #  66 total cpu time : 20710.0 secs   av.it.:  28.0
+      thresh= 2.318E-07 alpha_mix =  0.050 |ddv_scf|^2 =  3.849E-12
+
+      iter #  67 total cpu time : 20719.6 secs   av.it.:  26.5
+      thresh= 1.962E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.996E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4038E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3997E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4023E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3997E-03    -7.9409E-23
+
+      iter #  69 total cpu time : 20945.1 secs   av.it.:  25.0
+      thresh= 1.707E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.492E-12
+
+      iter #  68 total cpu time : 20948.7 secs   av.it.:  25.5
+      thresh= 1.731E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.913E-12
+
+      iter #  67 total cpu time : 20950.7 secs   av.it.:  26.5
+      thresh= 1.962E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.996E-12
+
+      iter #  68 total cpu time : 20960.7 secs   av.it.:  25.5
+      thresh= 1.731E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.913E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4019E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4038E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.3997E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4038E-03    -7.9409E-23
+
+      iter #  70 total cpu time : 21198.1 secs   av.it.:  25.0
+      thresh= 1.221E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.231E-12
+
+      iter #  69 total cpu time : 21210.6 secs   av.it.:  25.0
+      thresh= 1.707E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.492E-12
+
+      iter #  68 total cpu time : 21216.1 secs   av.it.:  25.5
+      thresh= 1.731E-07 alpha_mix =  0.050 |ddv_scf|^2 =  2.913E-12
+
+      iter #  69 total cpu time : 21216.8 secs   av.it.:  25.0
+      thresh= 1.707E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.492E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4015E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4019E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4019E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4038E-03    -7.9409E-23
+
+      iter #  71 total cpu time : 21447.7 secs   av.it.:  24.5
+      thresh= 1.109E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.331E-12
+
+      iter #  70 total cpu time : 21461.5 secs   av.it.:  25.0
+      thresh= 1.221E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.231E-12
+
+      iter #  69 total cpu time : 21465.2 secs   av.it.:  25.0
+      thresh= 1.707E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.492E-12
+
+      iter #  70 total cpu time : 21465.4 secs   av.it.:  25.0
+      thresh= 1.221E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.231E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4023E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4015E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4015E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4019E-03    -7.9409E-23
+
+      iter #  72 total cpu time : 21697.1 secs   av.it.:  25.0
+      thresh= 1.154E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.080E-12
+
+      iter #  71 total cpu time : 21706.5 secs   av.it.:  24.5
+      thresh= 1.109E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.331E-12
+
+      iter #  71 total cpu time : 21714.4 secs   av.it.:  24.5
+      thresh= 1.109E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.331E-12
+
+      iter #  70 total cpu time : 21715.0 secs   av.it.:  25.0
+      thresh= 1.221E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.231E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4020E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4023E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4015E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4023E-03    -7.9409E-23
+
+      iter #  73 total cpu time : 21948.5 secs   av.it.:  25.0
+      thresh= 1.039E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.561E-12
+
+      iter #  72 total cpu time : 21951.4 secs   av.it.:  25.0
+      thresh= 1.154E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.080E-12
+
+      iter #  71 total cpu time : 21957.7 secs   av.it.:  24.5
+      thresh= 1.109E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.331E-12
+
+      iter #  72 total cpu time : 21962.6 secs   av.it.:  25.0
+      thresh= 1.154E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.080E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4023E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4020E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4048E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4020E-03    -7.9409E-23
+
+      iter #  72 total cpu time : 22221.7 secs   av.it.:  25.0
+      thresh= 1.154E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.080E-12
+
+      iter #  74 total cpu time : 22225.8 secs   av.it.:  28.0
+      thresh= 1.250E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.883E-12
+
+      iter #  73 total cpu time : 22226.1 secs   av.it.:  25.0
+      thresh= 1.039E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.561E-12
+
+      iter #  73 total cpu time : 22228.4 secs   av.it.:  25.0
+      thresh= 1.039E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.561E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4020E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4001E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4048E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4048E-03    -7.9409E-23
+
+      iter #  75 total cpu time : 22490.1 secs   av.it.:  25.0
+      thresh= 1.372E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.345E-12
+
+      iter #  73 total cpu time : 22490.8 secs   av.it.:  25.0
+      thresh= 1.039E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.561E-12
+
+      iter #  74 total cpu time : 22497.0 secs   av.it.:  28.0
+      thresh= 1.250E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.883E-12
+
+      iter #  74 total cpu time : 22499.9 secs   av.it.:  28.0
+      thresh= 1.250E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.883E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4024E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4001E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4001E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4048E-03    -7.9409E-23
+
+      iter #  75 total cpu time : 22754.6 secs   av.it.:  25.0
+      thresh= 1.372E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.345E-12
+
+      iter #  76 total cpu time : 22754.9 secs   av.it.:  24.5
+      thresh= 1.160E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.001E-12
+
+      iter #  75 total cpu time : 22763.9 secs   av.it.:  25.0
+      thresh= 1.372E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.345E-12
+
+      iter #  74 total cpu time : 22764.7 secs   av.it.:  28.0
+      thresh= 1.250E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.883E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4024E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4027E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4001E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4024E-03    -7.9409E-23
+
+      iter #  76 total cpu time : 23005.2 secs   av.it.:  24.5
+      thresh= 1.160E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.001E-12
+
+      iter #  75 total cpu time : 23014.4 secs   av.it.:  25.0
+      thresh= 1.372E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.345E-12
+
+      iter #  77 total cpu time : 23014.9 secs   av.it.:  25.0
+      thresh= 1.001E-07 alpha_mix =  0.050 |ddv_scf|^2 =  9.554E-13
+
+      iter #  76 total cpu time : 23020.5 secs   av.it.:  24.5
+      thresh= 1.160E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.001E-12
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4027E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4024E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4024E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4027E-03    -7.9409E-23
+
+      iter #  77 total cpu time : 23255.8 secs   av.it.:  25.0
+      thresh= 1.001E-07 alpha_mix =  0.050 |ddv_scf|^2 =  9.554E-13
+
+      iter #  76 total cpu time : 23270.6 secs   av.it.:  24.5
+      thresh= 1.160E-07 alpha_mix =  0.050 |ddv_scf|^2 =  1.001E-12
+
+      iter #  78 total cpu time : 23276.3 secs   av.it.:  25.0
+      thresh= 9.774E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.712E-13
+
+      iter #  77 total cpu time : 23287.2 secs   av.it.:  25.0
+      thresh= 1.001E-07 alpha_mix =  0.050 |ddv_scf|^2 =  9.554E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4024E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4027E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4025E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4024E-03    -7.9409E-23
+
+      iter #  78 total cpu time : 23508.5 secs   av.it.:  25.0
+      thresh= 9.774E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.712E-13
+
+      iter #  77 total cpu time : 23513.2 secs   av.it.:  25.0
+      thresh= 1.001E-07 alpha_mix =  0.050 |ddv_scf|^2 =  9.554E-13
+
+      iter #  79 total cpu time : 23518.4 secs   av.it.:  23.0
+      thresh= 7.558E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.484E-13
+
+      iter #  78 total cpu time : 23524.5 secs   av.it.:  25.0
+      thresh= 9.774E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.712E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4025E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4024E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4015E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4025E-03    -7.9409E-23
+
+      iter #  79 total cpu time : 23754.9 secs   av.it.:  23.0
+      thresh= 7.558E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.484E-13
+
+      iter #  78 total cpu time : 23767.2 secs   av.it.:  25.0
+      thresh= 9.774E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.712E-13
+
+      iter #  80 total cpu time : 23770.4 secs   av.it.:  25.5
+      thresh= 7.405E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.307E-13
+
+      iter #  79 total cpu time : 23773.1 secs   av.it.:  23.0
+      thresh= 7.558E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.484E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4015E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4025E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4037E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4015E-03    -7.9409E-23
+
+      iter #  80 total cpu time : 24005.0 secs   av.it.:  25.5
+      thresh= 7.405E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.307E-13
+
+      iter #  79 total cpu time : 24008.3 secs   av.it.:  23.0
+      thresh= 7.558E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.484E-13
+
+      iter #  81 total cpu time : 24014.1 secs   av.it.:  25.0
+      thresh= 7.285E-08 alpha_mix =  0.050 |ddv_scf|^2 =  6.207E-13
+
+      iter #  80 total cpu time : 24019.4 secs   av.it.:  25.5
+      thresh= 7.405E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.307E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4037E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4015E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4023E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4037E-03    -7.9409E-23
+
+      iter #  80 total cpu time : 24270.2 secs   av.it.:  25.5
+      thresh= 7.405E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.307E-13
+
+      iter #  82 total cpu time : 24271.3 secs   av.it.:  26.0
+      thresh= 7.878E-08 alpha_mix =  0.050 |ddv_scf|^2 =  6.831E-13
+
+      iter #  81 total cpu time : 24271.6 secs   av.it.:  25.0
+      thresh= 7.285E-08 alpha_mix =  0.050 |ddv_scf|^2 =  6.207E-13
+
+      iter #  81 total cpu time : 24275.9 secs   av.it.:  25.0
+      thresh= 7.285E-08 alpha_mix =  0.050 |ddv_scf|^2 =  6.207E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4037E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4023E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4023E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+
+      iter #  81 total cpu time : 24534.9 secs   av.it.:  25.0
+      thresh= 7.285E-08 alpha_mix =  0.050 |ddv_scf|^2 =  6.207E-13
+
+      iter #  82 total cpu time : 24544.2 secs   av.it.:  26.0
+      thresh= 7.878E-08 alpha_mix =  0.050 |ddv_scf|^2 =  6.831E-13
+
+      iter #  82 total cpu time : 24548.6 secs   av.it.:  26.0
+      thresh= 7.878E-08 alpha_mix =  0.050 |ddv_scf|^2 =  6.831E-13
+
+      iter #  83 total cpu time : 24548.7 secs   av.it.:  27.5
+      thresh= 8.265E-08 alpha_mix =  0.050 |ddv_scf|^2 =  8.774E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4023E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4024E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+
+      iter #  82 total cpu time : 24801.5 secs   av.it.:  26.0
+      thresh= 7.878E-08 alpha_mix =  0.050 |ddv_scf|^2 =  6.831E-13
+
+      iter #  84 total cpu time : 24807.8 secs   av.it.:  25.0
+      thresh= 9.367E-08 alpha_mix =  0.050 |ddv_scf|^2 =  4.988E-13
+
+      iter #  83 total cpu time : 24810.0 secs   av.it.:  27.5
+      thresh= 8.265E-08 alpha_mix =  0.050 |ddv_scf|^2 =  8.774E-13
+
+      iter #  83 total cpu time : 24816.4 secs   av.it.:  27.5
+      thresh= 8.265E-08 alpha_mix =  0.050 |ddv_scf|^2 =  8.774E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4020E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4024E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4024E-03    -7.9409E-23
+
+      iter #  85 total cpu time : 25080.5 secs   av.it.:  25.5
+      thresh= 7.062E-08 alpha_mix =  0.050 |ddv_scf|^2 =  4.862E-13
+
+      iter #  84 total cpu time : 25082.8 secs   av.it.:  25.0
+      thresh= 9.367E-08 alpha_mix =  0.050 |ddv_scf|^2 =  4.988E-13
+
+      iter #  83 total cpu time : 25083.2 secs   av.it.:  27.5
+      thresh= 8.265E-08 alpha_mix =  0.050 |ddv_scf|^2 =  8.774E-13
+
+      iter #  84 total cpu time : 25084.0 secs   av.it.:  25.0
+      thresh= 9.367E-08 alpha_mix =  0.050 |ddv_scf|^2 =  4.988E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4031E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4020E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4024E-03    -7.9409E-23
+
+      iter #  86 total cpu time : 25331.9 secs   av.it.:  25.5
+      thresh= 6.973E-08 alpha_mix =  0.050 |ddv_scf|^2 =  3.303E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4020E-03    -7.9409E-23
+
+      iter #  85 total cpu time : 25346.5 secs   av.it.:  25.5
+      thresh= 7.062E-08 alpha_mix =  0.050 |ddv_scf|^2 =  4.862E-13
+
+      iter #  84 total cpu time : 25362.6 secs   av.it.:  25.0
+      thresh= 9.367E-08 alpha_mix =  0.050 |ddv_scf|^2 =  4.988E-13
+
+      iter #  85 total cpu time : 25366.9 secs   av.it.:  25.5
+      thresh= 7.062E-08 alpha_mix =  0.050 |ddv_scf|^2 =  4.862E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4017E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4031E-03    -7.9409E-23
+
+      iter #  87 total cpu time : 25585.6 secs   av.it.:  24.0
+      thresh= 5.747E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.902E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4020E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4031E-03    -7.9409E-23
+
+      iter #  86 total cpu time : 25589.3 secs   av.it.:  25.5
+      thresh= 6.973E-08 alpha_mix =  0.050 |ddv_scf|^2 =  3.303E-13
+
+      iter #  85 total cpu time : 25600.5 secs   av.it.:  25.5
+      thresh= 7.062E-08 alpha_mix =  0.050 |ddv_scf|^2 =  4.862E-13
+
+      iter #  86 total cpu time : 25606.1 secs   av.it.:  25.5
+      thresh= 6.973E-08 alpha_mix =  0.050 |ddv_scf|^2 =  3.303E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4023E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4017E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4031E-03    -7.9409E-23
+
+      iter #  88 total cpu time : 25831.7 secs   av.it.:  24.0
+      thresh= 5.387E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.606E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4017E-03    -7.9409E-23
+
+      iter #  87 total cpu time : 25836.3 secs   av.it.:  24.0
+      thresh= 5.747E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.902E-13
+
+      iter #  86 total cpu time : 25847.9 secs   av.it.:  25.5
+      thresh= 6.973E-08 alpha_mix =  0.050 |ddv_scf|^2 =  3.303E-13
+
+      iter #  87 total cpu time : 25849.4 secs   av.it.:  24.0
+      thresh= 5.747E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.902E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4022E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4023E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4017E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4023E-03    -7.9409E-23
+
+      iter #  89 total cpu time : 26087.3 secs   av.it.:  26.0
+      thresh= 5.105E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.738E-13
+
+      iter #  88 total cpu time : 26089.8 secs   av.it.:  24.0
+      thresh= 5.387E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.606E-13
+
+      iter #  87 total cpu time : 26091.1 secs   av.it.:  24.0
+      thresh= 5.747E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.902E-13
+
+      iter #  88 total cpu time : 26091.6 secs   av.it.:  24.0
+      thresh= 5.387E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.606E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4023E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4022E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4022E-03    -7.9409E-23
+
+      iter #  90 total cpu time : 26356.9 secs   av.it.:  25.0
+      thresh= 5.233E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.925E-13
+
+      iter #  88 total cpu time : 26357.2 secs   av.it.:  24.0
+      thresh= 5.387E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.606E-13
+
+      iter #  89 total cpu time : 26360.2 secs   av.it.:  26.0
+      thresh= 5.105E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.738E-13
+
+      iter #  89 total cpu time : 26360.2 secs   av.it.:  26.0
+      thresh= 5.105E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.738E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4025E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4022E-03    -7.9409E-23
+
+      iter #  90 total cpu time : 26632.6 secs   av.it.:  25.0
+      thresh= 5.233E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.925E-13
+
+      iter #  90 total cpu time : 26633.3 secs   av.it.:  25.0
+      thresh= 5.233E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.925E-13
+
+      iter #  89 total cpu time : 26636.1 secs   av.it.:  26.0
+      thresh= 5.105E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.738E-13
+
+      iter #  91 total cpu time : 26636.3 secs   av.it.:  26.5
+      thresh= 5.408E-08 alpha_mix =  0.050 |ddv_scf|^2 =  4.331E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4025E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4025E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4011E-03    -7.9409E-23
+
+      iter #  90 total cpu time : 26903.5 secs   av.it.:  25.0
+      thresh= 5.233E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.925E-13
+
+      iter #  91 total cpu time : 26911.8 secs   av.it.:  26.5
+      thresh= 5.408E-08 alpha_mix =  0.050 |ddv_scf|^2 =  4.331E-13
+
+      iter #  91 total cpu time : 26917.1 secs   av.it.:  26.5
+      thresh= 5.408E-08 alpha_mix =  0.050 |ddv_scf|^2 =  4.331E-13
+
+      iter #  92 total cpu time : 26917.6 secs   av.it.:  26.0
+      thresh= 6.581E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.967E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4025E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4011E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4028E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4011E-03    -7.9409E-23
+
+      iter #  91 total cpu time : 27164.5 secs   av.it.:  26.5
+      thresh= 5.408E-08 alpha_mix =  0.050 |ddv_scf|^2 =  4.331E-13
+
+      iter #  92 total cpu time : 27173.3 secs   av.it.:  26.0
+      thresh= 6.581E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.967E-13
+
+      iter #  93 total cpu time : 27178.7 secs   av.it.:  25.0
+      thresh= 5.447E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.520E-13
+
+      iter #  92 total cpu time : 27178.9 secs   av.it.:  26.0
+      thresh= 6.581E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.967E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4011E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4028E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4028E-03    -7.9409E-23
+
+      iter #  92 total cpu time : 27421.8 secs   av.it.:  26.0
+      thresh= 6.581E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.967E-13
+
+      iter #  93 total cpu time : 27426.6 secs   av.it.:  25.0
+      thresh= 5.447E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.520E-13
+
+      iter #  94 total cpu time : 27429.5 secs   av.it.:  25.0
+      thresh= 5.020E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.854E-13
+
+      iter #  93 total cpu time : 27433.9 secs   av.it.:  25.0
+      thresh= 5.447E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.520E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4028E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+
+      iter #  95 total cpu time : 27686.0 secs   av.it.:  25.0
+      thresh= 4.306E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.319E-13
+
+      iter #  93 total cpu time : 27687.4 secs   av.it.:  25.0
+      thresh= 5.447E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.520E-13
+
+      iter #  94 total cpu time : 27693.0 secs   av.it.:  25.0
+      thresh= 5.020E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.854E-13
+
+      iter #  94 total cpu time : 27694.9 secs   av.it.:  25.0
+      thresh= 5.020E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.854E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+
+      iter #  96 total cpu time : 27938.4 secs   av.it.:  24.0
+      thresh= 3.632E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.223E-13
+
+      iter #  95 total cpu time : 27953.1 secs   av.it.:  25.0
+      thresh= 4.306E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.319E-13
+
+      iter #  94 total cpu time : 27953.8 secs   av.it.:  25.0
+      thresh= 5.020E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.854E-13
+
+      iter #  95 total cpu time : 27955.8 secs   av.it.:  25.0
+      thresh= 4.306E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.319E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4018E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+ 
+
+      iter #  97 total cpu time : 28188.4 secs   av.it.:  25.0
+      thresh= 3.497E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.322E-13
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+
+      iter #  96 total cpu time : 28196.4 secs   av.it.:  24.0
+      thresh= 3.632E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.223E-13
+
+      iter #  96 total cpu time : 28198.1 secs   av.it.:  24.0
+      thresh= 3.632E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.223E-13
+
+      iter #  95 total cpu time : 28203.1 secs   av.it.:  25.0
+      thresh= 4.306E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.319E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4024E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4018E-03    -7.9409E-23
+ 
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4018E-03    -7.9409E-23
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+
+      iter #  98 total cpu time : 28441.3 secs   av.it.:  25.5
+      thresh= 3.635E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.281E-13
+
+      iter #  97 total cpu time : 28466.1 secs   av.it.:  25.0
+      thresh= 3.497E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.322E-13
+
+      iter #  97 total cpu time : 28470.3 secs   av.it.:  25.0
+      thresh= 3.497E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.322E-13
+
+      iter #  96 total cpu time : 28470.8 secs   av.it.:  24.0
+      thresh= 3.632E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.223E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+
+      iter #  99 total cpu time : 28692.6 secs   av.it.:  26.0
+      thresh= 3.580E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.548E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4024E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4018E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4024E-03    -7.9409E-23
+
+      iter #  98 total cpu time : 28739.8 secs   av.it.:  25.5
+      thresh= 3.635E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.281E-13
+
+      iter #  97 total cpu time : 28740.1 secs   av.it.:  25.0
+      thresh= 3.497E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.322E-13
+
+      iter #  98 total cpu time : 28740.2 secs   av.it.:  25.5
+      thresh= 3.635E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.281E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+
+      iter # 100 total cpu time : 28937.3 secs   av.it.:  26.0
+      thresh= 3.934E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.861E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4024E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+
+      iter #  98 total cpu time : 29007.0 secs   av.it.:  25.5
+      thresh= 3.635E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.281E-13
+
+      iter #  99 total cpu time : 29008.0 secs   av.it.:  26.0
+      thresh= 3.580E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.548E-13
+
+      iter #  99 total cpu time : 29008.4 secs   av.it.:  26.0
+      thresh= 3.580E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.548E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4019E-03    -7.9409E-23
+
+      iter # 101 total cpu time : 29130.3 secs   av.it.:  26.0
+      thresh= 4.314E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.083E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+
+      iter # 100 total cpu time : 29289.2 secs   av.it.:  26.0
+      thresh= 3.934E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.861E-13
+
+      iter #  99 total cpu time : 29291.6 secs   av.it.:  26.0
+      thresh= 3.580E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.548E-13
+
+      iter # 100 total cpu time : 29292.8 secs   av.it.:  26.0
+      thresh= 3.934E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.861E-13
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4018E-03    -7.9409E-23
+
+      iter # 102 total cpu time : 29362.8 secs   av.it.:  25.5
+      thresh= 3.291E-08 alpha_mix =  0.050 |ddv_scf|^2 =  8.801E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4019E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4019E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4021E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4020E-03    -7.9409E-23
+
+      iter # 101 total cpu time : 29554.3 secs   av.it.:  26.0
+      thresh= 4.314E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.083E-13
+
+      iter # 101 total cpu time : 29558.0 secs   av.it.:  26.0
+      thresh= 4.314E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.083E-13
+
+      iter # 100 total cpu time : 29558.2 secs   av.it.:  26.0
+      thresh= 3.934E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.861E-13
+
+      iter # 103 total cpu time : 29563.9 secs   av.it.:  25.0
+      thresh= 2.967E-08 alpha_mix =  0.050 |ddv_scf|^2 =  7.273E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4018E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4016E-03    -7.9409E-23
+
+      iter # 102 total cpu time : 29807.7 secs   av.it.:  25.5
+      thresh= 3.291E-08 alpha_mix =  0.050 |ddv_scf|^2 =  8.801E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4019E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4018E-03    -7.9409E-23
+
+      iter # 104 total cpu time : 29823.5 secs   av.it.:  23.5
+      thresh= 2.697E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.733E-14
+
+      iter # 101 total cpu time : 29837.2 secs   av.it.:  26.0
+      thresh= 4.314E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.083E-13
+
+      iter # 102 total cpu time : 29843.2 secs   av.it.:  25.5
+      thresh= 3.291E-08 alpha_mix =  0.050 |ddv_scf|^2 =  8.801E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4020E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4020E-03    -7.9409E-23
+
+      iter # 103 total cpu time : 30061.1 secs   av.it.:  25.0
+      thresh= 2.967E-08 alpha_mix =  0.050 |ddv_scf|^2 =  7.273E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4020E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4018E-03    -7.9409E-23
+
+      iter # 105 total cpu time : 30065.8 secs   av.it.:  24.0
+      thresh= 2.394E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.484E-14
+
+      iter # 103 total cpu time : 30077.3 secs   av.it.:  25.0
+      thresh= 2.967E-08 alpha_mix =  0.050 |ddv_scf|^2 =  7.273E-14
+
+      iter # 102 total cpu time : 30098.7 secs   av.it.:  25.5
+      thresh= 3.291E-08 alpha_mix =  0.050 |ddv_scf|^2 =  8.801E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4016E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4016E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4016E-03    -7.9409E-23
+
+      iter # 104 total cpu time : 30311.6 secs   av.it.:  23.5
+      thresh= 2.697E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.733E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4020E-03    -7.9409E-23
+
+      iter # 104 total cpu time : 30319.3 secs   av.it.:  23.5
+      thresh= 2.697E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.733E-14
+
+      iter # 106 total cpu time : 30320.3 secs   av.it.:  25.5
+      thresh= 2.342E-08 alpha_mix =  0.050 |ddv_scf|^2 =  6.522E-14
+
+      iter # 103 total cpu time : 30329.7 secs   av.it.:  25.0
+      thresh= 2.967E-08 alpha_mix =  0.050 |ddv_scf|^2 =  7.273E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4020E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4020E-03    -7.9409E-23
+
+      iter # 105 total cpu time : 30559.3 secs   av.it.:  24.0
+      thresh= 2.394E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.484E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4016E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4017E-03    -7.9409E-23
+
+      iter # 105 total cpu time : 30565.5 secs   av.it.:  24.0
+      thresh= 2.394E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.484E-14
+
+      iter # 107 total cpu time : 30577.1 secs   av.it.:  26.0
+      thresh= 2.554E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.849E-14
+
+      iter # 104 total cpu time : 30577.4 secs   av.it.:  23.5
+      thresh= 2.697E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.733E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4016E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4016E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4020E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4018E-03    -7.9409E-23
+
+      iter # 106 total cpu time : 30817.2 secs   av.it.:  25.5
+      thresh= 2.342E-08 alpha_mix =  0.050 |ddv_scf|^2 =  6.522E-14
+
+      iter # 106 total cpu time : 30818.6 secs   av.it.:  25.5
+      thresh= 2.342E-08 alpha_mix =  0.050 |ddv_scf|^2 =  6.522E-14
+
+      iter # 105 total cpu time : 30832.7 secs   av.it.:  24.0
+      thresh= 2.394E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.484E-14
+
+      iter # 108 total cpu time : 30834.2 secs   av.it.:  25.0
+      thresh= 2.418E-08 alpha_mix =  0.050 |ddv_scf|^2 =  7.408E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4017E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4017E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4015E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4016E-03    -7.9409E-23
+
+      iter # 107 total cpu time : 31087.7 secs   av.it.:  26.0
+      thresh= 2.554E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.849E-14
+
+      iter # 107 total cpu time : 31091.1 secs   av.it.:  26.0
+      thresh= 2.554E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.849E-14
+
+      iter # 109 total cpu time : 31092.8 secs   av.it.:  26.0
+      thresh= 2.722E-08 alpha_mix =  0.050 |ddv_scf|^2 =  6.816E-14
+
+      iter # 106 total cpu time : 31096.0 secs   av.it.:  25.5
+      thresh= 2.342E-08 alpha_mix =  0.050 |ddv_scf|^2 =  6.522E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4018E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4017E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4018E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4020E-03    -7.9409E-23
+
+      iter # 108 total cpu time : 31340.9 secs   av.it.:  25.0
+      thresh= 2.418E-08 alpha_mix =  0.050 |ddv_scf|^2 =  7.408E-14
+
+      iter # 107 total cpu time : 31352.6 secs   av.it.:  26.0
+      thresh= 2.554E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.849E-14
+
+      iter # 108 total cpu time : 31359.8 secs   av.it.:  25.0
+      thresh= 2.418E-08 alpha_mix =  0.050 |ddv_scf|^2 =  7.408E-14
+
+      iter # 110 total cpu time : 31360.0 secs   av.it.:  26.0
+      thresh= 2.611E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.448E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4015E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4018E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4015E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4015E-03    -7.9409E-23
+
+      iter # 109 total cpu time : 31597.7 secs   av.it.:  26.0
+      thresh= 2.722E-08 alpha_mix =  0.050 |ddv_scf|^2 =  6.816E-14
+
+      iter # 108 total cpu time : 31610.4 secs   av.it.:  25.0
+      thresh= 2.418E-08 alpha_mix =  0.050 |ddv_scf|^2 =  7.408E-14
+
+      iter # 111 total cpu time : 31611.5 secs   av.it.:  24.0
+      thresh= 2.334E-08 alpha_mix =  0.050 |ddv_scf|^2 =  3.667E-14
+
+      iter # 109 total cpu time : 31612.2 secs   av.it.:  26.0
+      thresh= 2.722E-08 alpha_mix =  0.050 |ddv_scf|^2 =  6.816E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4020E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4017E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4015E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4020E-03    -7.9409E-23
+
+      iter # 110 total cpu time : 31859.8 secs   av.it.:  26.0
+      thresh= 2.611E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.448E-14
+
+      iter # 112 total cpu time : 31868.8 secs   av.it.:  25.0
+      thresh= 1.915E-08 alpha_mix =  0.050 |ddv_scf|^2 =  3.236E-14
+
+      iter # 110 total cpu time : 31880.3 secs   av.it.:  26.0
+      thresh= 2.611E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.448E-14
+
+      iter # 109 total cpu time : 31880.5 secs   av.it.:  26.0
+      thresh= 2.722E-08 alpha_mix =  0.050 |ddv_scf|^2 =  6.816E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4015E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4017E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4015E-03    -7.9409E-23
+
+      iter # 113 total cpu time : 32111.3 secs   av.it.:  24.0
+      thresh= 1.799E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.648E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4020E-03    -7.9409E-23
+
+      iter # 111 total cpu time : 32114.5 secs   av.it.:  24.0
+      thresh= 2.334E-08 alpha_mix =  0.050 |ddv_scf|^2 =  3.667E-14
+
+      iter # 111 total cpu time : 32127.8 secs   av.it.:  24.0
+      thresh= 2.334E-08 alpha_mix =  0.050 |ddv_scf|^2 =  3.667E-14
+
+      iter # 110 total cpu time : 32130.0 secs   av.it.:  26.0
+      thresh= 2.611E-08 alpha_mix =  0.050 |ddv_scf|^2 =  5.448E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4016E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4017E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4017E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4015E-03    -7.9409E-23
+
+      iter # 114 total cpu time : 32357.8 secs   av.it.:  24.0
+      thresh= 1.627E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.892E-14
+
+      iter # 112 total cpu time : 32364.2 secs   av.it.:  25.0
+      thresh= 1.915E-08 alpha_mix =  0.050 |ddv_scf|^2 =  3.236E-14
+
+      iter # 112 total cpu time : 32372.2 secs   av.it.:  25.0
+      thresh= 1.915E-08 alpha_mix =  0.050 |ddv_scf|^2 =  3.236E-14
+
+      iter # 111 total cpu time : 32372.3 secs   av.it.:  24.0
+      thresh= 2.334E-08 alpha_mix =  0.050 |ddv_scf|^2 =  3.667E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4016E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4017E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4017E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4017E-03    -7.9409E-23
+
+      iter # 115 total cpu time : 32611.5 secs   av.it.:  25.0
+      thresh= 1.701E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.874E-14
+
+      iter # 113 total cpu time : 32615.3 secs   av.it.:  24.0
+      thresh= 1.799E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.648E-14
+
+      iter # 113 total cpu time : 32618.5 secs   av.it.:  24.0
+      thresh= 1.799E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.648E-14
+
+      iter # 112 total cpu time : 32621.5 secs   av.it.:  25.0
+      thresh= 1.915E-08 alpha_mix =  0.050 |ddv_scf|^2 =  3.236E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4016E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4016E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4017E-03    -7.9409E-23
+
+      iter # 116 total cpu time : 32868.6 secs   av.it.:  25.0
+      thresh= 1.695E-08 alpha_mix =  0.050 |ddv_scf|^2 =  4.273E-14
+
+      iter # 114 total cpu time : 32879.9 secs   av.it.:  24.0
+      thresh= 1.627E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.892E-14
+
+      iter # 114 total cpu time : 32884.8 secs   av.it.:  24.0
+      thresh= 1.627E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.892E-14
+
+      iter # 113 total cpu time : 32884.9 secs   av.it.:  24.0
+      thresh= 1.799E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.648E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4018E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4016E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4016E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4016E-03    -7.9409E-23
+
+      iter # 117 total cpu time : 33123.1 secs   av.it.:  25.5
+      thresh= 2.067E-08 alpha_mix =  0.050 |ddv_scf|^2 =  3.780E-14
+
+      iter # 115 total cpu time : 33138.6 secs   av.it.:  25.0
+      thresh= 1.701E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.874E-14
+
+      iter # 115 total cpu time : 33143.5 secs   av.it.:  25.0
+      thresh= 1.701E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.874E-14
+
+      iter # 114 total cpu time : 33150.7 secs   av.it.:  24.0
+      thresh= 1.627E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.892E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4016E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+
+      iter # 118 total cpu time : 33382.5 secs   av.it.:  26.0
+      thresh= 1.944E-08 alpha_mix =  0.050 |ddv_scf|^2 =  3.243E-14
+
+      iter # 115 total cpu time : 33390.4 secs   av.it.:  25.0
+      thresh= 1.701E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.874E-14
+
+      iter # 116 total cpu time : 33396.3 secs   av.it.:  25.0
+      thresh= 1.695E-08 alpha_mix =  0.050 |ddv_scf|^2 =  4.273E-14
+
+      iter # 116 total cpu time : 33398.7 secs   av.it.:  25.0
+      thresh= 1.695E-08 alpha_mix =  0.050 |ddv_scf|^2 =  4.273E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4018E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4018E-03    -7.9409E-23
+
+      iter # 119 total cpu time : 33643.3 secs   av.it.:  26.0
+      thresh= 1.801E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.124E-14
+
+      iter # 116 total cpu time : 33650.8 secs   av.it.:  25.0
+      thresh= 1.695E-08 alpha_mix =  0.050 |ddv_scf|^2 =  4.273E-14
+
+      iter # 117 total cpu time : 33653.7 secs   av.it.:  25.5
+      thresh= 2.067E-08 alpha_mix =  0.050 |ddv_scf|^2 =  3.780E-14
+
+      iter # 117 total cpu time : 33657.6 secs   av.it.:  25.5
+      thresh= 2.067E-08 alpha_mix =  0.050 |ddv_scf|^2 =  3.780E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4015E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4018E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+
+      iter # 120 total cpu time : 33900.4 secs   av.it.:  24.0
+      thresh= 1.457E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.611E-14
+
+      iter # 117 total cpu time : 33917.9 secs   av.it.:  25.5
+      thresh= 2.067E-08 alpha_mix =  0.050 |ddv_scf|^2 =  3.780E-14
+
+      iter # 118 total cpu time : 33919.2 secs   av.it.:  26.0
+      thresh= 1.944E-08 alpha_mix =  0.050 |ddv_scf|^2 =  3.243E-14
+
+      iter # 118 total cpu time : 33922.7 secs   av.it.:  26.0
+      thresh= 1.944E-08 alpha_mix =  0.050 |ddv_scf|^2 =  3.243E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+
+      iter # 121 total cpu time : 34140.3 secs   av.it.:  24.0
+      thresh= 1.269E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.306E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+
+      iter # 119 total cpu time : 34190.1 secs   av.it.:  26.0
+      thresh= 1.801E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.124E-14
+
+      iter # 118 total cpu time : 34195.4 secs   av.it.:  26.0
+      thresh= 1.944E-08 alpha_mix =  0.050 |ddv_scf|^2 =  3.243E-14
+
+      iter # 119 total cpu time : 34195.9 secs   av.it.:  26.0
+      thresh= 1.801E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.124E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4016E-03    -7.9409E-23
+
+      iter # 122 total cpu time : 34357.7 secs   av.it.:  24.0
+      thresh= 1.143E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.555E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4015E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4015E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+
+      iter # 120 total cpu time : 34439.3 secs   av.it.:  24.0
+      thresh= 1.457E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.611E-14
+
+      iter # 120 total cpu time : 34439.8 secs   av.it.:  24.0
+      thresh= 1.457E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.611E-14
+
+      iter # 119 total cpu time : 34440.1 secs   av.it.:  26.0
+      thresh= 1.801E-08 alpha_mix =  0.050 |ddv_scf|^2 =  2.124E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+
+      iter # 123 total cpu time : 34554.8 secs   av.it.:  25.0
+      thresh= 1.247E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.554E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4015E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+
+      iter # 120 total cpu time : 34701.6 secs   av.it.:  24.0
+      thresh= 1.457E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.611E-14
+
+      iter # 121 total cpu time : 34704.1 secs   av.it.:  24.0
+      thresh= 1.269E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.306E-14
+
+      iter # 121 total cpu time : 34704.3 secs   av.it.:  24.0
+      thresh= 1.269E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.306E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+
+      iter # 124 total cpu time : 34780.5 secs   av.it.:  26.0
+      thresh= 1.247E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.490E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4016E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4016E-03    -7.9409E-23
+
+      iter # 121 total cpu time : 34959.1 secs   av.it.:  24.0
+      thresh= 1.269E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.306E-14
+
+      iter # 122 total cpu time : 34960.4 secs   av.it.:  24.0
+      thresh= 1.143E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.555E-14
+
+      iter # 122 total cpu time : 34960.9 secs   av.it.:  24.0
+      thresh= 1.143E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.555E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+
+      iter # 125 total cpu time : 35018.1 secs   av.it.:  26.5
+      thresh= 1.221E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.935E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4016E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+
+      iter # 122 total cpu time : 35210.4 secs   av.it.:  24.0
+      thresh= 1.143E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.555E-14
+
+      iter # 123 total cpu time : 35223.0 secs   av.it.:  25.0
+      thresh= 1.247E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.554E-14
+
+      iter # 123 total cpu time : 35223.0 secs   av.it.:  25.0
+      thresh= 1.247E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.554E-14
+
+      iter # 126 total cpu time : 35224.3 secs   av.it.:  26.0
+      thresh= 1.391E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.573E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+
+      iter # 123 total cpu time : 35464.3 secs   av.it.:  25.0
+      thresh= 1.247E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.554E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+
+      iter # 124 total cpu time : 35493.8 secs   av.it.:  26.0
+      thresh= 1.247E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.490E-14
+
+      iter # 124 total cpu time : 35496.2 secs   av.it.:  26.0
+      thresh= 1.247E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.490E-14
+
+      iter # 127 total cpu time : 35496.6 secs   av.it.:  24.0
+      thresh= 1.254E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.007E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+
+      iter # 124 total cpu time : 35698.9 secs   av.it.:  26.0
+      thresh= 1.247E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.490E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+
+      iter # 128 total cpu time : 35756.1 secs   av.it.:  24.0
+      thresh= 1.003E-08 alpha_mix =  0.050 |ddv_scf|^2 =  9.381E-15
+
+      iter # 125 total cpu time : 35766.1 secs   av.it.:  26.5
+      thresh= 1.221E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.935E-14
+
+      iter # 125 total cpu time : 35766.3 secs   av.it.:  26.5
+      thresh= 1.221E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.935E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+
+      iter # 125 total cpu time : 35944.3 secs   av.it.:  26.5
+      thresh= 1.221E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.935E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+
+      iter # 129 total cpu time : 36008.0 secs   av.it.:  24.0
+      thresh= 9.686E-09 alpha_mix =  0.050 |ddv_scf|^2 =  6.951E-15
+
+      iter # 126 total cpu time : 36014.3 secs   av.it.:  26.0
+      thresh= 1.391E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.573E-14
+
+      iter # 126 total cpu time : 36016.9 secs   av.it.:  26.0
+      thresh= 1.391E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.573E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+
+      iter # 126 total cpu time : 36176.4 secs   av.it.:  26.0
+      thresh= 1.391E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.573E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+
+      iter # 130 total cpu time : 36251.1 secs   av.it.:  23.0
+      thresh= 8.337E-09 alpha_mix =  0.050 |ddv_scf|^2 =  5.837E-15
+
+      iter # 127 total cpu time : 36254.8 secs   av.it.:  24.0
+      thresh= 1.254E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.007E-14
+
+      iter # 127 total cpu time : 36254.9 secs   av.it.:  24.0
+      thresh= 1.254E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.007E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+
+      iter # 127 total cpu time : 36370.3 secs   av.it.:  24.0
+      thresh= 1.254E-08 alpha_mix =  0.050 |ddv_scf|^2 =  1.007E-14
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+
+      iter # 128 total cpu time : 36520.6 secs   av.it.:  24.0
+      thresh= 1.003E-08 alpha_mix =  0.050 |ddv_scf|^2 =  9.381E-15
+
+      iter # 128 total cpu time : 36520.8 secs   av.it.:  24.0
+      thresh= 1.003E-08 alpha_mix =  0.050 |ddv_scf|^2 =  9.381E-15
+
+      iter # 131 total cpu time : 36521.5 secs   av.it.:  24.5
+      thresh= 7.640E-09 alpha_mix =  0.050 |ddv_scf|^2 =  7.641E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+
+      iter # 128 total cpu time : 36598.0 secs   av.it.:  24.0
+      thresh= 1.003E-08 alpha_mix =  0.050 |ddv_scf|^2 =  9.381E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+
+      iter # 129 total cpu time : 36775.4 secs   av.it.:  24.0
+      thresh= 9.686E-09 alpha_mix =  0.050 |ddv_scf|^2 =  6.951E-15
+
+      iter # 132 total cpu time : 36776.0 secs   av.it.:  25.0
+      thresh= 8.741E-09 alpha_mix =  0.050 |ddv_scf|^2 =  6.655E-15
+
+      iter # 129 total cpu time : 36776.1 secs   av.it.:  24.0
+      thresh= 9.686E-09 alpha_mix =  0.050 |ddv_scf|^2 =  6.951E-15
+
+      iter # 129 total cpu time : 36786.6 secs   av.it.:  24.0
+      thresh= 9.686E-09 alpha_mix =  0.050 |ddv_scf|^2 =  6.951E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+
+      iter # 130 total cpu time : 37024.6 secs   av.it.:  23.0
+      thresh= 8.337E-09 alpha_mix =  0.050 |ddv_scf|^2 =  5.837E-15
+
+      iter # 130 total cpu time : 37028.3 secs   av.it.:  23.0
+      thresh= 8.337E-09 alpha_mix =  0.050 |ddv_scf|^2 =  5.837E-15
+
+      iter # 130 total cpu time : 37034.9 secs   av.it.:  23.0
+      thresh= 8.337E-09 alpha_mix =  0.050 |ddv_scf|^2 =  5.837E-15
+
+      iter # 133 total cpu time : 37035.1 secs   av.it.:  25.0
+      thresh= 8.158E-09 alpha_mix =  0.050 |ddv_scf|^2 =  6.742E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+
+      iter # 131 total cpu time : 37278.1 secs   av.it.:  24.5
+      thresh= 7.640E-09 alpha_mix =  0.050 |ddv_scf|^2 =  7.641E-15
+
+      iter # 131 total cpu time : 37278.2 secs   av.it.:  24.5
+      thresh= 7.640E-09 alpha_mix =  0.050 |ddv_scf|^2 =  7.641E-15
+
+      iter # 134 total cpu time : 37291.6 secs   av.it.:  26.0
+      thresh= 8.211E-09 alpha_mix =  0.050 |ddv_scf|^2 =  8.962E-15
+
+      iter # 131 total cpu time : 37292.6 secs   av.it.:  24.5
+      thresh= 7.640E-09 alpha_mix =  0.050 |ddv_scf|^2 =  7.641E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4011E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+
+      iter # 132 total cpu time : 37538.7 secs   av.it.:  25.0
+      thresh= 8.741E-09 alpha_mix =  0.050 |ddv_scf|^2 =  6.655E-15
+
+      iter # 135 total cpu time : 37539.3 secs   av.it.:  25.0
+      thresh= 9.467E-09 alpha_mix =  0.050 |ddv_scf|^2 =  7.474E-15
+
+      iter # 132 total cpu time : 37542.2 secs   av.it.:  25.0
+      thresh= 8.741E-09 alpha_mix =  0.050 |ddv_scf|^2 =  6.655E-15
+
+      iter # 132 total cpu time : 37546.6 secs   av.it.:  25.0
+      thresh= 8.741E-09 alpha_mix =  0.050 |ddv_scf|^2 =  6.655E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+
+      iter # 136 total cpu time : 37789.5 secs   av.it.:  24.0
+      thresh= 8.645E-09 alpha_mix =  0.050 |ddv_scf|^2 =  4.278E-15
+
+      iter # 133 total cpu time : 37799.7 secs   av.it.:  25.0
+      thresh= 8.158E-09 alpha_mix =  0.050 |ddv_scf|^2 =  6.742E-15
+
+      iter # 133 total cpu time : 37804.0 secs   av.it.:  25.0
+      thresh= 8.158E-09 alpha_mix =  0.050 |ddv_scf|^2 =  6.742E-15
+
+      iter # 133 total cpu time : 37805.2 secs   av.it.:  25.0
+      thresh= 8.158E-09 alpha_mix =  0.050 |ddv_scf|^2 =  6.742E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4014E-03    -7.9409E-23
+
+      iter # 137 total cpu time : 38049.5 secs   av.it.:  24.0
+      thresh= 6.540E-09 alpha_mix =  0.050 |ddv_scf|^2 =  3.833E-15
+
+      iter # 134 total cpu time : 38056.3 secs   av.it.:  26.0
+      thresh= 8.211E-09 alpha_mix =  0.050 |ddv_scf|^2 =  8.962E-15
+
+      iter # 134 total cpu time : 38062.0 secs   av.it.:  26.0
+      thresh= 8.211E-09 alpha_mix =  0.050 |ddv_scf|^2 =  8.962E-15
+
+      iter # 134 total cpu time : 38064.7 secs   av.it.:  26.0
+      thresh= 8.211E-09 alpha_mix =  0.050 |ddv_scf|^2 =  8.962E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4011E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4011E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4011E-03    -7.9409E-23
+
+      iter # 138 total cpu time : 38301.3 secs   av.it.:  23.0
+      thresh= 6.191E-09 alpha_mix =  0.050 |ddv_scf|^2 =  2.941E-15
+
+      iter # 135 total cpu time : 38310.7 secs   av.it.:  25.0
+      thresh= 9.467E-09 alpha_mix =  0.050 |ddv_scf|^2 =  7.474E-15
+
+      iter # 135 total cpu time : 38314.1 secs   av.it.:  25.0
+      thresh= 9.467E-09 alpha_mix =  0.050 |ddv_scf|^2 =  7.474E-15
+
+      iter # 135 total cpu time : 38316.9 secs   av.it.:  25.0
+      thresh= 9.467E-09 alpha_mix =  0.050 |ddv_scf|^2 =  7.474E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+
+      iter # 139 total cpu time : 38549.2 secs   av.it.:  23.5
+      thresh= 5.423E-09 alpha_mix =  0.050 |ddv_scf|^2 =  2.950E-15
+
+      iter # 136 total cpu time : 38555.3 secs   av.it.:  24.0
+      thresh= 8.645E-09 alpha_mix =  0.050 |ddv_scf|^2 =  4.278E-15
+
+      iter # 136 total cpu time : 38564.3 secs   av.it.:  24.0
+      thresh= 8.645E-09 alpha_mix =  0.050 |ddv_scf|^2 =  4.278E-15
+
+      iter # 136 total cpu time : 38565.3 secs   av.it.:  24.0
+      thresh= 8.645E-09 alpha_mix =  0.050 |ddv_scf|^2 =  4.278E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4011E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+
+      iter # 140 total cpu time : 38798.5 secs   av.it.:  25.0
+      thresh= 5.432E-09 alpha_mix =  0.050 |ddv_scf|^2 =  3.611E-15
+
+      iter # 137 total cpu time : 38805.9 secs   av.it.:  24.0
+      thresh= 6.540E-09 alpha_mix =  0.050 |ddv_scf|^2 =  3.833E-15
+
+      iter # 137 total cpu time : 38813.8 secs   av.it.:  24.0
+      thresh= 6.540E-09 alpha_mix =  0.050 |ddv_scf|^2 =  3.833E-15
+
+      iter # 137 total cpu time : 38814.8 secs   av.it.:  24.0
+      thresh= 6.540E-09 alpha_mix =  0.050 |ddv_scf|^2 =  3.833E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+
+      iter # 141 total cpu time : 39040.8 secs   av.it.:  26.0
+      thresh= 6.010E-09 alpha_mix =  0.050 |ddv_scf|^2 =  4.165E-15
+
+      iter # 138 total cpu time : 39045.8 secs   av.it.:  23.0
+      thresh= 6.191E-09 alpha_mix =  0.050 |ddv_scf|^2 =  2.941E-15
+
+      iter # 138 total cpu time : 39051.4 secs   av.it.:  23.0
+      thresh= 6.191E-09 alpha_mix =  0.050 |ddv_scf|^2 =  2.941E-15
+
+      iter # 138 total cpu time : 39051.4 secs   av.it.:  23.0
+      thresh= 6.191E-09 alpha_mix =  0.050 |ddv_scf|^2 =  2.941E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+
+      iter # 142 total cpu time : 39286.7 secs   av.it.:  24.5
+      thresh= 6.454E-09 alpha_mix =  0.050 |ddv_scf|^2 =  3.550E-15
+
+      iter # 139 total cpu time : 39292.3 secs   av.it.:  23.5
+      thresh= 5.423E-09 alpha_mix =  0.050 |ddv_scf|^2 =  2.950E-15
+
+      iter # 139 total cpu time : 39298.3 secs   av.it.:  23.5
+      thresh= 5.423E-09 alpha_mix =  0.050 |ddv_scf|^2 =  2.950E-15
+
+      iter # 139 total cpu time : 39300.7 secs   av.it.:  23.5
+      thresh= 5.423E-09 alpha_mix =  0.050 |ddv_scf|^2 =  2.950E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4011E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4011E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4011E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4011E-03    -7.9409E-23
+
+      iter # 143 total cpu time : 39545.5 secs   av.it.:  26.0
+      thresh= 5.959E-09 alpha_mix =  0.050 |ddv_scf|^2 =  4.467E-15
+
+      iter # 140 total cpu time : 39551.4 secs   av.it.:  25.0
+      thresh= 5.432E-09 alpha_mix =  0.050 |ddv_scf|^2 =  3.611E-15
+
+      iter # 140 total cpu time : 39557.3 secs   av.it.:  25.0
+      thresh= 5.432E-09 alpha_mix =  0.050 |ddv_scf|^2 =  3.611E-15
+
+      iter # 140 total cpu time : 39558.8 secs   av.it.:  25.0
+      thresh= 5.432E-09 alpha_mix =  0.050 |ddv_scf|^2 =  3.611E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4013E-03    -7.9409E-23
+
+      iter # 144 total cpu time : 39804.1 secs   av.it.:  24.5
+      thresh= 6.684E-09 alpha_mix =  0.050 |ddv_scf|^2 =  2.378E-15
+
+      iter # 141 total cpu time : 39811.1 secs   av.it.:  26.0
+      thresh= 6.010E-09 alpha_mix =  0.050 |ddv_scf|^2 =  4.165E-15
+
+      iter # 141 total cpu time : 39816.7 secs   av.it.:  26.0
+      thresh= 6.010E-09 alpha_mix =  0.050 |ddv_scf|^2 =  4.165E-15
+
+      iter # 141 total cpu time : 39820.0 secs   av.it.:  26.0
+      thresh= 6.010E-09 alpha_mix =  0.050 |ddv_scf|^2 =  4.165E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+
+      iter # 145 total cpu time : 40058.9 secs   av.it.:  25.0
+      thresh= 4.877E-09 alpha_mix =  0.050 |ddv_scf|^2 =  1.938E-15
+
+      iter # 142 total cpu time : 40071.7 secs   av.it.:  24.5
+      thresh= 6.454E-09 alpha_mix =  0.050 |ddv_scf|^2 =  3.550E-15
+
+      iter # 142 total cpu time : 40074.0 secs   av.it.:  24.5
+      thresh= 6.454E-09 alpha_mix =  0.050 |ddv_scf|^2 =  3.550E-15
+
+      iter # 142 total cpu time : 40075.6 secs   av.it.:  24.5
+      thresh= 6.454E-09 alpha_mix =  0.050 |ddv_scf|^2 =  3.550E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+
+      iter # 146 total cpu time : 40304.4 secs   av.it.:  23.5
+      thresh= 4.402E-09 alpha_mix =  0.050 |ddv_scf|^2 =  1.628E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4011E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4011E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4011E-03    -7.9409E-23
+
+      iter # 143 total cpu time : 40350.5 secs   av.it.:  26.0
+      thresh= 5.959E-09 alpha_mix =  0.050 |ddv_scf|^2 =  4.467E-15
+
+      iter # 143 total cpu time : 40352.2 secs   av.it.:  26.0
+      thresh= 5.959E-09 alpha_mix =  0.050 |ddv_scf|^2 =  4.467E-15
+
+      iter # 143 total cpu time : 40353.7 secs   av.it.:  26.0
+      thresh= 5.959E-09 alpha_mix =  0.050 |ddv_scf|^2 =  4.467E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4011E-03    -7.9409E-23
+
+      iter # 147 total cpu time : 40515.4 secs   av.it.:  24.0
+      thresh= 4.035E-09 alpha_mix =  0.050 |ddv_scf|^2 =  1.560E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+
+      iter # 144 total cpu time : 40603.6 secs   av.it.:  24.5
+      thresh= 6.684E-09 alpha_mix =  0.050 |ddv_scf|^2 =  2.378E-15
+
+      iter # 144 total cpu time : 40616.9 secs   av.it.:  24.5
+      thresh= 6.684E-09 alpha_mix =  0.050 |ddv_scf|^2 =  2.378E-15
+
+      iter # 144 total cpu time : 40621.9 secs   av.it.:  24.5
+      thresh= 6.684E-09 alpha_mix =  0.050 |ddv_scf|^2 =  2.378E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+
+      iter # 148 total cpu time : 40726.1 secs   av.it.:  24.0
+      thresh= 3.950E-09 alpha_mix =  0.050 |ddv_scf|^2 =  1.644E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+
+      iter # 145 total cpu time : 40842.8 secs   av.it.:  25.0
+      thresh= 4.877E-09 alpha_mix =  0.050 |ddv_scf|^2 =  1.938E-15
+
+      iter # 145 total cpu time : 40880.0 secs   av.it.:  25.0
+      thresh= 4.877E-09 alpha_mix =  0.050 |ddv_scf|^2 =  1.938E-15
+
+      iter # 145 total cpu time : 40888.1 secs   av.it.:  25.0
+      thresh= 4.877E-09 alpha_mix =  0.050 |ddv_scf|^2 =  1.938E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+
+      iter # 149 total cpu time : 40972.7 secs   av.it.:  26.0
+      thresh= 4.055E-09 alpha_mix =  0.050 |ddv_scf|^2 =  2.131E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4012E-03    -7.9409E-23
+
+      iter # 146 total cpu time : 41078.9 secs   av.it.:  23.5
+      thresh= 4.402E-09 alpha_mix =  0.050 |ddv_scf|^2 =  1.628E-15
+
+      iter # 146 total cpu time : 41121.4 secs   av.it.:  23.5
+      thresh= 4.402E-09 alpha_mix =  0.050 |ddv_scf|^2 =  1.628E-15
+
+      iter # 146 total cpu time : 41127.4 secs   av.it.:  23.5
+      thresh= 4.402E-09 alpha_mix =  0.050 |ddv_scf|^2 =  1.628E-15
+ 
+     Pert. #  1: Fermi energy shift (Ry) =    -1.4011E-03    -7.9409E-23
+
+      iter # 150 total cpu time : 41209.8 secs   av.it.:  25.0
+      thresh= 4.616E-09 alpha_mix =  0.050 |ddv_scf|^2 =  1.542E-15
+
+     End of self-consistent calculation
+
+     No convergence has been achieved 
+ 
+     PHONON       :      5h53m CPU     11h26m WALL
+
+     INITIALIZATION: 
+     phq_setup    :      0.13s CPU      0.27s WALL (       1 calls)
+     phq_init     :   2752.10s CPU   2767.55s WALL (       1 calls)
+ 
+     phq_init     :   2752.10s CPU   2767.55s WALL (       1 calls)
+     set_drhoc    :      0.01s CPU      0.03s WALL (       1 calls)
+     init_vloc    :      0.06s CPU      0.06s WALL (       1 calls)
+     init_us_1    :      0.23s CPU      0.32s WALL (       1 calls)
+     init_us_2    :     11.20s CPU     27.23s WALL (     308 calls)
+     newd         :      5.13s CPU      6.47s WALL (       1 calls)
+     drho         :   2751.28s CPU   2765.84s WALL (       1 calls)
+     drhous       :   1080.37s CPU   1083.29s WALL (       1 calls)
+     nldyntot     :      0.00s CPU      0.00s WALL (       1 calls)
+ 
+     DYNAMICAL MATRIX:
+     phqscf       :  18455.80s CPU  38428.11s WALL (       1 calls)
+ 
+     phqscf       :  18455.80s CPU  38428.11s WALL (       2 calls)
+     solve_linter :  18455.80s CPU  38428.11s WALL (       1 calls)
+     sth_kernel   :  14163.03s CPU  32910.09s WALL (     150 calls)
+     h_prec       :      9.64s CPU     13.79s WALL (     300 calls)
+     apply_dpot_b :    160.80s CPU    388.59s WALL (     298 calls)
+     ortho        :    137.17s CPU    303.42s WALL (     300 calls)
+     cgsolve      :  12197.39s CPU  30314.27s WALL (     300 calls)
+     incdrhoscf   :    269.46s CPU    480.27s WALL (     300 calls)
+                                      480.26s GPU  (     300 calls)
+     addusddens   :   3330.98s CPU   3478.88s WALL (     267 calls)
+     dv_of_drho   :     35.28s CPU     42.94s WALL (     150 calls)
+     mix_pot      :      7.75s CPU      7.78s WALL (     150 calls)
+     ef_shift     :      4.06s CPU      4.14s WALL (     150 calls)
+     localdos     :     11.82s CPU     14.18s WALL (       1 calls)
+     symdvscf     :      4.85s CPU      4.86s WALL (     150 calls)
+     newdq        :   1746.16s CPU   1840.15s WALL (     150 calls)
+     adddvscf     :   1341.48s CPU   1341.98s WALL (     298 calls)
+     com_dvloc    :      0.55s CPU      0.57s WALL (     119 calls)
+                                        0.57s GPU  (     119 calls)
+     addcore      :      1.17s CPU      1.48s WALL (     150 calls)
+                                        1.48s GPU  (     150 calls)
+ 
+     dvqpsi_us    :      6.30s CPU      7.51s WALL (       2 calls)
+                                        7.51s GPU  (       2 calls)
+     dvqpsi_us_on :      5.52s CPU      5.73s WALL (       2 calls)
+ 
+     add_vuspsi   :    711.91s CPU   3202.44s WALL (   33881 calls)
+                                     3159.77s GPU  (   33881 calls)
+     addusdbec    :    220.34s CPU    220.52s WALL (     534 calls)
+ 
+ 
+      General routines
+     calbec       :    220.37s CPU    221.55s WALL (   68606 calls)
+     fft          :     30.71s CPU     31.33s WALL (    2533 calls)
+                                        0.10s GPU  (     165 calls)
+     ffts         :      0.01s CPU      0.50s WALL (     451 calls)
+                                        0.25s GPU  (     451 calls)
+     fftw         :    298.48s CPU   3099.49s WALL (  441634 calls)
+                                     2372.03s GPU  (  402414 calls)
+     write_rec    :      0.02s CPU      0.05s WALL (     150 calls)
+ 
+      Additional routines
+     ch_psi       :   9083.53s CPU  22548.53s WALL (   33881 calls)
+     last         :   3727.27s CPU   9274.43s WALL (   33881 calls)
+     Hesh         :    587.29s CPU   1444.25s WALL (   33881 calls)
+     ch_psi_all_k :   3120.46s CPU   7829.33s WALL (   33881 calls)
+                                     7788.21s GPU  (   33881 calls)
+     ch_psi_calbe :      0.48s CPU   1636.50s WALL (   33881 calls)
+                                     1636.32s GPU  (   33881 calls)
+     h_psi_bgrp   :   3990.42s CPU   9872.38s WALL (   33881 calls)
+                                     9832.10s GPU  (   33881 calls)
+     h_psi        :   3972.21s CPU   9831.02s WALL (   33881 calls)
+                                     9790.81s GPU  (   33881 calls)
+     h_psi:pot    :   3916.66s CPU   9704.57s WALL (   33881 calls)
+                                     9664.05s GPU  (   33881 calls)
+     h_psi:calbec :      0.77s CPU   1655.10s WALL (   33881 calls)
+                                     1613.08s GPU  (   33881 calls)
+     s_psi_bgrp   :   2638.32s CPU   6669.43s WALL (   68062 calls)
+     s_psi        :   2637.70s CPU   6668.34s WALL (   68062 calls)
+ 
+ 
+     PHONON       :      5h53m CPU     11h26m WALL
+
+ 
+   This run was terminated on:   5:37:54   8Feb2025            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

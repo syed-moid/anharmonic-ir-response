@@ -1,0 +1,16 @@
+&INPUTPH
+    outdir = './tmp',
+    prefix = 'SrTiO3_defect',
+    tr2_ph = 1.0d-15,             ! Relaxed convergence threshold for phonons
+    alpha_mix = 0.05,             ! Further reduced mixing parameter
+    ldisp = .true.,              ! Phonon dispersion calculation
+    nq1 = 2, nq2 = 2, nq3 = 2,   ! Matching q-point grid with SCF k-points
+    amass(1) = 87.62,            ! Sr atomic mass
+    amass(2) = 47.867,           ! Ti atomic mass
+    amass(3) = 15.999,           ! O atomic mass
+    epsil = .false.,             ! No electric field effects
+    trans = .true.,              ! Include translational symmetry
+    fildyn = 'SrTiO3.dyn',       ! Output file for dynamical matrix
+    recover = .true.,            ! Enable recovery mode for restarts
+    reduce_io = .true.,
+/

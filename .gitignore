@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv*/
+venv/
+env/
+.repro_test_venv/
+.verify_venv/
+
+# OS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Do NOT commit PDFs or figures (kept out of version control by request).
+# The manuscript PDF and regenerated figures are distributed via the Zenodo
+# deposit, not the git repository.
+*.pdf
+figures/*
+!figures/.gitkeep
+
+# Regenerated text outputs (tables/, data/processed/) ARE tracked so reviewers
+# can see them without running the pipeline. Uncomment to treat as artifacts:
+# tables/*.csv
+# tables/*.md
+# data/processed/

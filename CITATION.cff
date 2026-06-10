@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+title: >-
+  Anharmonic IR Response: Reproducible Data and Scripts for
+  Mode-Resolved Dielectric Susceptibility in Perovskites
+message: >-
+  If you use this software or data, please cite both the
+  accompanying manuscript and this archived repository.
+type: software
+authors:
+  - given-names: Syed
+    family-names: Moid
+    affiliation: Accenture
+    # orcid: 'https://orcid.org/0000-0000-0000-0000'   # TODO: add ORCID
+abstract: >-
+  Reproducible data and analysis scripts for the manuscript "Predictive Theory
+  of Dielectric Susceptibility and Infrared Absorption in Disordered Anharmonic
+  Crystals". The repository regenerates the temperature-dependent phonon
+  linewidth tables (Table 5, Table 5a) and the BaTiO3 soft-mode figure from
+  committed reference data for BaTiO3 (computed reference linewidths) and SrTiO3
+  (published literature linewidths).
+keywords:
+  - dielectric susceptibility
+  - infrared absorption
+  - anharmonic phonons
+  - phonon linewidth
+  - soft mode
+  - BaTiO3
+  - SrTiO3
+  - perovskite
+  - reproducibility
+license: MIT
+version: 0.1.0
+date-released: '2026-06-09'
+# repository-code: 'https://github.com/<user>/anharmonic-ir-response'   # TODO
+# doi: '10.5281/zenodo.XXXXXXX'                                          # TODO: Zenodo DOI
+references:
+  - type: article
+    title: >-
+      Predictive Theory of Dielectric Susceptibility and Infrared Absorption in
+      Disordered Anharmonic Crystals
+    authors:
+      - given-names: Syed
+        family-names: Moid
+    status: in-preparation   # TODO: update to published + DOI on acceptance

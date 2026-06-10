@@ -1,0 +1,11 @@
+mode,temperature_K,Gamma_THz,omega_THz,source
+TO1 (soft),100,0.07,2.73,"Tadano2015/Denisov1983/Servoin1980"
+TO1 (soft),200,0.12,2.73,"Tadano2015/Denisov1983/Servoin1980"
+TO1 (soft),300,0.22,2.73,"Tadano2015/Denisov1983/Servoin1980"
+TO1 (soft),400,0.35,2.73,"Tadano2015/Denisov1983/Servoin1980"
+TO1 (soft),500,0.50,2.73,"Tadano2015/Denisov1983/Servoin1980"
+TO2,100,0.05,5.02,"Tadano2015/Denisov1983/Servoin1980"
+TO2,200,0.08,5.02,"Tadano2015/Denisov1983/Servoin1980"
+TO2,300,0.13,5.02,"Tadano2015/Denisov1983/Servoin1980"
+TO2,400,0.19,5.02,"Tadano2015/Denisov1983/Servoin1980"
+TO2,500,0.26,5.02,"Tadano2015/Denisov1983/Servoin1980"

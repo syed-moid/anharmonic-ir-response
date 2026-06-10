@@ -1,0 +1,79 @@
+&CONTROL
+    calculation = 'scf',
+    prefix = 'SrTiO3_defect',
+    outdir = './tmp',
+    pseudo_dir = './pseudo',
+    tstress = .true.,
+    tprnfor = .true.,
+    restart_mode = 'restart',       ! Restarts from existing data in outdir
+    wf_collect = .true.,
+    disk_io = 'low',
+/
+&SYSTEM
+    ibrav = 0,
+    nat = 39,
+    ntyp = 3,
+    ecutwfc = 80.0,
+    ecutrho = 320.0,
+    occupations = 'smearing',
+    smearing = 'gaussian',
+    degauss = 0.005,
+/
+&ELECTRONS
+    conv_thr = 1.0d-10,
+    diagonalization = 'david',
+    mixing_beta = 0.03,
+/
+CELL_PARAMETERS {angstrom}
+7.81 0.0 0.0
+0.0 7.81 0.0
+0.0 0.0 7.81
+
+ATOMIC_SPECIES
+Sr  87.62   Sr.pbe-spn-kjpaw_psl.1.0.0.UPF
+Ti  47.867  Ti.pbe-spn-kjpaw_psl.1.0.0.UPF
+O   15.999  O.pbe-n-kjpaw_psl.1.0.0.UPF
+
+ATOMIC_POSITIONS {angstrom}
+Sr  0.000  0.000  0.000
+Sr  0.000  3.905  3.905
+Sr  3.905  0.000  3.905
+Sr  3.905  3.905  0.000
+Sr  3.905  3.905  3.905
+Sr  0.000  3.905  0.000
+Sr  0.000  0.000  3.905
+Sr  3.905  0.000  0.000
+Ti  1.9525  1.9525  1.9525
+Ti  5.8575  1.9525  1.9525
+Ti  1.9525  5.8575  1.9525
+Ti  1.9525  1.9525  5.8575
+Ti  5.8575  5.8575  1.9525
+Ti  5.8575  1.9525  5.8575
+Ti  1.9525  5.8575  5.8575
+Ti  5.8575  5.8575  5.8575
+O   0.000  0.000  1.9525
+O   0.000  1.9525  0.000
+O   1.9525  0.000  0.000
+O   0.000  3.905  1.9525
+O   0.000  5.8575  0.000
+O   1.9525  3.905  0.000
+O   3.905  0.000  1.9525
+O   3.905  1.9525  0.000
+O   5.8575  0.000  0.000
+O   3.905  3.905  1.9525
+O   3.905  5.8575  0.000
+O   5.8575  3.905  0.000
+O   0.000  1.9525  3.905
+O   0.000  3.905  5.8575
+O   1.9525  0.000  3.905
+O   0.000  5.8575  3.905
+O   1.9525  3.905  3.905
+O   3.905  1.9525  3.905
+O   3.905  3.905  5.8575
+O   5.8575  0.000  3.905
+O   3.905  5.8575  3.905
+O   5.8575  3.905  3.905
+O   1.9525  1.9525  0.000
+
+K_POINTS automatic
+2 2 2 1 1 1

@@ -1,0 +1,19 @@
+# SHA-256 checksums of LARGE EXTERNAL Quantum ESPRESSO raw files
+#
+# These files are NOT included in this repository (size / not needed to
+# reproduce any manuscript result). They are archived externally by the author.
+# Checksums are recorded here so the external archive can be matched/verified.
+#
+# Format:  <sha256>  <bytes>  <relative path under .../QUANTUM_ESPRESSO/>
+# Computed: 2026-06-09
+
+# --- BaTiO3 defect 2x2x2 (RUN6_Success) : SCF completed, DFPT crashed ---
+d7785b0ea3e8209e72ac1c91e360bdfdecab9dbb0bcd0f3c87e814b0fd94cabb  13313808  DF/2x2x2Supercell/RUN6_Success/tmp/BaTiO3_defect.save/charge-density.dat
+f68ced208aecb8f15415c9d607a233fc1337b73ebcdd2244c7290dd4b486796b     83532  DF/2x2x2Supercell/RUN6_Success/tmp/BaTiO3_defect.save/data-file-schema.xml
+
+# --- SrTiO3 defect 2x2x2 (VM_RESULTS/RUN7) : SCF completed, DFPT not converged ---
+42e9215be946a948e3b40718ee42e71b48f0fa94a4fe3ca6ef145ea8fa5756d5   8691792  AnharmonicCrystal/2x2x2Supercell/VM_RESULTS/RUN7/tmp/SrTiO3_defect.save/charge-density.dat
+15f8e4cbc5dc488f3f52580f12a7cd82ce1c9ef2a4bbeca4dc7d8e41a11ca93c 117410208  AnharmonicCrystal/2x2x2Supercell/VM_RESULTS/RUN7/tmp/SrTiO3_defect.save/wfc1.dat
+8fa5e4db26d9c5752d91216fa878b957ccf7c9d443bc8abe1b548bbf8cc8b7d1 117410208  AnharmonicCrystal/2x2x2Supercell/VM_RESULTS/RUN7/tmp/SrTiO3_defect.save/wfc2.dat
+ec4c4dc429d8ca036b00c6a400b1686ea2d5202169e503463d11d4d6938b9863  90360576  AnharmonicCrystal/2x2x2Supercell/VM_RESULTS/RUN7/tmp/SrTiO3_defect.mix
+45b3d45bff48241544ab4795d6724b4eedc29d5ee61b1838ca32621d8fe77671    670950  AnharmonicCrystal/2x2x2Supercell/VM_RESULTS/RUN7/tmp/_ph0/SrTiO3_defect.phsave/dynmat.1.0.xml
