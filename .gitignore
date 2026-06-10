@@ -26,6 +26,9 @@ env/
 figures/*
 !figures/.gitkeep
 
+# Internal revision notes kept out of version control by request.
+manuscript/revision_notes/CHANGE_REPORT_V9_to_V10.md
+
 # Regenerated text outputs (tables/, data/processed/) ARE tracked so reviewers
 # can see them without running the pipeline. Uncomment to treat as artifacts:
 # tables/*.csv
