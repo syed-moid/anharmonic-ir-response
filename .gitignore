@@ -18,10 +18,11 @@ env/
 .vscode/
 .idea/
 
-# Do NOT commit PDFs or figures (kept out of version control by request).
-# The manuscript PDF and regenerated figures are distributed via the Zenodo
-# deposit, not the git repository.
+# Do NOT commit PDFs, Word documents, or figures (kept out of version control by
+# request). The manuscript (PDF/DOCX) and regenerated figures are distributed via
+# the Zenodo deposit, not the git repository.
 *.pdf
+*.docx
 figures/*
 !figures/.gitkeep
 
