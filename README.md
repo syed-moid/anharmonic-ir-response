@@ -1,8 +1,15 @@
 # Anharmonic IR Response: Reproducible Data and Scripts for Mode-Resolved Dielectric Susceptibility in Perovskites
 
 Reproducible data and analysis scripts accompanying the manuscript
-**"Predictive Theory of Dielectric Susceptibility and Infrared Absorption in
-Disordered Anharmonic Crystals"** (BaTiO₃ and SrTiO₃).
+**"Mode-Resolved Anharmonic Framework for Dielectric Susceptibility and Infrared
+Absorption in Disordered Polar Crystals"** (BaTiO₃ and SrTiO₃; submitted to *The
+European Physical Journal B*).
+
+The manuscript develops a mode-resolved, **provenance-aware** response framework
+that propagates independently specified phonon data (mode frequencies, oscillator
+strengths, and linewidth reference data) into the one-phonon dielectric
+susceptibility and infrared absorption — keeping a clear separation between
+inputs, fitted intermediates, and outputs.
 
 This repository regenerates the temperature-dependent phonon-linewidth tables
 and the BaTiO₃ soft-mode figure of the manuscript **directly from committed
@@ -27,11 +34,11 @@ or simply:
 
 ```bash
 make reproduce      # runs validation + tables + figures
-make test           # pytest regression check against the published Table 5
+make test           # pytest regression check against the manuscript Table 5
 ```
 
 The validation scripts **exit non-zero** if the fitted coefficients drift from
-the published Table 5 values, so they double as regression checks.
+the manuscript Table 5 values, so they double as regression checks.
 
 ---
 
@@ -39,7 +46,7 @@ the published Table 5 values, so they double as regression checks.
 
 | Output | Source data (committed) | Method |
 |---|---|---|
-| **Table 5a** — BaTiO₃ Γ^pert(T), 100–600 K | `data/raw/BTO/phonon_modes_*K.csv` | meV → THz conversion |
+| **Table 5a** — BaTiO₃ Γ^ref(T), 100–600 K | `data/raw/BTO/phonon_modes_*K.csv` | meV → THz conversion |
 | **Table 5 (BaTiO₃ rows)** — A, B, C, Γ(300 K), R² | `data/raw/BTO/phonon_modes_*K.csv` | least-squares fit Γ(T)=A+BT+CT² |
 | **Table 5 (SrTiO₃ rows)** | `data/raw/literature/SrTiO3_linewidths_literature.csv` | least-squares fit of published linewidths |
 | **BaTiO₃ soft-mode figure** — ω(T), Γ(T), Γ/ω(T) | `data/raw/BTO/phonon_modes_*K.csv` | direct plot + fit |
@@ -62,11 +69,14 @@ R² = 0.985; SrTiO₃ soft mode A = 0.040, R² = 0.999. See `tests/`.
 This repository is deliberately explicit about where each number comes from
 (full detail in [`provenance/PROVENANCE.md`](provenance/PROVENANCE.md)):
 
-- **BaTiO₃ `phonon_modes_*K.csv`** — results-level, mode-resolved phonon
-  frequencies and HWHM linewidths at six temperatures (100–600 K), in an
-  inelastic-neutron-scattering-style tabular format (energies in meV, finite-Q
-  labels, cross-sections in barns). These are the reference data the manuscript
-  fits; they are *inputs* to this repository (no generating script is included).
+- **BaTiO₃ `phonon_modes_*K.csv`** — **semi-empirical, INS-calibrated**
+  mode-resolved linewidth and soft-mode reference data at six temperatures
+  (100–600 K), in an inelastic-neutron-scattering-style tabular format (energies
+  in meV, finite-Q labels, cross-sections in barns), adopted from the author's
+  prior inelastic-neutron-scattering framework. As stated in the revised
+  manuscript, these are **not** phonon self-energies computed in the present work;
+  they are *inputs* to this repository (no generating script is included) and are
+  fitted here to Γ(T)=A+BT+CT².
 - **SrTiO₃ linewidths** — digitised from published anharmonic-phonon and
   experimental damping data (Tadano & Tsuneyuki 2015; Denisov et al. 1983;
   Servoin et al. 1980). SrTiO₃ is the *literature cross-validation* material.
@@ -104,10 +114,8 @@ anharmonic-ir-response/
 ├── figures/                    regenerated figures
 ├── tables/                     regenerated tables (md + csv)
 ├── notebooks/
-├── manuscript/
-│   ├── DE_IR_V9.pdf            submitted manuscript
-│   ├── response_letter/
-│   └── revision_notes/
+├── manuscript/                 (manuscript PDF/DOCX distributed via the Zenodo
+│                               deposit — not tracked in git)
 ├── provenance/
 │   ├── PROVENANCE.md
 │   └── quantum_espresso_exploratory/
