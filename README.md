@@ -2,8 +2,7 @@
 
 Reproducible data and analysis scripts accompanying the manuscript
 **"Mode-Resolved Anharmonic Framework for Dielectric Susceptibility and Infrared
-Absorption in Disordered Polar Crystals"** (BaTiO₃ and SrTiO₃; submitted to *The
-European Physical Journal B*).
+Absorption in Disordered Polar Crystals"** (BaTiO₃ and SrTiO₃).
 
 The manuscript develops a mode-resolved, **provenance-aware** response framework
 that propagates independently specified phonon data (mode frequencies, oscillator
