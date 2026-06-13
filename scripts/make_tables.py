@@ -54,7 +54,7 @@ def make_table5a(bto_modes) -> None:
 
 
 def make_table5(bto_modes, bto_fits, sto_modes, sto_fits) -> None:
-    headers = ["Material", "Mode", "omega (THz)", "A (THz)", "B (THz/K)",
+    headers = ["Material", "Mode", "A (THz)", "B (THz/K)",
                "C (THz/K^2)", "Gamma(300 K) (THz)", "R^2"]
     rows = []
     for material, modes, fits, order in (
@@ -64,7 +64,7 @@ def make_table5(bto_modes, bto_fits, sto_modes, sto_fits) -> None:
         for label in order:
             f = fits[label]
             rows.append([
-                material, label, f"{modes[label].omega_at(T_REF):.2f}",
+                material, label,
                 f"{f.A:.4f}", f"{f.B:.2e}", f"{f.C:.2e}",
                 f"{modes[label].gamma_at(T_REF):.3f}", f"{f.r2:.4f}",
             ])

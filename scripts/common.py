@@ -10,7 +10,7 @@ This module centralises:
 
 Nothing here invents data: every number returned by the loaders comes from a
 committed CSV under ``data/raw/``. The published reference values are quoted
-verbatim from the manuscript (paper/DE_IR_V9.pdf, Table 5) and are used only to
+verbatim from the revised manuscript (Table 5) and are used only to
 *check* that the fit reproduces the paper.
 """
 from __future__ import annotations
@@ -60,18 +60,21 @@ BTO_MODE_MAP = {
 }
 
 # --------------------------------------------------------------------------- #
-# Published reference (from paper/DE_IR_V9.pdf, Table 5) -- for validation only
+# Published reference (revised manuscript, Table 5) -- for validation only.
+# The revised Table 5 lists A, B, C, Gamma(300 K), R^2 (the Gamma-point
+# reference frequencies are tabulated separately in Table 2), so no omega
+# column is carried here.
 # --------------------------------------------------------------------------- #
-# (omega_THz, A, B, C, Gamma300, R2)
+# (A, B, C, Gamma300, R2)
 PUBLISHED_TABLE5 = {
     "BaTiO3": {
-        "TO1 (soft)": (1.98, 0.091, 2.3e-4, 1.4e-6, 0.25, 0.985),
-        "TO2":        (5.36, 0.069, 4.8e-4, 2.2e-8, 0.22, 0.998),
-        "TO3":        (4.86, 0.094, 4.2e-4, 1.3e-7, 0.23, 0.992),
+        "TO1 (soft)": (0.091, 2.3e-4, 1.4e-6, 0.25, 0.985),
+        "TO2":        (0.069, 4.8e-4, 2.2e-8, 0.22, 0.998),
+        "TO3":        (0.094, 4.2e-4, 1.3e-7, 0.23, 0.992),
     },
     "SrTiO3": {
-        "TO1 (soft)": (2.73, 0.040, 1.0e-4, 1.6e-6, 0.22, 0.999),
-        "TO2":        (5.02, 0.028, 1.4e-4, 6.4e-7, 0.13, 0.999),
+        "TO1 (soft)": (0.040, 1.0e-4, 1.6e-6, 0.22, 0.999),
+        "TO2":        (0.028, 1.4e-4, 6.4e-7, 0.13, 0.999),
     },
 }
 

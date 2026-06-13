@@ -10,14 +10,14 @@ authors:
   - given-names: Syed
     family-names: Moid
     affiliation: Accenture
-    # orcid: 'https://orcid.org/0000-0000-0000-0000'   # TODO: add ORCID
+    orcid: 'https://orcid.org/0009-0009-2557-6747'
 abstract: >-
-  Reproducible data and analysis scripts for the manuscript "Predictive Theory
-  of Dielectric Susceptibility and Infrared Absorption in Disordered Anharmonic
-  Crystals". The repository regenerates the temperature-dependent phonon
-  linewidth tables (Table 5, Table 5a) and the BaTiO3 soft-mode figure from
-  committed reference data for BaTiO3 (computed reference linewidths) and SrTiO3
-  (published literature linewidths).
+  Reproducible data and analysis scripts for the manuscript "Mode-Resolved
+  Anharmonic Framework for Dielectric Susceptibility and Infrared Absorption in
+  Disordered Polar Crystals". The repository regenerates the temperature-dependent
+  phonon linewidth tables (Table 5, Table 5a) and the BaTiO3 soft-mode figure from
+  committed reference data for BaTiO3 (semi-empirical, INS-calibrated reference
+  linewidths) and SrTiO3 (published literature linewidths).
 keywords:
   - dielectric susceptibility
   - infrared absorption
@@ -36,9 +36,10 @@ date-released: '2026-06-09'
 references:
   - type: article
     title: >-
-      Predictive Theory of Dielectric Susceptibility and Infrared Absorption in
-      Disordered Anharmonic Crystals
+      Mode-Resolved Anharmonic Framework for Dielectric Susceptibility and
+      Infrared Absorption in Disordered Polar Crystals
     authors:
       - given-names: Syed
         family-names: Moid
-    status: in-preparation   # TODO: update to published + DOI on acceptance
+        orcid: 'https://orcid.org/0009-0009-2557-6747'
+    status: submitted   # TODO: update to published + DOI on acceptance

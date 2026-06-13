@@ -3,31 +3,29 @@
 Formal reproducibility and provenance validation of the repository, intended to
 support the reviewer response letter and the Zenodo deposit. All results below
 were produced by running the repository's own scripts from a fresh virtual
-environment; no values were entered by hand.
+environment; no values were entered by hand. This report corresponds to the
+revised manuscript (mode-resolved framework; the final manuscript file is
+`manuscript/DE_IR_V10_Final.docx`, git-ignored).
 
 ## Environment
 
 | Item | Value |
 |---|---|
-| Commit | `cd1879d Initial commit` |
+| Commit | `d3cb22b` |
 | Branch | `main` |
 | Python | 3.12.13 |
 | OS | macOS 26.5.1 (build 25F80), Darwin 25.5.0, arm64 |
-| NumPy / Matplotlib / pytest | 2.4.6 / 3.10.9 / 9.0.3 |
-| Date | 2026-06-09 |
+| NumPy / Matplotlib / pytest | 2.4.6 / 3.11.0 / 9.0.3 |
+| Date | 2026-06-12 |
 
-Working tree at validation time: only untracked files plus the initial commit
-(which contains `LICENSE`). Nothing was committed as part of this validation.
+The validation was run from a clean checkout in a fresh `.venv-test` virtual
+environment; that environment was removed afterwards and is git-ignored.
 
 ## Commands run
 
 From a fresh shell, inside `anharmonic-ir-response/`:
 
 ```bash
-git status
-git log -1 --oneline
-python --version
-
 make clean || true
 python -m venv .venv-test
 source .venv-test/bin/activate
@@ -48,9 +46,9 @@ python scripts/make_figures.py
 | Step | Result | Exit code |
 |---|---|---|
 | `make reproduce` | OK — all outputs written | 0 |
-| `make test` (pytest) | **7 passed** | 0 |
-| `python scripts/validate_bto_linewidths.py` | `PASS: reproduces published Table 5 (BaTiO3)` | 0 |
-| `python scripts/validate_sto_literature.py` | `PASS: reproduces published Table 5 (SrTiO3)` | 0 |
+| `make test` (pytest) | **6 passed** | 0 |
+| `python scripts/validate_bto_linewidths.py` | `PASS: reproduces Table 5 (BaTiO3)` | 0 |
+| `python scripts/validate_sto_literature.py` | `PASS: reproduces Table 5 (SrTiO3)` | 0 |
 | `python scripts/make_tables.py` | wrote `table5.{md,csv}`, `table5a.{md,csv}` | 0 |
 | `python scripts/make_figures.py` | wrote `fig_bto_soft_mode.png`, `fig_bto_linewidth_fit.png` | 0 |
 
@@ -59,8 +57,11 @@ No command exited non-zero.
 ## Numerical reproduction of manuscript tables
 
 All "Actual" values are emitted by the repository scripts directly from the
-committed CSV files. "Expected" values are the published manuscript values
-(DE_IR_V9.pdf, Table 5 / Table 5a).
+committed CSV files. "Expected" values are the manuscript values (revised
+manuscript, Table 5 / Table 5a). The repository's `tables/table5` now carries
+exactly the columns of the revised manuscript Table 5 (Material, Mode, A, B, C,
+Γ(300 K), R²); the Γ-point reference frequencies are presented separately, as in
+the manuscript's Table 2.
 
 | Check | Expected | Actual | Pass/Fail |
 |---|---|---|---|
@@ -73,10 +74,10 @@ committed CSV files. "Expected" values are the published manuscript values
 | BTO TO1 R² | 0.985 | 0.9853 | PASS |
 | STO TO1 fit A | 0.040 THz | 0.0400 THz | PASS |
 | STO TO1 R² | 0.999 | 0.9993 | PASS |
-| BTO soft-mode ω(100 K) | 2.71 THz | 2.708 THz | PASS |
-| BTO soft-mode ω(400 K) | 0.85 THz | 0.846 THz | PASS |
+| BTO soft-mode ω(100 K) (§3.5.4 / soft-mode figure) | 2.71 THz | 2.708 THz | PASS |
+| BTO soft-mode ω(400 K) (§3.5.4 / soft-mode figure) | ≈0.85 THz | 0.846 THz | PASS |
 
-Additional confirmed rows (not requested, included for completeness):
+Additional confirmed rows (for completeness):
 
 | Check | Expected | Actual | Pass/Fail |
 |---|---|---|---|
@@ -86,18 +87,20 @@ Additional confirmed rows (not requested, included for completeness):
 | BTO TO1 Γ(400/500/600 K) | 0.435 / 0.605 / 0.725 | 0.435 / 0.604 / 0.725 | PASS |
 
 The single 0.001-THz difference at 500 K (0.604 vs printed 0.605) is rounding of
-`2.5 meV × 0.24180 = 0.60450`; it is within display precision and does not
-affect any fitted coefficient.
+`2.5 meV × 0.24180 = 0.60450`; it is within display precision and does not affect
+any fitted coefficient.
 
 ### Regenerated Table 5 (from `tables/table5.md`)
 
-| Material | Mode | ω (THz) | A (THz) | B (THz/K) | C (THz/K²) | Γ(300 K) (THz) | R² |
-|---|---|---|---|---|---|---|---|
-| BaTiO₃ | TO1 (soft) | 1.98 | 0.0907 | 2.31e-04 | 1.45e-06 | 0.254 | 0.9853 |
-| BaTiO₃ | TO2 | 5.36 | 0.0689 | 4.79e-04 | 2.16e-08 | 0.218 | 0.9976 |
-| BaTiO₃ | TO3 | 4.86 | 0.0943 | 4.17e-04 | 1.30e-07 | 0.230 | 0.9924 |
-| SrTiO₃ | TO1 (soft) | 2.73 | 0.0400 | 1.04e-04 | 1.64e-06 | 0.220 | 0.9993 |
-| SrTiO₃ | TO2 | 5.02 | 0.0280 | 1.44e-04 | 6.43e-07 | 0.130 | 0.9996 |
+Columns match the revised manuscript Table 5 exactly (no ω column):
+
+| Material | Mode | A (THz) | B (THz/K) | C (THz/K²) | Γ(300 K) (THz) | R² |
+|---|---|---|---|---|---|---|
+| BaTiO₃ | TO1 (soft) | 0.0907 | 2.31e-04 | 1.45e-06 | 0.254 | 0.9853 |
+| BaTiO₃ | TO2 | 0.0689 | 4.79e-04 | 2.16e-08 | 0.218 | 0.9976 |
+| BaTiO₃ | TO3 | 0.0943 | 4.17e-04 | 1.30e-07 | 0.230 | 0.9924 |
+| SrTiO₃ | TO1 (soft) | 0.0400 | 1.04e-04 | 1.64e-06 | 0.220 | 0.9993 |
+| SrTiO₃ | TO2 | 0.0280 | 1.44e-04 | 6.43e-07 | 0.130 | 0.9996 |
 
 ### Regenerated Table 5a (from `tables/table5a.md`)
 
@@ -111,10 +114,10 @@ affect any fitted coefficient.
 
 Regenerated by `scripts/make_figures.py` from `data/raw/BTO/phonon_modes_*K.csv`:
 
-- `figures/fig_bto_soft_mode.png` (269 KB) — BaTiO₃ soft mode, three panels:
-  (a) ω_soft(T), (b) Γ_soft(T) with the A+BT+CT² fit, (c) damping ratio Γ/ω(T).
-- `figures/fig_bto_linewidth_fit.png` (320 KB) — TO1/TO2/TO3 linewidths with
-  A+BT+CT² fits and ±10 % bands.
+- `figures/fig_bto_soft_mode.png` — BaTiO₃ soft mode, three panels: (a) ω_soft(T),
+  (b) Γ_soft(T) with the A+BT+CT² fit, (c) damping ratio Γ/ω(T).
+- `figures/fig_bto_linewidth_fit.png` — TO1/TO2/TO3 linewidths with A+BT+CT² fits
+  and ±10 % bands.
 
 Soft-mode figure checks (values plotted, verified against the manuscript text):
 
@@ -126,32 +129,40 @@ Soft-mode figure checks (values plotted, verified against the manuscript text):
 | Γ/ω near T_c | approaches overdamped (>0.5) | 0.51 at 400 K |
 | Soft-mode fit R² | 0.985 | 0.9853 |
 
-Layout/style differences vs. the original manuscript figure: cosmetic only
-(font, panel sizing). The plotted data are identical to the manuscript values.
-Figures are excluded from version control by request (see `.gitignore`) and are
-distributed via the Zenodo deposit.
+The repository also includes two further figure scripts whose outputs appear in
+the manuscript but which are not part of `make reproduce` (they read the same
+committed CSVs / reference values):
+
+- `scripts/make_validation_figures.py` → Figure 8 (SrTiO₃ response-model values
+  vs. literature/experimental benchmarks) and Figure 9 (BaTiO₃ compact-model
+  Γ^fit vs. INS-calibrated reference Γ^ref). Figure 9's max deviation (14.3 %,
+  TO1 soft, 300 K) matches Table 5b.
+- `scripts/graphical_abstract_script.py` → the graphical abstract.
+
+Figures are excluded from version control (see `.gitignore`) and travel with the
+Zenodo deposit; the plotted data are identical to the manuscript values, with only
+cosmetic layout/style differences.
 
 ## Provenance and file-size checks
 
-**Repository size (excluding the temporary `.venv-test/` and `.git/`):** 3.3 MB
-total, of which the 2.4 MB manuscript PDF and 0.59 MB of figures are
-**git-ignored**; tracked content is ≈0.3 MB.
+**Tracked content:** 457 KB across 55 tracked files. The manuscript (DOCX), the
+PDFs, and all figures are git-ignored and are not part of the tracked content.
 
 **Files larger than 50 MB in the repository:** none.
 
-**Largest files present (excluding venv/git):**
+**Largest files present on disk (excluding venv/git):**
 
 | Size | File | Tracked? |
 |---|---|---|
-| 2.4 MB | `manuscript/DE_IR_V9.pdf` | no (git-ignored) |
-| 320 KB | `figures/fig_bto_linewidth_fit.png` | no (git-ignored) |
-| 269 KB | `figures/fig_bto_soft_mode.png` | no (git-ignored) |
+| 2.25 MB | `manuscript/DE_IR_V10_Final.docx` | no (git-ignored) |
+| 1.73 MB | `figures/graphical_abstract.png` | no (git-ignored) |
+| 0.35 MB | `figures/fig_bto_linewidth_fit.png` | no (git-ignored) |
+| 0.31 MB | `figures/fig9_bto_consistency.png` | no (git-ignored) |
 | 188 KB | `provenance/.../SrTiO3_defect_2x2x2/ph.out` | yes (text) |
 | 117 KB | `provenance/.../SrTiO3_defect_2x2x2/scf.out` | yes (text) |
 
-`git check-ignore` confirms `manuscript/DE_IR_V9.pdf`,
-`figures/fig_bto_soft_mode.png`, `figures/fig_bto_linewidth_fit.png`, and
-`.venv-test` are all ignored.
+`git check-ignore` confirms the manuscript DOCX, the figures, and `.venv-test` are
+all ignored.
 
 **Quantum ESPRESSO exploratory files — text only.** The folder
 `provenance/quantum_espresso_exploratory/` contains exactly: `scf.in`, `scf.out`,
@@ -168,20 +179,19 @@ total, of which the 2.4 MB manuscript PDF and 0.59 MB of figures are
 
 **Over-claim grep.** A search across `README.md`, `provenance/`, `scripts/`,
 `tests/`, and `data/` for `Quantum ESPRESSO | DFPT | bubble | self-energy | ph.x
-| 2n+1 | FORCE_CONSTANTS | phono3py | ShengBTE | ALAMODE` returned matches only
-in:
+| 2n+1 | FORCE_CONSTANTS | phono3py | ShengBTE | ALAMODE` returned matches only in:
 
 - provenance documents that explicitly label the QE work as *exploratory,
   incomplete, and not used* for tables/figures;
 - the QE `scf.out`/`ph.out` program banners ("...Quantum ESPRESSO suite...");
 - `scripts/validate_sto_literature.py`, which accurately attributes the SrTiO₃
   linewidths to published self-consistent-phonon / bubble-diagram calculations
-  (refs [25–27]);
+  (refs [5, 25, 26]);
 - `data/raw/BTO/README.md`, which points to the provenance discussion.
 
 No string in the repository claims that this repository's own pipeline computed
-DFPT, third-order force constants, or a phonon self-energy. There is no
-accidental over-claim.
+DFPT, third-order force constants, or a phonon self-energy. There is no accidental
+over-claim.
 
 ## Data sources (used in manuscript)
 
@@ -191,8 +201,8 @@ accidental over-claim.
     `300K` `6f97c123…a0a278be`, `400K` `69a20015…86a276999`,
     `500K` `f1b4c66e…95d276075`, `600K` `0f21866a…551a8b24`.
 - **SrTiO₃ literature linewidth data:** `data/raw/literature/SrTiO3_linewidths_literature.csv`
-  (digitised from Tadano & Tsuneyuki 2015; Denisov et al. 1983; Servoin et al.
-  1980). SHA-256: `fe1da8c7…b9354f3`.
+  (digitised from Tadano & Tsuneyuki 2015 [25]; Denisov et al. 1983 [26]; Servoin
+  et al. 1980 [5]). SHA-256: `fe1da8c7…b9354f3`.
 - **Shirane digitised spectra:** `data/raw/literature/ShiraneFig4a.csv`,
   `ShiraneFig4b.csv` (experimental anchor; not fit).
 - **Exploratory QE files:** `provenance/quantum_espresso_exploratory/` —
@@ -200,10 +210,8 @@ accidental over-claim.
 
 ## Reproducibility-drift check
 
-Nothing but `LICENSE` is committed, so `git status --short` after
-`make reproduce` shows only **untracked** files (expected); there is no tracked
-file to drift. To verify byte-stable regeneration directly, the text outputs
-were generated, snapshotted, and regenerated:
+The committed text deliverables regenerate byte-identically. The text outputs were
+generated, snapshotted, and regenerated:
 
 | Output | Re-run result |
 |---|---|
@@ -212,33 +220,27 @@ were generated, snapshotted, and regenerated:
 | `data/processed/table5_bto.csv`, `table5_sto.csv`, `table5a_bto.csv` | byte-identical |
 
 The text deliverables are deterministic across runs (no timestamps or run-order
-dependence). PNG figures are regenerated from the same data but are not tracked
-and were not byte-compared (they are git-ignored).
+dependence). PNG figures are regenerated from the same data but are not tracked and
+were not byte-compared (they are git-ignored).
 
 ## Known convention (documented, not a bug)
 
 The manuscript Table 5 "Γ(300 K)" column reports the **tabulated/reference 300 K
 linewidth data point**, not the polynomial value A + B·T + C·T². For the BaTiO₃
 soft mode this is ≈0.25 THz from the data table (0.254), while the polynomial
-A+BT+CT² evaluated at 300 K gives ≈0.29 THz (0.290). The difference arises
-because the soft mode's temperature dependence departs slightly from a smooth
-polynomial near the transition (it is the lowest-R² mode, 0.985). This
-distinction is **intentional and documented** in:
+A+BT+CT² evaluated at 300 K gives ≈0.29 THz (0.290). The difference arises because
+the soft mode's temperature dependence departs slightly from a smooth polynomial
+near the transition (it is the lowest-R² mode, 0.985). This distinction is
+**intentional and documented** in:
 
 - `scripts/common.py` — `ModeSeries.gamma_at()` docstring;
 - the repository `README.md`;
 - the regression test `tests/test_reproduce_table5.py`
   (`test_soft_mode_polynomial_overshoots_at_300K`), which asserts both values.
 
-The internal audit had flagged this as a possible inconsistency; the repository
-now reproduces the data point exactly and explains the convention explicitly.
-
 ## Open TODOs before Zenodo
 
 - `CITATION.cff`: add the Zenodo DOI (after first deposit).
-- `CITATION.cff`: add author ORCID.
 - `CITATION.cff` / `README.md`: add the GitHub repository URL.
-- `manuscript/`: add the revised manuscript PDF and the reviewer response letter
-  (placeholders present in `manuscript/response_letter/` and
-  `manuscript/revision_notes/`). Note PDFs are git-ignored and travel with the
-  Zenodo deposit, not the git history.
+- `manuscript/`: the final manuscript DOCX and the reviewer response letter travel
+  with the Zenodo deposit, not the git history (DOCX/PDF are git-ignored).

@@ -25,7 +25,7 @@ Digitised neutron energy-loss spectra (counts per 15 min vs energy in meV) from
 a Shirane et al. figure, included as an experimental anchor for the soft-mode
 behaviour. Columns: `NEUTRON ENERGY LOSS meV`, `Neutrons per 15 Minutes`.
 
-## Sources (refs [25–27] in the manuscript)
+## Sources (refs [5, 25, 26] in the manuscript)
 
 - **[25]** T. Tadano and S. Tsuneyuki, *Self-consistent phonon calculations of
   lattice dynamical properties in cubic SrTiO₃*, Phys. Rev. B **92**, 054301
@@ -33,7 +33,7 @@ behaviour. Columns: `NEUTRON ENERGY LOSS meV`, `Neutrons per 15 Minutes`.
 - **[26]** V. N. Denisov, B. N. Mavrin, V. B. Podobedov, *Hyper-Raman scattering
   in SrTiO₃*, J. Raman Spectrosc. **14**, 276 (1983).
   https://doi.org/10.1002/jrs.1250140413
-- **[27]** J. L. Servoin, Y. Luspin, F. Gervais, *Infrared dispersion in SrTiO₃
+- **[5]** J. L. Servoin, Y. Luspin, F. Gervais, *Infrared dispersion in SrTiO₃
   at high temperature*, Phys. Rev. B **22**, 5501 (1980).
   https://doi.org/10.1103/PhysRevB.22.5501
 

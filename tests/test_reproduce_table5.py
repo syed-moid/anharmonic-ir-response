@@ -6,7 +6,7 @@ or:        python -m pytest tests/
 
 These tests fit Gamma(T) = A + B*T + C*T**2 to the committed BaTiO3 and SrTiO3
 data and assert that the recovered coefficients, R^2, and Gamma(300 K) match the
-values printed in the manuscript (paper/DE_IR_V9.pdf, Table 5) within tolerance.
+values printed in the revised manuscript (Table 5) within tolerance.
 If a data file or fit ever changes such that the paper is no longer reproduced,
 these tests fail.
 """
@@ -39,7 +39,7 @@ def test_fit_matches_published(material, loader, label):
     modes = loader()
     s = modes[label]
     fit = fit_abc(s.T, s.gamma_THz)
-    omega_pub, A, B, C, g300, r2 = PUBLISHED_TABLE5[material][label]
+    A, B, C, g300, r2 = PUBLISHED_TABLE5[material][label]
 
     assert fit.A == pytest.approx(A, abs=ATOL["A"]), f"{material} {label} A"
     assert fit.B == pytest.approx(B, abs=ATOL["B"]), f"{material} {label} B"
@@ -59,11 +59,3 @@ def test_soft_mode_polynomial_overshoots_at_300K():
     fit = fit_abc(s.T, s.gamma_THz)
     assert s.gamma_at(T_REF) == pytest.approx(0.254, abs=0.01)
     assert float(fit.gamma(T_REF)) == pytest.approx(0.29, abs=0.01)
-
-
-def test_bto_omega_at_300K_matches_table5():
-    """The Table 5 omega column for BaTiO3 is the 300 K CSV frequency."""
-    modes = load_bto_modes()
-    for label in ("TO1 (soft)", "TO2", "TO3"):
-        omega_pub = PUBLISHED_TABLE5["BaTiO3"][label][0]
-        assert modes[label].omega_at(T_REF) == pytest.approx(omega_pub, abs=0.02)
