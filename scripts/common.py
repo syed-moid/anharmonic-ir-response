@@ -10,7 +10,7 @@ This module centralises:
 
 Nothing here invents data: every number returned by the loaders comes from a
 committed CSV under ``data/raw/``. The published reference values are quoted
-verbatim from the revised manuscript (Table 5) and are used only to
+verbatim from the manuscript (Table 5) and are used only to
 *check* that the fit reproduces the paper.
 """
 from __future__ import annotations
@@ -60,7 +60,7 @@ BTO_MODE_MAP = {
 }
 
 # --------------------------------------------------------------------------- #
-# Published reference (revised manuscript, Table 5) -- for validation only.
+# Published reference (manuscript, Table 5) -- for validation only.
 # The revised Table 5 lists A, B, C, Gamma(300 K), R^2 (the Gamma-point
 # reference frequencies are tabulated separately in Table 2), so no omega
 # column is carried here.

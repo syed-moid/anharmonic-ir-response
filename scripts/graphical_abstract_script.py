@@ -9,7 +9,7 @@ import os
 
 # ============================================================
 # Graphical Abstract — mode-resolved, provenance-aware framing
-# (matches the revised manuscript: established Green's-function
+# (matches the manuscript: established Green's-function
 #  formalism -> documented phonon data -> compact mode-resolved response)
 # ============================================================
 from pathlib import Path
@@ -141,7 +141,7 @@ def draw_linewidth_inset(ax, x, y, w, h):
     """Linewidth vs T inset with CORRECTED parameters."""
     T = np.linspace(50, 600, 200)
 
-    # Linewidth coefficients from the revised manuscript (Table 5):
+    # Linewidth coefficients from the manuscript (Table 5):
     # SrTiO3: A=0.040, B=1.0e-4, C=1.6e-6  (published anharmonic / damping data)
     # BaTiO3: A=0.091, B=2.3e-4, C=1.4e-6  (INS-calibrated reference data)
     g_sto = 0.040 + 1.0e-4 * T + 1.6e-6 * T**2
@@ -261,7 +261,7 @@ add_text_box(ax, mx + 0.025, my + 0.435, mw - 0.05, 0.085,
 draw_spectrum(ax, mx + 0.05, my + 0.19, mw - 0.10, 0.18,
               title="Mode-resolved IR spectra", label_left="Abs.", show_temp=False)
 
-# Linewidth reference data + compact fit (no validation/over-claim language)
+# Linewidth reference data + compact fit
 add_text_box(ax, mx + 0.025, my + 0.06, mw - 0.05, 0.095,
     r"BaTiO$_3$: INS-calibrated reference $\Gamma^{\mathrm{ref}}_k(T)$"
     "\n"

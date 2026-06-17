@@ -39,5 +39,5 @@ Deliberately **excluded**: wavefunctions, charge densities, `.save/`, `.mix`,
 These exploratory supercell runs use **PAW** pseudopotentials and a **defect
 supercell**, which differ from the norm-conserving (ONCV) **primitive-cell**
 DFPT described in the manuscript methodology table. They are a separate,
-incomplete line of work and are documented here only so the record of "what
-exists and what does not" is complete and honest.
+incomplete line of work and are documented here only for completeness of the
+record of what exists and what does not.

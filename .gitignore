@@ -26,8 +26,8 @@ env/
 figures/*
 !figures/.gitkeep
 
-# The entire manuscript/ folder (sources, figures, response letter, revision
-# notes) is kept local only and is not tracked.
+# The entire manuscript/ folder (sources and figures) is kept local only and is
+# not tracked.
 manuscript/
 
 # Regenerated text outputs (tables/, data/processed/) ARE tracked so reviewers

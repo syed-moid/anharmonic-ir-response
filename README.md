@@ -72,7 +72,7 @@ This repository is deliberately explicit about where each number comes from
   mode-resolved linewidth and soft-mode reference data at six temperatures
   (100–600 K), in an inelastic-neutron-scattering-style tabular format (energies
   in meV, finite-Q labels, cross-sections in barns), adopted from the author's
-  prior inelastic-neutron-scattering framework. As stated in the revised
+  prior inelastic-neutron-scattering framework. As stated in the
   manuscript, these are **not** phonon self-energies computed in the present work;
   they are *inputs* to this repository (no generating script is included) and are
   fitted here to Γ(T)=A+BT+CT².
@@ -149,4 +149,7 @@ Dependencies are minimal: `numpy`, `matplotlib`, `pytest`.
 ## Citation
 
 See [`CITATION.cff`](CITATION.cff). Please cite both the manuscript and the
-archived release (Zenodo DOI to be added on deposit).
+archived release:
+
+- **Repository:** <https://github.com/syed-moid/anharmonic-ir-response>
+- **Archived release (Zenodo):** [10.5281/zenodo.20682813](https://doi.org/10.5281/zenodo.20682813)

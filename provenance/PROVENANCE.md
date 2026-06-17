@@ -10,7 +10,7 @@ from the literature, and what is reference data fit by the model.**
 | Quantity | Material | Source | Used for | Reproducible here? |
 |---|---|---|---|---|
 | Γ^pert(T) linewidths | BaTiO₃ | `data/raw/BTO/phonon_modes_*K.csv` (results-level reference data) | Table 5a, Table 5 (BTO), soft-mode fig | **Yes** — CSV → fit |
-| Soft-mode ω(T) | BaTiO₃ | `data/raw/BTO/phonon_modes_*K.csv` | soft-mode figure, Table 5 ω column | **Yes** |
+| Soft-mode ω(T) | BaTiO₃ | `data/raw/BTO/phonon_modes_*K.csv` | soft-mode figure | **Yes** |
 | Γ(T) linewidths | SrTiO₃ | published data, digitised (`data/raw/literature/`) | Table 5 (STO) | **Yes** — literature → fit |
 | Neutron spectra | — | Shirane (digitised literature) | experimental anchor | included, not fit |
 | SCF ground states | BaTiO₃, SrTiO₃ defect supercells | Quantum ESPRESSO (exploratory) | **none** | n/a — incomplete |
@@ -29,11 +29,11 @@ in meV, finite-Q mode labels, scattering cross-sections in barns).
   soft-mode softening curve: 2.71 THz at 100 K → ~0.85 THz near 400 K, with
   partial recovery above T_c (Figure: `figures/fig_bto_soft_mode.png`).
 
-**Important honesty note.** These CSVs are *inputs* to this repository: no script
+**Provenance note.** These CSVs are *inputs* to this repository: no script
 here generates them from first principles. They are results-level finite-Q
-reference data in a neutron-scattering tabular format, **not** native
-Quantum ESPRESSO zone-center bubble-diagram self-energy outputs. The manuscript
-should describe the linewidths' origin in terms consistent with these data.
+reference data in a neutron-scattering tabular format, adopted as documented
+linewidth inputs rather than as native Quantum ESPRESSO zone-center
+bubble-diagram self-energy outputs.
 
 ## SrTiO₃ linewidths
 

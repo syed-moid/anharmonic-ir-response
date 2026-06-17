@@ -12,7 +12,7 @@ during manuscript development.
 - **No** third-order force constants, phonon self-energies, or converged phonon
   linewidths were generated from these runs.
 - These QE files were **not used** to generate Tables 5, 5a, 5b, the BaTiO₃
-  soft-mode curve, or the infrared-absorption spectra in the revised manuscript.
+  soft-mode curve, or the infrared-absorption spectra in the manuscript.
 
 ## What completed vs. what did not
 

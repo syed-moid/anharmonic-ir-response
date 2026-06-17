@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 """
-Soft-mode consistency figures (manuscript Figures 8 and 9), reframed.
+Soft-mode consistency figures (manuscript Figures 8 and 9).
 
-These replace the earlier "Theory vs DFPT" validation-summary figures. The
-manuscript no longer claims a DFPT computation here, so the axes/titles are
-restated in terms of *response-model values* versus *literature/experimental
-benchmarks* (SrTiO3) and *INS-calibrated reference data* (BaTiO3). No quantity is
-labelled "Theory" or "DFPT".
+The axes and titles are expressed in terms of *response-model values* versus
+*literature/experimental benchmarks* (SrTiO3) and *INS-calibrated reference data*
+(BaTiO3), matching the provenance framing of the manuscript.
 
 Figure 8 — SrTiO3: response-model values vs. literature/experimental benchmarks.
   Mode frequencies are compared with experimental values; Born effective charges

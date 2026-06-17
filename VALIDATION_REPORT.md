@@ -1,11 +1,10 @@
 # Validation Report — anharmonic-ir-response
 
-Formal reproducibility and provenance validation of the repository, intended to
-support the reviewer response letter and the Zenodo deposit. All results below
-were produced by running the repository's own scripts from a fresh virtual
-environment; no values were entered by hand. This report corresponds to the
-revised manuscript (mode-resolved framework; the final manuscript file is
-`manuscript/DE_IR_V10_Final.docx`, git-ignored).
+Formal reproducibility and provenance validation of the repository, supporting
+the Zenodo deposit. All results below were produced by running the repository's
+own scripts from a fresh virtual environment; no values were entered by hand.
+This report corresponds to the manuscript (mode-resolved framework); the
+manuscript file is git-ignored and distributed via the Zenodo deposit.
 
 ## Environment
 
@@ -57,9 +56,9 @@ No command exited non-zero.
 ## Numerical reproduction of manuscript tables
 
 All "Actual" values are emitted by the repository scripts directly from the
-committed CSV files. "Expected" values are the manuscript values (revised
-manuscript, Table 5 / Table 5a). The repository's `tables/table5` now carries
-exactly the columns of the revised manuscript Table 5 (Material, Mode, A, B, C,
+committed CSV files. "Expected" values are the manuscript values (Table 5 /
+Table 5a). The repository's `tables/table5` carries
+exactly the columns of the manuscript Table 5 (Material, Mode, A, B, C,
 Γ(300 K), R²); the Γ-point reference frequencies are presented separately, as in
 the manuscript's Table 2.
 
@@ -92,7 +91,7 @@ any fitted coefficient.
 
 ### Regenerated Table 5 (from `tables/table5.md`)
 
-Columns match the revised manuscript Table 5 exactly (no ω column):
+Columns match the manuscript Table 5 exactly (no ω column):
 
 | Material | Mode | A (THz) | B (THz/K) | C (THz/K²) | Γ(300 K) (THz) | R² |
 |---|---|---|---|---|---|---|
@@ -154,7 +153,7 @@ PDFs, and all figures are git-ignored and are not part of the tracked content.
 
 | Size | File | Tracked? |
 |---|---|---|
-| 2.25 MB | `manuscript/DE_IR_V10_Final.docx` | no (git-ignored) |
+| 2.25 MB | manuscript DOCX | no (git-ignored) |
 | 1.73 MB | `figures/graphical_abstract.png` | no (git-ignored) |
 | 0.35 MB | `figures/fig_bto_linewidth_fit.png` | no (git-ignored) |
 | 0.31 MB | `figures/fig9_bto_consistency.png` | no (git-ignored) |
@@ -177,9 +176,10 @@ all ignored.
 - The generated tables and figures are produced **only** from the committed CSV
   files and the scripts in `scripts/`.
 
-**Over-claim grep.** A search across `README.md`, `provenance/`, `scripts/`,
-`tests/`, and `data/` for `Quantum ESPRESSO | DFPT | bubble | self-energy | ph.x
-| 2n+1 | FORCE_CONSTANTS | phono3py | ShengBTE | ALAMODE` returned matches only in:
+**Terminology consistency check.** A search across `README.md`, `provenance/`,
+`scripts/`, `tests/`, and `data/` for `Quantum ESPRESSO | DFPT | bubble |
+self-energy | ph.x | 2n+1 | FORCE_CONSTANTS | phono3py | ShengBTE | ALAMODE`
+returned matches only in:
 
 - provenance documents that explicitly label the QE work as *exploratory,
   incomplete, and not used* for tables/figures;
@@ -189,9 +189,9 @@ all ignored.
   (refs [5, 25, 26]);
 - `data/raw/BTO/README.md`, which points to the provenance discussion.
 
-No string in the repository claims that this repository's own pipeline computed
-DFPT, third-order force constants, or a phonon self-energy. There is no accidental
-over-claim.
+No string in the repository states that this repository's own pipeline computed
+DFPT, third-order force constants, or a phonon self-energy; the provenance
+labelling is consistent throughout.
 
 ## Data sources (used in manuscript)
 
@@ -223,7 +223,7 @@ The text deliverables are deterministic across runs (no timestamps or run-order
 dependence). PNG figures are regenerated from the same data but are not tracked and
 were not byte-compared (they are git-ignored).
 
-## Known convention (documented, not a bug)
+## The Γ(300 K) column convention
 
 The manuscript Table 5 "Γ(300 K)" column reports the **tabulated/reference 300 K
 linewidth data point**, not the polynomial value A + B·T + C·T². For the BaTiO₃
@@ -238,9 +238,10 @@ near the transition (it is the lowest-R² mode, 0.985). This distinction is
 - the regression test `tests/test_reproduce_table5.py`
   (`test_soft_mode_polynomial_overshoots_at_300K`), which asserts both values.
 
-## Open TODOs before Zenodo
+## Release and archive
 
-- `CITATION.cff`: add the Zenodo DOI (after first deposit).
-- `CITATION.cff` / `README.md`: add the GitHub repository URL.
-- `manuscript/`: the final manuscript DOCX and the reviewer response letter travel
-  with the Zenodo deposit, not the git history (DOCX/PDF are git-ignored).
+- `CITATION.cff` / `README.md`: GitHub repository URL
+  (<https://github.com/syed-moid/anharmonic-ir-response>) and Zenodo DOI
+  ([10.5281/zenodo.20682813](https://doi.org/10.5281/zenodo.20682813)) recorded.
+- `manuscript/`: the manuscript DOCX travels with the Zenodo deposit, not the git
+  history (DOCX/PDF are git-ignored).

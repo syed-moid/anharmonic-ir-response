@@ -29,10 +29,10 @@ keywords:
   - perovskite
   - reproducibility
 license: MIT
-version: 0.1.0
-date-released: '2026-06-09'
-# repository-code: 'https://github.com/<user>/anharmonic-ir-response'   # TODO
-# doi: '10.5281/zenodo.XXXXXXX'                                          # TODO: Zenodo DOI
+version: 1.0.0
+date-released: '2026-06-16'
+repository-code: 'https://github.com/syed-moid/anharmonic-ir-response'
+doi: '10.5281/zenodo.20682813'
 references:
   - type: article
     title: >-

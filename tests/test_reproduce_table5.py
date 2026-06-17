@@ -6,7 +6,7 @@ or:        python -m pytest tests/
 
 These tests fit Gamma(T) = A + B*T + C*T**2 to the committed BaTiO3 and SrTiO3
 data and assert that the recovered coefficients, R^2, and Gamma(300 K) match the
-values printed in the revised manuscript (Table 5) within tolerance.
+values printed in the manuscript (Table 5) within tolerance.
 If a data file or fit ever changes such that the paper is no longer reproduced,
 these tests fail.
 """
